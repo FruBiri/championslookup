@@ -1,0 +1,92 @@
+{
+  "charizard-mega-x": {
+    "displayName": "Mega Charizard X",
+    "baseSpeciesId": "charizard",
+    "types": ["Fire", "Dragon"],
+    "baseStats": { "hp": 78, "atk": 130, "def": 111, "spa": 130, "spd": 85, "spe": 100 },
+    "abilities": ["Tough Claws"],
+    "abilityDetails": [
+      {
+        "name": "Tough Claws",
+        "apiName": "tough-claws",
+        "effect": "Increases the power of moves that make direct contact.",
+        "shortEffect": "Boosts contact moves.",
+        "source": "https://pokeapi.co/api/v2/ability/tough-claws"
+      }
+    ],
+    "hiddenAbility": null,
+    "source": "seed"
+  },
+  "charizard-mega-y": {
+    "displayName": "Mega Charizard Y",
+    "baseSpeciesId": "charizard",
+    "types": ["Fire", "Flying"],
+    "baseStats": { "hp": 78, "atk": 104, "def": 78, "spa": 159, "spd": 115, "spe": 100 },
+    "abilities": ["Drought"],
+    "abilityDetails": [
+      {
+        "name": "Drought",
+        "apiName": "drought",
+        "effect": "Turns the sunlight harsh when the Pokémon enters battle.",
+        "shortEffect": "Summons harsh sunlight.",
+        "source": "https://pokeapi.co/api/v2/ability/drought"
+      }
+    ],
+    "hiddenAbility": null,
+    "source": "seed"
+  },
+  "mewtwo-mega-x": {
+    "displayName": "Mega Mewtwo X",
+    "baseSpeciesId": "mewtwo",
+    "types": ["Psychic", "Fighting"],
+    "baseStats": { "hp": 106, "atk": 190, "def": 100, "spa": 154, "spd": 100, "spe": 130 },
+    "abilities": ["Steadfast"],
+    "abilityDetails": [
+      {
+        "name": "Steadfast",
+        "apiName": "steadfast",
+        "effect": "Raises Speed each time the Pokémon flinches.",
+        "shortEffect": "Speed rises on flinch.",
+        "source": "https://pokeapi.co/api/v2/ability/steadfast"
+      }
+    ],
+    "hiddenAbility": null,
+    "source": "seed"
+  },
+  "mewtwo-mega-y": {
+    "displayName": "Mega Mewtwo Y",
+    "baseSpeciesId": "mewtwo",
+    "types": ["Psychic"],
+    "baseStats": { "hp": 106, "atk": 150, "def": 70, "spa": 194, "spd": 120, "spe": 140 },
+    "abilities": ["Insomnia"],
+    "abilityDetails": [
+      {
+        "name": "Insomnia",
+        "apiName": "insomnia",
+        "effect": "The Pokémon cannot fall asleep.",
+        "shortEffect": "Prevents sleep.",
+        "source": "https://pokeapi.co/api/v2/ability/insomnia"
+      }
+    ],
+    "hiddenAbility": null,
+    "source": "seed"
+  },
+  "chandelure-mega": {
+    "displayName": "Mega Chandelure",
+    "baseSpeciesId": "chandelure",
+    "types": ["Ghost", "Fire"],
+    "baseStats": { "hp": 60, "atk": 75, "def": 110, "spa": 175, "spd": 110, "spe": 90 },
+    "abilities": ["Shadow Tag"],
+    "abilityDetails": [
+      {
+        "name": "Shadow Tag",
+        "apiName": "shadow-tag",
+        "effect": "Prevents opposing Pokémon from fleeing or switching out.",
+        "shortEffect": "Traps opposing Pokémon.",
+        "source": "https://pokeapi.co/api/v2/ability/shadow-tag"
+      }
+    ],
+    "hiddenAbility": null,
+    "source": "seed"
+  }
+}

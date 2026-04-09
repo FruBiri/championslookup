@@ -10,6 +10,7 @@ SOURCES_DIR = BASE_DIR / "sources"
 
 ROSTER_PATH = SOURCES_DIR / "champions_roster_raw.json"
 OVERRIDES_PATH = SOURCES_DIR / "form_overrides.json"
+MEGA_SEED_PATH = SOURCES_DIR / "mega_seed.json"
 OUT_PATH = SOURCES_DIR / "champions_enriched.json"
 
 POKEAPI_POKEMON = "https://pokeapi.co/api/v2/pokemon/{name}"
@@ -86,6 +87,11 @@ def load_overrides():
             normalized[slugify(candidate).replace("-", " ")] = value
 
     return normalized
+
+
+def load_mega_seed():
+    raw = load_json(MEGA_SEED_PATH, {})
+    return raw if isinstance(raw, dict) else {}
 
 
 def normalize_override_key(record):
@@ -174,27 +180,53 @@ def build_display_name(record, override):
     return record.get("name") or record.get("formId") or "Unknown"
 
 
-def enrich_record(record, overrides, ability_cache):
+def enrich_from_seed(record, seed_entry, ability_cache):
+    for detail in seed_entry.get("abilityDetails", []):
+        key = slugify(detail.get("apiName") or detail.get("name"))
+        ability_cache[key] = detail
+
+    form_id = record.get("formId")
+    return {
+        **record,
+        "displayName": seed_entry.get("displayName") or record.get("displayName") or record.get("name"),
+        "speciesId": form_id,
+        "baseSpeciesId": seed_entry.get("baseSpeciesId") or strip_mega_suffix(form_id),
+        "lookupName": seed_entry.get("displayName") or form_id,
+        "nationalDex": int(record.get("ndex")) if str(record.get("ndex", "")).isdigit() else None,
+        "genus": None,
+        "types": seed_entry.get("types", []),
+        "baseStats": seed_entry.get("baseStats", {}),
+        "abilities": seed_entry.get("abilities", []),
+        "abilityDetails": seed_entry.get("abilityDetails", []),
+        "hiddenAbility": seed_entry.get("hiddenAbility"),
+        "enriched": True,
+        "lookupFailed": False,
+        "pokeApiPokemon": None,
+        "pokeApiSpecies": None,
+        "seedSource": seed_entry.get("source", "seed")
+    }
+
+
+def enrich_record(record, overrides, mega_seed, ability_cache):
+    form_id = record.get("formId") or fallback_pokeapi_name(record)
+
+    if form_id in mega_seed:
+        return enrich_from_seed(record, mega_seed[form_id], ability_cache)
+
     override = None
     for candidate in normalize_override_key(record):
         if candidate in overrides:
             override = overrides[candidate]
             break
 
-    pokeapi_name = None
-    if override and override.get("pokeApiName"):
-        pokeapi_name = override["pokeApiName"]
-    else:
-        pokeapi_name = fallback_pokeapi_name(record)
-
+    pokeapi_name = override.get("pokeApiName") if override and override.get("pokeApiName") else fallback_pokeapi_name(record)
     pokemon_json = fetch_json(POKEAPI_POKEMON.format(name=pokeapi_name))
 
     if not pokemon_json:
-        form_id = record.get("formId") or fallback_pokeapi_name(record)
         return {
             **record,
             "displayName": build_display_name(record, override),
-            "speciesId": override.get("speciesId") if override else form_id,
+            "speciesId": form_id,
             "baseSpeciesId": strip_mega_suffix(form_id),
             "lookupName": pokeapi_name,
             "enriched": False,
@@ -249,7 +281,6 @@ def enrich_record(record, overrides, ability_cache):
         if ability_info.get("is_hidden"):
             hidden_ability = display_name
 
-    form_id = record.get("formId") or pokemon_json.get("name")
     species_id = override.get("speciesId") if override and override.get("speciesId") else form_id
 
     return {
@@ -303,6 +334,7 @@ def main():
         raise RuntimeError("champions_roster_raw.json must be a JSON list.")
 
     overrides = load_overrides()
+    mega_seed = load_mega_seed()
     ability_cache = {}
     enriched_records = []
 
@@ -312,7 +344,7 @@ def main():
         label = record.get("displayName") or record.get("name") or "Unknown"
         print(f"[{index}/{len(roster)}] Enriching {label}...")
         try:
-            enriched = enrich_record(record, overrides, ability_cache)
+            enriched = enrich_record(record, overrides, mega_seed, ability_cache)
         except Exception as exc:
             enriched = {
                 **record,
