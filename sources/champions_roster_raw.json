@@ -1,0 +1,4033 @@
+[
+  {
+    "ndex": "0003",
+    "name": "Venusaur",
+    "formText": null,
+    "formId": "venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0006",
+    "name": "Charizard",
+    "formText": null,
+    "formId": "charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0009",
+    "name": "Blastoise",
+    "formText": null,
+    "formId": "blastoise",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0015",
+    "name": "Beedrill",
+    "formText": null,
+    "formId": "beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0018",
+    "name": "Pidgeot",
+    "formText": null,
+    "formId": "pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0024",
+    "name": "Arbok",
+    "formText": null,
+    "formId": "arbok",
+    "types": [
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0025",
+    "name": "Pikachu",
+    "formText": null,
+    "formId": "pikachu",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0026",
+    "name": "Raichu",
+    "formText": null,
+    "formId": "raichu",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0026",
+    "name": "Raichu",
+    "formText": "Alolan Form",
+    "formId": "raichu-alola",
+    "types": [
+      "Electric",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0036",
+    "name": "Clefable",
+    "formText": null,
+    "formId": "clefable",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0038",
+    "name": "Ninetales",
+    "formText": null,
+    "formId": "ninetales",
+    "types": [
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0038",
+    "name": "Ninetales",
+    "formText": "Alolan Form",
+    "formId": "ninetales-alola",
+    "types": [
+      "Ice",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0059",
+    "name": "Arcanine",
+    "formText": null,
+    "formId": "arcanine",
+    "types": [
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0059",
+    "name": "Arcanine",
+    "formText": "Hisuian Form",
+    "formId": "arcanine-hisui",
+    "types": [
+      "Fire",
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0065",
+    "name": "Alakazam",
+    "formText": null,
+    "formId": "alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0068",
+    "name": "Machamp",
+    "formText": null,
+    "formId": "machamp",
+    "types": [
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0071",
+    "name": "Victreebel",
+    "formText": null,
+    "formId": "victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0080",
+    "name": "Slowbro",
+    "formText": null,
+    "formId": "slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0080",
+    "name": "Slowbro",
+    "formText": "Galarian Form",
+    "formId": "slowbro-galar",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0094",
+    "name": "Gengar",
+    "formText": null,
+    "formId": "gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0115",
+    "name": "Kangaskhan",
+    "formText": null,
+    "formId": "kangaskhan",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0121",
+    "name": "Starmie",
+    "formText": null,
+    "formId": "starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0127",
+    "name": "Pinsir",
+    "formText": null,
+    "formId": "pinsir",
+    "types": [
+      "Bug"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0128",
+    "name": "Tauros",
+    "formText": null,
+    "formId": "tauros",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0128",
+    "name": "Tauros",
+    "formText": "Paldean Form Combat Breed",
+    "formId": "tauros-paldea-combat-breed",
+    "types": [
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0128",
+    "name": "Tauros",
+    "formText": "Paldean Form Blaze Breed",
+    "formId": "tauros-paldea-blaze-breed",
+    "types": [
+      "Fighting",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0128",
+    "name": "Tauros",
+    "formText": "Paldean Form Aqua Breed",
+    "formId": "tauros-paldea-aqua-breed",
+    "types": [
+      "Fighting",
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0130",
+    "name": "Gyarados",
+    "formText": null,
+    "formId": "gyarados",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0132",
+    "name": "Ditto",
+    "formText": null,
+    "formId": "ditto",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0134",
+    "name": "Vaporeon",
+    "formText": null,
+    "formId": "vaporeon",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0135",
+    "name": "Jolteon",
+    "formText": null,
+    "formId": "jolteon",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0136",
+    "name": "Flareon",
+    "formText": null,
+    "formId": "flareon",
+    "types": [
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0142",
+    "name": "Aerodactyl",
+    "formText": null,
+    "formId": "aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0143",
+    "name": "Snorlax",
+    "formText": null,
+    "formId": "snorlax",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0149",
+    "name": "Dragonite",
+    "formText": null,
+    "formId": "dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0154",
+    "name": "Meganium",
+    "formText": null,
+    "formId": "meganium",
+    "types": [
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0157",
+    "name": "Typhlosion",
+    "formText": null,
+    "formId": "typhlosion",
+    "types": [
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0157",
+    "name": "Typhlosion",
+    "formText": "Hisuian Form",
+    "formId": "typhlosion-hisui",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0160",
+    "name": "Feraligatr",
+    "formText": null,
+    "formId": "feraligatr",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0168",
+    "name": "Ariados",
+    "formText": null,
+    "formId": "ariados",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0181",
+    "name": "Ampharos",
+    "formText": null,
+    "formId": "ampharos",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0184",
+    "name": "Azumarill",
+    "formText": null,
+    "formId": "azumarill",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0186",
+    "name": "Politoed",
+    "formText": null,
+    "formId": "politoed",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0196",
+    "name": "Espeon",
+    "formText": null,
+    "formId": "espeon",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0197",
+    "name": "Umbreon",
+    "formText": null,
+    "formId": "umbreon",
+    "types": [
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0199",
+    "name": "Slowking",
+    "formText": null,
+    "formId": "slowking",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0199",
+    "name": "Slowking",
+    "formText": "Galarian Form",
+    "formId": "slowking-galar",
+    "types": [
+      "Poison",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0205",
+    "name": "Forretress",
+    "formText": null,
+    "formId": "forretress",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0208",
+    "name": "Steelix",
+    "formText": null,
+    "formId": "steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0212",
+    "name": "Scizor",
+    "formText": null,
+    "formId": "scizor",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0214",
+    "name": "Heracross",
+    "formText": null,
+    "formId": "heracross",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0227",
+    "name": "Skarmory",
+    "formText": null,
+    "formId": "skarmory",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0229",
+    "name": "Houndoom",
+    "formText": null,
+    "formId": "houndoom",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0248",
+    "name": "Tyranitar",
+    "formText": null,
+    "formId": "tyranitar",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0279",
+    "name": "Pelipper",
+    "formText": null,
+    "formId": "pelipper",
+    "types": [
+      "Water",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0282",
+    "name": "Gardevoir",
+    "formText": null,
+    "formId": "gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0302",
+    "name": "Sableye",
+    "formText": null,
+    "formId": "sableye",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0306",
+    "name": "Aggron",
+    "formText": null,
+    "formId": "aggron",
+    "types": [
+      "Steel",
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0308",
+    "name": "Medicham",
+    "formText": null,
+    "formId": "medicham",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0310",
+    "name": "Manectric",
+    "formText": null,
+    "formId": "manectric",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0319",
+    "name": "Sharpedo",
+    "formText": null,
+    "formId": "sharpedo",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0323",
+    "name": "Camerupt",
+    "formText": null,
+    "formId": "camerupt",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0324",
+    "name": "Torkoal",
+    "formText": null,
+    "formId": "torkoal",
+    "types": [
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0334",
+    "name": "Altaria",
+    "formText": null,
+    "formId": "altaria",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0350",
+    "name": "Milotic",
+    "formText": null,
+    "formId": "milotic",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0351",
+    "name": "Castform",
+    "formText": null,
+    "formId": "castform",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0354",
+    "name": "Banette",
+    "formText": null,
+    "formId": "banette",
+    "types": [
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0358",
+    "name": "Chimecho",
+    "formText": null,
+    "formId": "chimecho",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0359",
+    "name": "Absol",
+    "formText": null,
+    "formId": "absol",
+    "types": [
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0362",
+    "name": "Glalie",
+    "formText": null,
+    "formId": "glalie",
+    "types": [
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0389",
+    "name": "Torterra",
+    "formText": null,
+    "formId": "torterra",
+    "types": [
+      "Grass",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0392",
+    "name": "Infernape",
+    "formText": null,
+    "formId": "infernape",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0395",
+    "name": "Empoleon",
+    "formText": null,
+    "formId": "empoleon",
+    "types": [
+      "Water",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0405",
+    "name": "Luxray",
+    "formText": null,
+    "formId": "luxray",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0407",
+    "name": "Roserade",
+    "formText": null,
+    "formId": "roserade",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0409",
+    "name": "Rampardos",
+    "formText": null,
+    "formId": "rampardos",
+    "types": [
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0411",
+    "name": "Bastiodon",
+    "formText": null,
+    "formId": "bastiodon",
+    "types": [
+      "Rock",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0428",
+    "name": "Lopunny",
+    "formText": null,
+    "formId": "lopunny",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0442",
+    "name": "Spiritomb",
+    "formText": null,
+    "formId": "spiritomb",
+    "types": [
+      "Ghost",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0445",
+    "name": "Garchomp",
+    "formText": null,
+    "formId": "garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0448",
+    "name": "Lucario",
+    "formText": null,
+    "formId": "lucario",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0450",
+    "name": "Hippowdon",
+    "formText": null,
+    "formId": "hippowdon",
+    "types": [
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0454",
+    "name": "Toxicroak",
+    "formText": null,
+    "formId": "toxicroak",
+    "types": [
+      "Poison",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0460",
+    "name": "Abomasnow",
+    "formText": null,
+    "formId": "abomasnow",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0461",
+    "name": "Weavile",
+    "formText": null,
+    "formId": "weavile",
+    "types": [
+      "Dark",
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0464",
+    "name": "Rhyperior",
+    "formText": null,
+    "formId": "rhyperior",
+    "types": [
+      "Ground",
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0470",
+    "name": "Leafeon",
+    "formText": null,
+    "formId": "leafeon",
+    "types": [
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0471",
+    "name": "Glaceon",
+    "formText": null,
+    "formId": "glaceon",
+    "types": [
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0472",
+    "name": "Gliscor",
+    "formText": null,
+    "formId": "gliscor",
+    "types": [
+      "Ground",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0473",
+    "name": "Mamoswine",
+    "formText": null,
+    "formId": "mamoswine",
+    "types": [
+      "Ice",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0475",
+    "name": "Gallade",
+    "formText": null,
+    "formId": "gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0478",
+    "name": "Froslass",
+    "formText": null,
+    "formId": "froslass",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0479",
+    "name": "Rotom",
+    "formText": "Rotom",
+    "formId": "rotom-rotom",
+    "types": [
+      "Electric",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0479",
+    "name": "Rotom",
+    "formText": "Heat Rotom",
+    "formId": "rotom-heat-rotom",
+    "types": [
+      "Electric",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0479",
+    "name": "Rotom",
+    "formText": "Wash Rotom",
+    "formId": "rotom-wash-rotom",
+    "types": [
+      "Electric",
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0479",
+    "name": "Rotom",
+    "formText": "Frost Rotom",
+    "formId": "rotom-frost-rotom",
+    "types": [
+      "Electric",
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0479",
+    "name": "Rotom",
+    "formText": "Fan Rotom",
+    "formId": "rotom-fan-rotom",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0479",
+    "name": "Rotom",
+    "formText": "Mow Rotom",
+    "formId": "rotom-mow-rotom",
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0497",
+    "name": "Serperior",
+    "formText": null,
+    "formId": "serperior",
+    "types": [
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0500",
+    "name": "Emboar",
+    "formText": null,
+    "formId": "emboar",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0503",
+    "name": "Samurott",
+    "formText": null,
+    "formId": "samurott",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0503",
+    "name": "Samurott",
+    "formText": "Hisuian Form",
+    "formId": "samurott-hisui",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0505",
+    "name": "Watchog",
+    "formText": null,
+    "formId": "watchog",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0510",
+    "name": "Liepard",
+    "formText": null,
+    "formId": "liepard",
+    "types": [
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0512",
+    "name": "Simisage",
+    "formText": null,
+    "formId": "simisage",
+    "types": [
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0514",
+    "name": "Simisear",
+    "formText": null,
+    "formId": "simisear",
+    "types": [
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0516",
+    "name": "Simipour",
+    "formText": null,
+    "formId": "simipour",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0530",
+    "name": "Excadrill",
+    "formText": null,
+    "formId": "excadrill",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0531",
+    "name": "Audino",
+    "formText": null,
+    "formId": "audino",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0534",
+    "name": "Conkeldurr",
+    "formText": null,
+    "formId": "conkeldurr",
+    "types": [
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0547",
+    "name": "Whimsicott",
+    "formText": null,
+    "formId": "whimsicott",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0553",
+    "name": "Krookodile",
+    "formText": null,
+    "formId": "krookodile",
+    "types": [
+      "Ground",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0563",
+    "name": "Cofagrigus",
+    "formText": null,
+    "formId": "cofagrigus",
+    "types": [
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0569",
+    "name": "Garbodor",
+    "formText": null,
+    "formId": "garbodor",
+    "types": [
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0571",
+    "name": "Zoroark",
+    "formText": null,
+    "formId": "zoroark",
+    "types": [
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0571",
+    "name": "Zoroark",
+    "formText": "Hisuian Form",
+    "formId": "zoroark-hisui",
+    "types": [
+      "Normal",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0579",
+    "name": "Reuniclus",
+    "formText": null,
+    "formId": "reuniclus",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0584",
+    "name": "Vanilluxe",
+    "formText": null,
+    "formId": "vanilluxe",
+    "types": [
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0587",
+    "name": "Emolga",
+    "formText": null,
+    "formId": "emolga",
+    "types": [
+      "Electric",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0609",
+    "name": "Chandelure",
+    "formText": null,
+    "formId": "chandelure",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0614",
+    "name": "Beartic",
+    "formText": null,
+    "formId": "beartic",
+    "types": [
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0618",
+    "name": "Stunfisk",
+    "formText": null,
+    "formId": "stunfisk",
+    "types": [
+      "Ground",
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0618",
+    "name": "Stunfisk",
+    "formText": "Galarian Form",
+    "formId": "stunfisk-galar",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0623",
+    "name": "Golurk",
+    "formText": null,
+    "formId": "golurk",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0635",
+    "name": "Hydreigon",
+    "formText": null,
+    "formId": "hydreigon",
+    "types": [
+      "Dark",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0637",
+    "name": "Volcarona",
+    "formText": null,
+    "formId": "volcarona",
+    "types": [
+      "Bug",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0652",
+    "name": "Chesnaught",
+    "formText": null,
+    "formId": "chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0655",
+    "name": "Delphox",
+    "formText": null,
+    "formId": "delphox",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0658",
+    "name": "Greninja",
+    "formText": null,
+    "formId": "greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0660",
+    "name": "Diggersby",
+    "formText": null,
+    "formId": "diggersby",
+    "types": [
+      "Normal",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0663",
+    "name": "Talonflame",
+    "formText": null,
+    "formId": "talonflame",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": null,
+    "formId": "vivillon",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0670",
+    "name": "Floette",
+    "formText": "Eternal Flower Transfer only",
+    "formId": "floette-eternal-flower-transfer-only",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0671",
+    "name": "Florges",
+    "formText": null,
+    "formId": "florges",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0675",
+    "name": "Pangoro",
+    "formText": null,
+    "formId": "pangoro",
+    "types": [
+      "Fighting",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": null,
+    "formId": "furfrou",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0678",
+    "name": "Meowstic",
+    "formText": "Male",
+    "formId": "meowstic-male",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0678",
+    "name": "Meowstic",
+    "formText": "Female",
+    "formId": "meowstic-female",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0681",
+    "name": "Aegislash",
+    "formText": null,
+    "formId": "aegislash",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0683",
+    "name": "Aromatisse",
+    "formText": null,
+    "formId": "aromatisse",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0685",
+    "name": "Slurpuff",
+    "formText": null,
+    "formId": "slurpuff",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0693",
+    "name": "Clawitzer",
+    "formText": null,
+    "formId": "clawitzer",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0695",
+    "name": "Heliolisk",
+    "formText": null,
+    "formId": "heliolisk",
+    "types": [
+      "Electric",
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0697",
+    "name": "Tyrantrum",
+    "formText": null,
+    "formId": "tyrantrum",
+    "types": [
+      "Rock",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0699",
+    "name": "Aurorus",
+    "formText": null,
+    "formId": "aurorus",
+    "types": [
+      "Rock",
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0700",
+    "name": "Sylveon",
+    "formText": null,
+    "formId": "sylveon",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0701",
+    "name": "Hawlucha",
+    "formText": null,
+    "formId": "hawlucha",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0702",
+    "name": "Dedenne",
+    "formText": null,
+    "formId": "dedenne",
+    "types": [
+      "Electric",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0706",
+    "name": "Goodra",
+    "formText": null,
+    "formId": "goodra",
+    "types": [
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0706",
+    "name": "Goodra",
+    "formText": "Hisuian Form",
+    "formId": "goodra-hisui",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0707",
+    "name": "Klefki",
+    "formText": null,
+    "formId": "klefki",
+    "types": [
+      "Steel",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0709",
+    "name": "Trevenant",
+    "formText": null,
+    "formId": "trevenant",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0711",
+    "name": "Gourgeist",
+    "formText": "Medium Variety",
+    "formId": "gourgeist-medium-variety",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0711",
+    "name": "Gourgeist",
+    "formText": "Small Variety",
+    "formId": "gourgeist-small-variety",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0711",
+    "name": "Gourgeist",
+    "formText": "Large Variety",
+    "formId": "gourgeist-large-variety",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0711",
+    "name": "Gourgeist",
+    "formText": "Jumbo Variety",
+    "formId": "gourgeist-jumbo-variety",
+    "types": [
+      "Ghost",
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0713",
+    "name": "Avalugg",
+    "formText": null,
+    "formId": "avalugg",
+    "types": [
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0713",
+    "name": "Avalugg",
+    "formText": "Hisuian Form",
+    "formId": "avalugg-hisui",
+    "types": [
+      "Ice",
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0715",
+    "name": "Noivern",
+    "formText": null,
+    "formId": "noivern",
+    "types": [
+      "Flying",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0724",
+    "name": "Decidueye",
+    "formText": null,
+    "formId": "decidueye",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0724",
+    "name": "Decidueye",
+    "formText": "Hisuian Form",
+    "formId": "decidueye-hisui",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0727",
+    "name": "Incineroar",
+    "formText": null,
+    "formId": "incineroar",
+    "types": [
+      "Fire",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0730",
+    "name": "Primarina",
+    "formText": null,
+    "formId": "primarina",
+    "types": [
+      "Water",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0733",
+    "name": "Toucannon",
+    "formText": null,
+    "formId": "toucannon",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0740",
+    "name": "Crabominable",
+    "formText": null,
+    "formId": "crabominable",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0745",
+    "name": "Lycanroc",
+    "formText": "Midday Form",
+    "formId": "lycanroc-midday-form",
+    "types": [
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0745",
+    "name": "Lycanroc",
+    "formText": "Midnight Form",
+    "formId": "lycanroc-midnight-form",
+    "types": [
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0745",
+    "name": "Lycanroc",
+    "formText": "Dusk Form",
+    "formId": "lycanroc-dusk-form",
+    "types": [
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0748",
+    "name": "Toxapex",
+    "formText": null,
+    "formId": "toxapex",
+    "types": [
+      "Poison",
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0750",
+    "name": "Mudsdale",
+    "formText": null,
+    "formId": "mudsdale",
+    "types": [
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0752",
+    "name": "Araquanid",
+    "formText": null,
+    "formId": "araquanid",
+    "types": [
+      "Water",
+      "Bug"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0758",
+    "name": "Salazzle",
+    "formText": null,
+    "formId": "salazzle",
+    "types": [
+      "Poison",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0763",
+    "name": "Tsareena",
+    "formText": null,
+    "formId": "tsareena",
+    "types": [
+      "Grass"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0765",
+    "name": "Oranguru",
+    "formText": null,
+    "formId": "oranguru",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0766",
+    "name": "Passimian",
+    "formText": null,
+    "formId": "passimian",
+    "types": [
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0778",
+    "name": "Mimikyu",
+    "formText": null,
+    "formId": "mimikyu",
+    "types": [
+      "Ghost",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0780",
+    "name": "Drampa",
+    "formText": null,
+    "formId": "drampa",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0784",
+    "name": "Kommo-o",
+    "formText": null,
+    "formId": "kommo-o",
+    "types": [
+      "Dragon",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0823",
+    "name": "Corviknight",
+    "formText": null,
+    "formId": "corviknight",
+    "types": [
+      "Flying",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0841",
+    "name": "Flapple",
+    "formText": null,
+    "formId": "flapple",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0842",
+    "name": "Appletun",
+    "formText": null,
+    "formId": "appletun",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0844",
+    "name": "Sandaconda",
+    "formText": null,
+    "formId": "sandaconda",
+    "types": [
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0855",
+    "name": "Polteageist",
+    "formText": null,
+    "formId": "polteageist",
+    "types": [
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0858",
+    "name": "Hatterene",
+    "formText": null,
+    "formId": "hatterene",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0866",
+    "name": "Mr. Rime",
+    "formText": null,
+    "formId": "mr-rime",
+    "types": [
+      "Ice",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0867",
+    "name": "Runerigus",
+    "formText": null,
+    "formId": "runerigus",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": null,
+    "formId": "alcremie",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0877",
+    "name": "Morpeko",
+    "formText": null,
+    "formId": "morpeko",
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0887",
+    "name": "Dragapult",
+    "formText": null,
+    "formId": "dragapult",
+    "types": [
+      "Dragon",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0899",
+    "name": "Wyrdeer",
+    "formText": null,
+    "formId": "wyrdeer",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0900",
+    "name": "Kleavor",
+    "formText": null,
+    "formId": "kleavor",
+    "types": [
+      "Bug",
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0902",
+    "name": "Basculegion",
+    "formText": "Male",
+    "formId": "basculegion-male",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0902",
+    "name": "Basculegion",
+    "formText": "Female",
+    "formId": "basculegion-female",
+    "types": [
+      "Water",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0903",
+    "name": "Sneasler",
+    "formText": null,
+    "formId": "sneasler",
+    "types": [
+      "Fighting",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0908",
+    "name": "Meowscarada",
+    "formText": null,
+    "formId": "meowscarada",
+    "types": [
+      "Grass",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0911",
+    "name": "Skeledirge",
+    "formText": null,
+    "formId": "skeledirge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0914",
+    "name": "Quaquaval",
+    "formText": null,
+    "formId": "quaquaval",
+    "types": [
+      "Water",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0925",
+    "name": "Maushold",
+    "formText": null,
+    "formId": "maushold",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0934",
+    "name": "Garganacl",
+    "formText": null,
+    "formId": "garganacl",
+    "types": [
+      "Rock"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0936",
+    "name": "Armarouge",
+    "formText": null,
+    "formId": "armarouge",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0937",
+    "name": "Ceruledge",
+    "formText": null,
+    "formId": "ceruledge",
+    "types": [
+      "Fire",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0939",
+    "name": "Bellibolt",
+    "formText": null,
+    "formId": "bellibolt",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0952",
+    "name": "Scovillain",
+    "formText": null,
+    "formId": "scovillain",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0956",
+    "name": "Espathra",
+    "formText": null,
+    "formId": "espathra",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0959",
+    "name": "Tinkaton",
+    "formText": null,
+    "formId": "tinkaton",
+    "types": [
+      "Fairy",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0964",
+    "name": "Palafin",
+    "formText": null,
+    "formId": "palafin",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0968",
+    "name": "Orthworm",
+    "formText": null,
+    "formId": "orthworm",
+    "types": [
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0970",
+    "name": "Glimmora",
+    "formText": null,
+    "formId": "glimmora",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0981",
+    "name": "Farigiraf",
+    "formText": null,
+    "formId": "farigiraf",
+    "types": [
+      "Normal",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0983",
+    "name": "Kingambit",
+    "formText": null,
+    "formId": "kingambit",
+    "types": [
+      "Dark",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "1013",
+    "name": "Sinistcha",
+    "formText": null,
+    "formId": "sinistcha",
+    "types": [
+      "Grass",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "1018",
+    "name": "Archaludon",
+    "formText": null,
+    "formId": "archaludon",
+    "types": [
+      "Steel",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "1019",
+    "name": "Hydrapple",
+    "formText": "Forms Mega Evolutions Ndex MS Pokémon Type Normally available? Version added",
+    "formId": "hydrapple-forms-mega-evolutions-ndex-ms-pok-mon-type-normally-available-version-added",
+    "types": [
+      "Grass",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0003",
+    "name": "Venusaur",
+    "formText": "Mega Venusaur",
+    "formId": "venusaur-mega-venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0006",
+    "name": "Charizard",
+    "formText": "Mega Charizard X",
+    "formId": "charizard-mega-charizard-x",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0006",
+    "name": "Charizard",
+    "formText": "Mega Charizard Y",
+    "formId": "charizard-mega-charizard-y",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0009",
+    "name": "Blastoise",
+    "formText": "Mega Blastoise",
+    "formId": "blastoise-mega-blastoise",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0015",
+    "name": "Beedrill",
+    "formText": "Mega Beedrill",
+    "formId": "beedrill-mega-beedrill",
+    "types": [
+      "Bug",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0018",
+    "name": "Pidgeot",
+    "formText": "Mega Pidgeot",
+    "formId": "pidgeot-mega-pidgeot",
+    "types": [
+      "Normal",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0036",
+    "name": "Clefable",
+    "formText": "Mega Clefable",
+    "formId": "clefable-mega-clefable",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0065",
+    "name": "Alakazam",
+    "formText": "Mega Alakazam",
+    "formId": "alakazam-mega-alakazam",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0071",
+    "name": "Victreebel",
+    "formText": "Mega Victreebel",
+    "formId": "victreebel-mega-victreebel",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0080",
+    "name": "Slowbro",
+    "formText": "Mega Slowbro",
+    "formId": "slowbro-mega-slowbro",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0094",
+    "name": "Gengar",
+    "formText": "Mega Gengar",
+    "formId": "gengar-mega-gengar",
+    "types": [
+      "Ghost",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0115",
+    "name": "Kangaskhan",
+    "formText": "Mega Kangaskhan",
+    "formId": "kangaskhan-mega-kangaskhan",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0121",
+    "name": "Starmie",
+    "formText": "Mega Starmie",
+    "formId": "starmie-mega-starmie",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0127",
+    "name": "Pinsir",
+    "formText": "Mega Pinsir",
+    "formId": "pinsir-mega-pinsir",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0130",
+    "name": "Gyarados",
+    "formText": "Mega Gyarados",
+    "formId": "gyarados-mega-gyarados",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0142",
+    "name": "Aerodactyl",
+    "formText": "Mega Aerodactyl",
+    "formId": "aerodactyl-mega-aerodactyl",
+    "types": [
+      "Rock",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0149",
+    "name": "Dragonite",
+    "formText": "Mega Dragonite",
+    "formId": "dragonite-mega-dragonite",
+    "types": [
+      "Dragon",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0154",
+    "name": "Meganium",
+    "formText": "Mega Meganium",
+    "formId": "meganium-mega-meganium",
+    "types": [
+      "Grass",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0160",
+    "name": "Feraligatr",
+    "formText": "Mega Feraligatr",
+    "formId": "feraligatr-mega-feraligatr",
+    "types": [
+      "Water",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0181",
+    "name": "Ampharos",
+    "formText": "Mega Ampharos",
+    "formId": "ampharos-mega-ampharos",
+    "types": [
+      "Electric",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0208",
+    "name": "Steelix",
+    "formText": "Mega Steelix",
+    "formId": "steelix-mega-steelix",
+    "types": [
+      "Steel",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0212",
+    "name": "Scizor",
+    "formText": "Mega Scizor",
+    "formId": "scizor-mega-scizor",
+    "types": [
+      "Bug",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0214",
+    "name": "Heracross",
+    "formText": "Mega Heracross",
+    "formId": "heracross-mega-heracross",
+    "types": [
+      "Bug",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0227",
+    "name": "Skarmory",
+    "formText": "Mega Skarmory",
+    "formId": "skarmory-mega-skarmory",
+    "types": [
+      "Steel",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0229",
+    "name": "Houndoom",
+    "formText": "Mega Houndoom",
+    "formId": "houndoom-mega-houndoom",
+    "types": [
+      "Dark",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0248",
+    "name": "Tyranitar",
+    "formText": "Mega Tyranitar",
+    "formId": "tyranitar-mega-tyranitar",
+    "types": [
+      "Rock",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0282",
+    "name": "Gardevoir",
+    "formText": "Mega Gardevoir",
+    "formId": "gardevoir-mega-gardevoir",
+    "types": [
+      "Psychic",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0302",
+    "name": "Sableye",
+    "formText": "Mega Sableye",
+    "formId": "sableye-mega-sableye",
+    "types": [
+      "Dark",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0306",
+    "name": "Aggron",
+    "formText": "Mega Aggron",
+    "formId": "aggron-mega-aggron",
+    "types": [
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0308",
+    "name": "Medicham",
+    "formText": "Mega Medicham",
+    "formId": "medicham-mega-medicham",
+    "types": [
+      "Fighting",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0310",
+    "name": "Manectric",
+    "formText": "Mega Manectric",
+    "formId": "manectric-mega-manectric",
+    "types": [
+      "Electric"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0319",
+    "name": "Sharpedo",
+    "formText": "Mega Sharpedo",
+    "formId": "sharpedo-mega-sharpedo",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0323",
+    "name": "Camerupt",
+    "formText": "Mega Camerupt",
+    "formId": "camerupt-mega-camerupt",
+    "types": [
+      "Fire",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0334",
+    "name": "Altaria",
+    "formText": "Mega Altaria",
+    "formId": "altaria-mega-altaria",
+    "types": [
+      "Dragon",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0354",
+    "name": "Banette",
+    "formText": "Mega Banette",
+    "formId": "banette-mega-banette",
+    "types": [
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0358",
+    "name": "Chimecho",
+    "formText": "Mega Chimecho",
+    "formId": "chimecho-mega-chimecho",
+    "types": [
+      "Psychic",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0359",
+    "name": "Absol",
+    "formText": "Mega Absol",
+    "formId": "absol-mega-absol",
+    "types": [
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0362",
+    "name": "Glalie",
+    "formText": "Mega Glalie",
+    "formId": "glalie-mega-glalie",
+    "types": [
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0428",
+    "name": "Lopunny",
+    "formText": "Mega Lopunny",
+    "formId": "lopunny-mega-lopunny",
+    "types": [
+      "Normal",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0445",
+    "name": "Garchomp",
+    "formText": "Mega Garchomp",
+    "formId": "garchomp-mega-garchomp",
+    "types": [
+      "Dragon",
+      "Ground"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0448",
+    "name": "Lucario",
+    "formText": "Mega Lucario",
+    "formId": "lucario-mega-lucario",
+    "types": [
+      "Fighting",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0460",
+    "name": "Abomasnow",
+    "formText": "Mega Abomasnow",
+    "formId": "abomasnow-mega-abomasnow",
+    "types": [
+      "Grass",
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0475",
+    "name": "Gallade",
+    "formText": "Mega Gallade",
+    "formId": "gallade-mega-gallade",
+    "types": [
+      "Psychic",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0478",
+    "name": "Froslass",
+    "formText": "Mega Froslass",
+    "formId": "froslass-mega-froslass",
+    "types": [
+      "Ice",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0500",
+    "name": "Emboar",
+    "formText": "Mega Emboar",
+    "formId": "emboar-mega-emboar",
+    "types": [
+      "Fire",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0530",
+    "name": "Excadrill",
+    "formText": "Mega Excadrill",
+    "formId": "excadrill-mega-excadrill",
+    "types": [
+      "Ground",
+      "Steel"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0531",
+    "name": "Audino",
+    "formText": "Mega Audino",
+    "formId": "audino-mega-audino",
+    "types": [
+      "Normal",
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0609",
+    "name": "Chandelure",
+    "formText": "Mega Chandelure",
+    "formId": "chandelure-mega-chandelure",
+    "types": [
+      "Ghost",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0623",
+    "name": "Golurk",
+    "formText": "Mega Golurk",
+    "formId": "golurk-mega-golurk",
+    "types": [
+      "Ground",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0652",
+    "name": "Chesnaught",
+    "formText": "Mega Chesnaught",
+    "formId": "chesnaught-mega-chesnaught",
+    "types": [
+      "Grass",
+      "Fighting"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0655",
+    "name": "Delphox",
+    "formText": "Mega Delphox",
+    "formId": "delphox-mega-delphox",
+    "types": [
+      "Fire",
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0658",
+    "name": "Greninja",
+    "formText": "Mega Greninja",
+    "formId": "greninja-mega-greninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0670",
+    "name": "Floette",
+    "formText": "Mega Floette",
+    "formId": "floette-mega-floette",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0678",
+    "name": "Meowstic",
+    "formText": "Mega Meowstic",
+    "formId": "meowstic-mega-meowstic",
+    "types": [
+      "Psychic"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0701",
+    "name": "Hawlucha",
+    "formText": "Mega Hawlucha",
+    "formId": "hawlucha-mega-hawlucha",
+    "types": [
+      "Fighting",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0740",
+    "name": "Crabominable",
+    "formText": "Mega Crabominable",
+    "formId": "crabominable-mega-crabominable",
+    "types": [
+      "Fighting",
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0780",
+    "name": "Drampa",
+    "formText": "Mega Drampa",
+    "formId": "drampa-mega-drampa",
+    "types": [
+      "Normal",
+      "Dragon"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0952",
+    "name": "Scovillain",
+    "formText": "Mega Scovillain",
+    "formId": "scovillain-mega-scovillain",
+    "types": [
+      "Grass",
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0970",
+    "name": "Glimmora",
+    "formText": "Mega Glimmora Other forms Ndex MS Pokémon Type Normally available? Version added",
+    "formId": "glimmora-mega-glimmora-other-forms-ndex-ms-pok-mon-type-normally-available-version-added",
+    "types": [
+      "Rock",
+      "Poison"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0351",
+    "name": "Castform",
+    "formText": "Sunny Form",
+    "formId": "castform-sunny-form",
+    "types": [
+      "Fire"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0351",
+    "name": "Castform",
+    "formText": "Rainy Form",
+    "formId": "castform-rainy-form",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0351",
+    "name": "Castform",
+    "formText": "Snowy Form",
+    "formId": "castform-snowy-form",
+    "types": [
+      "Ice"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Icy Snow Pattern",
+    "formId": "vivillon-icy-snow-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Polar Pattern",
+    "formId": "vivillon-polar-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Tundra Pattern",
+    "formId": "vivillon-tundra-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Continental Pattern",
+    "formId": "vivillon-continental-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Garden Pattern",
+    "formId": "vivillon-garden-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Elegant Pattern",
+    "formId": "vivillon-elegant-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Meadow Pattern",
+    "formId": "vivillon-meadow-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Modern Pattern",
+    "formId": "vivillon-modern-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Marine Pattern",
+    "formId": "vivillon-marine-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Archipelago Pattern",
+    "formId": "vivillon-archipelago-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "High Plains Pattern",
+    "formId": "vivillon-high-plains-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Sandstorm Pattern",
+    "formId": "vivillon-sandstorm-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "River Pattern",
+    "formId": "vivillon-river-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Monsoon Pattern",
+    "formId": "vivillon-monsoon-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Savanna Pattern",
+    "formId": "vivillon-savanna-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Sun Pattern",
+    "formId": "vivillon-sun-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Ocean Pattern",
+    "formId": "vivillon-ocean-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Jungle Pattern",
+    "formId": "vivillon-jungle-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0666",
+    "name": "Vivillon",
+    "formText": "Poké Ball Pattern",
+    "formId": "vivillon-pok-ball-pattern",
+    "types": [
+      "Bug",
+      "Flying"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0671",
+    "name": "Florges",
+    "formText": "Yellow Flower",
+    "formId": "florges-yellow-flower",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0671",
+    "name": "Florges",
+    "formText": "Orange Flower",
+    "formId": "florges-orange-flower",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0671",
+    "name": "Florges",
+    "formText": "Blue Flower",
+    "formId": "florges-blue-flower",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0671",
+    "name": "Florges",
+    "formText": "White Flower",
+    "formId": "florges-white-flower",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Heart Trim",
+    "formId": "furfrou-heart-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Star Trim",
+    "formId": "furfrou-star-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Diamond Trim",
+    "formId": "furfrou-diamond-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Debutante Trim",
+    "formId": "furfrou-debutante-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Matron Trim",
+    "formId": "furfrou-matron-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Dandy Trim",
+    "formId": "furfrou-dandy-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "La Reine Trim",
+    "formId": "furfrou-la-reine-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Kabuki Trim",
+    "formId": "furfrou-kabuki-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0676",
+    "name": "Furfrou",
+    "formText": "Pharaoh Trim",
+    "formId": "furfrou-pharaoh-trim",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0681",
+    "name": "Aegislash",
+    "formText": "Blade Forme",
+    "formId": "aegislash-blade",
+    "types": [
+      "Steel",
+      "Ghost"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Ruby Cream",
+    "formId": "alcremie-ruby-cream",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Matcha Cream",
+    "formId": "alcremie-matcha-cream",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Mint Cream",
+    "formId": "alcremie-mint-cream",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Lemon Cream",
+    "formId": "alcremie-lemon-cream",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Salted Cream",
+    "formId": "alcremie-salted-cream",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Ruby Swirl",
+    "formId": "alcremie-ruby-swirl",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Caramel Swirl",
+    "formId": "alcremie-caramel-swirl",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0869",
+    "name": "Alcremie",
+    "formText": "Rainbow Swirl",
+    "formId": "alcremie-rainbow-swirl",
+    "types": [
+      "Fairy"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0877",
+    "name": "Morpeko",
+    "formText": "Hangry Mode",
+    "formId": "morpeko-hangry",
+    "types": [
+      "Electric",
+      "Dark"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0925",
+    "name": "Maushold",
+    "formText": "Family of Four",
+    "formId": "maushold-family-of-four",
+    "types": [
+      "Normal"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  },
+  {
+    "ndex": "0964",
+    "name": "Palafin",
+    "formText": "Hero Form Greninja with Battle Bond cannot be sent to Pokémon Champions.",
+    "formId": "palafin-hero-greninja-with-battle-bond-cannot-be-sent-to-pok-mon-champions",
+    "types": [
+      "Water"
+    ],
+    "versionAdded": "1.0.2",
+    "availableInChampions": true,
+    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
+  }
+]

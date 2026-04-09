@@ -1,8 +1,5 @@
 const POKEMON_DATA_PATH = './data/pokemon.json';
 const ABILITY_DATA_PATH = './data/abilities.json';
-const LEVEL = 50;
-const FIXED_IV = 31;
-const MAX_STAT_POINTS_PER_STAT = 32;
 
 const els = {
   search: document.getElementById('pokemon-search'),
@@ -21,11 +18,12 @@ const els = {
 };
 
 let pokemonData = [];
+let pokemonByFormId = {};
 let abilityData = {};
 let activePokemon = null;
 
 function normalizeName(value) {
-  return value
+  return String(value || '')
     .toLowerCase()
     .normalize('NFKD')
     .replace(/[^a-z0-9]+/g, ' ')
@@ -36,38 +34,35 @@ function slugify(value) {
   return normalizeName(value).replace(/\s+/g, '-');
 }
 
-function calculateStatRange(baseStat, statName) {
-  const isHp = statName === 'hp';
-
-  if (isHp) {
-    const min = Math.floor(((2 * baseStat + FIXED_IV) * LEVEL) / 100) + LEVEL + 10;
-    return { min, max: min + MAX_STAT_POINTS_PER_STAT };
-  }
-
-  const baseAt50 = Math.floor(((2 * baseStat + FIXED_IV) * LEVEL) / 100) + 5;
-  const lowest = Math.floor(baseAt50 * 0.9);
-  const highest = Math.floor((baseAt50 + MAX_STAT_POINTS_PER_STAT) * 1.1);
-  return { min: lowest, max: highest };
+function setAbilityHelp(content) {
+  els.abilityHelp.innerHTML =
+    content ||
+    '<p class="helper-text">Tap, click, or hover an Ability to see its effect.</p>';
 }
 
 function getDisplayedForm(pokemon) {
+  if (!pokemon) return null;
+
   const wantsMega = els.megaToggle.checked;
-  if (wantsMega && pokemon.hasMegaEvolution && pokemon.megaForm) {
-    return pokemon.megaForm;
+  if (wantsMega && pokemon.hasMegaEvolution && pokemon.megaEvolution) {
+    return pokemonByFormId[pokemon.megaEvolution] || pokemon;
   }
-  return pokemon.baseForm;
+
+  return pokemon;
 }
 
 function renderSuggestions(matches) {
   els.suggestions.innerHTML = '';
+
   matches.slice(0, 8).forEach((pokemon) => {
     const button = document.createElement('button');
     button.className = 'suggestion-chip';
     button.type = 'button';
-    button.textContent = pokemon.displayName;
+    button.textContent = pokemon.name;
     button.addEventListener('click', () => {
-      els.search.value = pokemon.displayName;
+      els.search.value = pokemon.name;
       activePokemon = pokemon;
+      els.megaToggle.checked = false;
       renderPokemon();
       els.suggestions.innerHTML = '';
     });
@@ -75,16 +70,13 @@ function renderSuggestions(matches) {
   });
 }
 
-function setAbilityHelp(content) {
-  els.abilityHelp.innerHTML = content || '<p class="helper-text">Tap or hover an Ability to see its effect. Click “Open wiki” for the full reference.</p>';
-}
-
 function renderAbilityItem(abilityName) {
   const key = slugify(abilityName);
   const ability = abilityData[key] || {
     name: abilityName,
+    shortEffect: 'Ability reference has not been added to the local dataset yet.',
     effect: 'Ability reference has not been added to the local dataset yet.',
-    sourceUrl: `https://bulbapedia.bulbagarden.net/wiki/${encodeURIComponent(abilityName)}_(Ability)`
+    source: `https://bulbapedia.bulbagarden.net/wiki/${encodeURIComponent(abilityName)}_(Ability)`
   };
 
   const li = document.createElement('li');
@@ -94,56 +86,62 @@ function renderAbilityItem(abilityName) {
   trigger.type = 'button';
   trigger.className = 'ability-trigger';
   trigger.textContent = ability.name;
-  trigger.title = ability.effect;
-  trigger.addEventListener('mouseenter', () => {
+  trigger.setAttribute('aria-expanded', 'false');
+
+  const showAbilityHelp = () => {
+    trigger.setAttribute('aria-expanded', 'true');
     setAbilityHelp(`
       <p class="status-line"><strong>${ability.name}</strong></p>
-      <p class="status-line">${ability.effect}</p>
+      <p class="status-line">${ability.shortEffect || ability.effect}</p>
+      <p class="status-line">
+        <a href="${ability.source}" target="_blank" rel="noreferrer">Open wiki</a>
+      </p>
     `);
-  });
-  trigger.addEventListener('focus', () => {
-    setAbilityHelp(`
-      <p class="status-line"><strong>${ability.name}</strong></p>
-      <p class="status-line">${ability.effect}</p>
-    `);
-  });
-  trigger.addEventListener('click', () => {
-    setAbilityHelp(`
-      <p class="status-line"><strong>${ability.name}</strong></p>
-      <p class="status-line">${ability.effect}</p>
-      <p class="status-line"><a href="${ability.sourceUrl}" target="_blank" rel="noreferrer">Open wiki</a></p>
-    `);
-  });
+  };
+
+  const clearExpanded = () => {
+    trigger.setAttribute('aria-expanded', 'false');
+  };
+
+  trigger.addEventListener('mouseenter', showAbilityHelp);
+  trigger.addEventListener('focus', showAbilityHelp);
+  trigger.addEventListener('click', showAbilityHelp);
+  trigger.addEventListener('mouseleave', clearExpanded);
+  trigger.addEventListener('blur', clearExpanded);
 
   const link = document.createElement('a');
   link.className = 'ability-link';
-  link.href = ability.sourceUrl;
+  link.href = ability.source;
   link.target = '_blank';
   link.rel = 'noreferrer';
-  link.textContent = 'Open wiki';
+  link.textContent = 'Wiki';
   link.setAttribute('aria-label', `Open ${ability.name} wiki page`);
 
   li.appendChild(trigger);
   li.appendChild(link);
+
   return li;
 }
 
 function renderPokemon() {
-  if (!activePokemon) {
+  const displayed = getDisplayedForm(activePokemon);
+
+  if (!displayed) {
     els.resultPanel.classList.add('hidden');
     els.emptyState.classList.remove('hidden');
+    els.megaToggleWrapper.classList.add('hidden');
     setAbilityHelp('');
     return;
   }
 
-  const form = getDisplayedForm(activePokemon);
-
   els.emptyState.classList.add('hidden');
   els.resultPanel.classList.remove('hidden');
-  els.pokemonName.textContent = form.displayName;
-  els.pokemonMeta.textContent = `${form.types.join(' / ')} • ${activePokemon.availableInChampions ? 'Available in Champions' : 'Not currently available in Champions'}`;
 
-  if (activePokemon.hasMegaEvolution && activePokemon.megaForm) {
+  els.pokemonName.textContent = displayed.name;
+  els.pokemonMeta.textContent =
+    `${(displayed.types || []).join(' / ')} • ${displayed.availableInChampions ? 'Available in Champions' : 'Not currently available in Champions'}`;
+
+  if (activePokemon && activePokemon.hasMegaEvolution && activePokemon.megaEvolution) {
     els.megaToggleWrapper.classList.remove('hidden');
   } else {
     els.megaToggleWrapper.classList.add('hidden');
@@ -151,18 +149,29 @@ function renderPokemon() {
   }
 
   els.abilityList.innerHTML = '';
-  form.abilities.forEach((ability) => {
+  (displayed.abilities || []).forEach((ability) => {
     els.abilityList.appendChild(renderAbilityItem(ability));
   });
   setAbilityHelp('');
 
   els.statGrid.innerHTML = '';
   const labels = {
-    hp: 'HP', atk: 'Attack', def: 'Defense', spa: 'Sp. Atk', spd: 'Sp. Def', spe: 'Speed'
+    hp: 'HP',
+    atk: 'Attack',
+    def: 'Defense',
+    spa: 'Sp. Atk',
+    spd: 'Sp. Def',
+    spe: 'Speed'
   };
 
-  Object.entries(form.baseStats).forEach(([statKey, baseStat]) => {
-    const range = calculateStatRange(baseStat, statKey);
+  const statRanges = displayed.statRanges || {};
+  const baseStats = displayed.baseStats || {};
+
+  ['hp', 'atk', 'def', 'spa', 'spd', 'spe'].forEach((statKey) => {
+    const range = statRanges[statKey];
+    if (!range) return;
+
+    const baseStat = baseStats[statKey] ?? '—';
     const card = document.createElement('div');
     card.className = 'stat-card';
     card.innerHTML = `
@@ -173,11 +182,10 @@ function renderPokemon() {
     els.statGrid.appendChild(card);
   });
 
-  const verification = form.verification || activePokemon.verification || {};
   els.dataStatus.innerHTML = `
-    <p class="status-line"><strong>${verification.label || 'Prototype dataset'}</strong></p>
-    <p class="status-line">Source set: ${verification.sourceSet || 'Manual Champions-aligned entry'}</p>
-    <p class="status-line">Notes: ${verification.notes || 'Use Champions-specific sources only.'}</p>
+    <p class="status-line"><strong>${displayed.enriched ? 'Champions roster + enriched data' : 'Partial dataset'}</strong></p>
+    <p class="status-line">Form ID: ${displayed.formId || 'Unknown'}</p>
+    <p class="status-line">Dex #: ${displayed.nationalDex || 'Unknown'}</p>
   `;
 }
 
@@ -187,9 +195,10 @@ function findMatches(query) {
 
   return pokemonData.filter((pokemon) => {
     const haystacks = [
-      pokemon.displayName,
-      pokemon.baseForm.displayName,
-      ...(pokemon.aliases || [])
+      pokemon.name,
+      pokemon.baseName,
+      pokemon.formId,
+      pokemon.lookupName
     ].map(normalizeName);
 
     return haystacks.some((value) => value.includes(normalized));
@@ -198,9 +207,11 @@ function findMatches(query) {
 
 function handleSearchInput() {
   const query = els.search.value.trim();
+
   if (!query) {
     activePokemon = null;
     els.suggestions.innerHTML = '';
+    els.megaToggle.checked = false;
     renderPokemon();
     return;
   }
@@ -208,7 +219,12 @@ function handleSearchInput() {
   const matches = findMatches(query);
   renderSuggestions(matches);
 
-  const exact = matches.find((pokemon) => normalizeName(pokemon.displayName) === normalizeName(query));
+  const exact = matches.find(
+    (pokemon) =>
+      normalizeName(pokemon.name) === normalizeName(query) ||
+      normalizeName(pokemon.baseName) === normalizeName(query)
+  );
+
   if (exact) {
     activePokemon = exact;
     renderPokemon();
@@ -221,11 +237,24 @@ async function init() {
     fetch(ABILITY_DATA_PATH)
   ]);
 
-  pokemonData = await pokemonResponse.json();
-  const rawAbilityData = await abilityResponse.json();
-  abilityData = Object.fromEntries(rawAbilityData.map((entry) => [slugify(entry.name), entry]));
+  const pokemonPayload = await pokemonResponse.json();
+  const abilityPayload = await abilityResponse.json();
+
+  pokemonData = Array.isArray(pokemonPayload)
+    ? pokemonPayload
+    : (pokemonPayload.pokemon || []);
+
+  abilityData =
+    Array.isArray(abilityPayload)
+      ? Object.fromEntries(abilityPayload.map((entry) => [slugify(entry.name), entry]))
+      : (abilityPayload.abilities || {});
+
+  pokemonByFormId = Object.fromEntries(
+    pokemonData.map((pokemon) => [pokemon.formId, pokemon])
+  );
 
   els.search.addEventListener('input', handleSearchInput);
+
   els.clear.addEventListener('click', () => {
     els.search.value = '';
     activePokemon = null;
@@ -233,6 +262,7 @@ async function init() {
     els.suggestions.innerHTML = '';
     renderPokemon();
   });
+
   els.megaToggle.addEventListener('change', renderPokemon);
 
   renderPokemon();
@@ -242,6 +272,6 @@ init().catch((error) => {
   console.error(error);
   els.emptyState.innerHTML = `
     <h2>Unable to load data</h2>
-    <p>Check that <code>data/pokemon.json</code> and <code>data/abilities.json</code> are present and GitHub Pages is serving them.</p>
+    <p>Check the browser console and verify that <code>data/pokemon.json</code> and <code>data/abilities.json</code> are being served correctly.</p>
   `;
 });

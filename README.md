@@ -1,56 +1,55 @@
-# Pokémon Champions Stat Lookup
+# Pokémon Champions Quick Scout
 
-Fast, battle-focused lookup for Pokémon Champions stat ranges, Abilities, and Mega forms.
+A lightweight static web app for checking compact stat ranges, Abilities, and Mega Evolution availability for Pokémon that are valid in **Pokémon Champions**.
 
-## How it works
+## What the site shows
+- Search by Pokémon name
+- Lowest and highest possible values for all 6 stats at level 50
+- Possible Abilities with quick effect help and an external wiki link
+- Mega Evolution toggle where relevant
+- Data provenance notes so you can distinguish Champions roster validation from canonical species data
 
-This site is a static app for GitHub Pages. The page reads local JSON files from `data/`.
-You edit or generate source files in `sources/`, run the data build script, and commit the
-updated output.
+## Data pipeline
+This project is meant to stay static on GitHub Pages.
+The site reads local JSON from `data/`, while the import pipeline writes those files ahead of time.
 
-## File layout
+### Source priority
+1. **Bulbapedia Champions roster page** for whether a Pokémon or Mega form is available in Champions
+2. **PokeAPI** for canonical form stats, types, and standard Abilities
+3. **Manual seeds / overrides** for Champions-specific cleanup and edge cases
 
-- `index.html` – app shell
-- `styles.css` – UI
-- `app.js` – search, stat rendering, Mega toggle, Ability help
-- `sources/pokemon_seed.json` – editable source-of-truth Pokémon records
-- `sources/abilities_seed.json` – editable source-of-truth Ability records
-- `data/pokemon.json` – generated file served by GitHub Pages
-- `data/abilities.json` – generated file served by GitHub Pages
-- `scripts/build_data.py` – writes generated JSON from the seed files
-- `.github/workflows/update-data.yml` – optional GitHub Actions job
+### Why it works this way
+Champions availability is the thing that most needs a Champions-specific source.
+Stats and standard Abilities can then be imported from canonical species/form data once the roster gate is known.
 
-## Local update flow
-
+## Setup
 ```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+## Rebuild the dataset
+```bash
+python scripts/import_champions_roster.py
+python scripts/enrich_from_pokeapi.py
 python scripts/build_data.py
 ```
 
-Commit the changed `data/*.json` files and push.
+That flow will:
+- import the current Champions roster into `sources/champions_roster.json`
+- enrich it into `sources/champions_enriched.json`
+- publish the final site files to `data/pokemon.json` and `data/abilities.json`
 
-## GitHub Pages
+## Manual override files
+- `sources/pokemon_seed.json` — hand-maintained entries and hard overrides
+- `sources/abilities_seed.json` — hand-maintained ability blurbs and source links
+- `sources/form_overrides.json` — Bulbapedia-form to PokeAPI-form mapping for special cases
 
-Because the site uses plain JSON fetched from the same repo, GitHub Pages can host the app
-without a backend server.
+## GitHub Actions
+The repo includes a workflow at `.github/workflows/update-data.yml`.
+It can refresh the roster and generated JSON on a schedule or from the Actions tab.
 
-## Source policy
-
-Keep Champions availability Champions-specific.
-
-Recommended source priority:
-1. Official Pokémon Champions pages for roster gating and training behavior.
-2. Champions-specific community trackers for forms, mega availability, and live updates.
-3. Manual review before committing new data.
-
-Avoid treating a generic Pokédex as proof that a Pokémon or form is currently valid in Champions.
-
-## Ability help
-
-Abilities use both:
-- a quick local effect summary in the UI
-- an external wiki link for full detail
-
-That keeps the battle screen short while still giving you a deeper reference when needed.
+## Important caution
+This tool is only as good as the live-source mapping.
+If Bulbapedia changes page structure or Champions changes availability, revisit the import scripts and override files.
