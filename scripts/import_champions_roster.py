@@ -121,12 +121,15 @@ def normalize_form_id(name: str, form_text: str | None) -> str:
     low_name = (name or "").lower().strip()
     low_form = (form_text or "").lower().strip()
 
+    # Mega names should derive entirely from the name field
     if low_name.startswith("mega "):
         rest = low_name[5:].strip()
+
         if rest.endswith(" x"):
             return f"{slugify(rest[:-2].strip())}-mega-x"
         if rest.endswith(" y"):
             return f"{slugify(rest[:-2].strip())}-mega-y"
+
         return f"{slugify(rest)}-mega"
 
     base = slugify(name)
