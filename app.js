@@ -43,12 +43,29 @@ function setAbilityHelp(content) {
 function getDisplayedForm(pokemon) {
   if (!pokemon) return null;
 
-  const wantsMega = els.megaToggle.checked;
-  if (wantsMega && pokemon.hasMegaEvolution && pokemon.megaEvolution) {
-    return pokemonByFormId[pokemon.megaEvolution] || pokemon;
+  const selectedFormId = els.megaToggle.value;
+  if (selectedFormId && selectedFormId !== 'base') {
+    return pokemonByFormId[selectedFormId] || pokemon;
   }
 
   return pokemon;
+}
+
+function findMatches(query) {
+  const normalized = normalizeName(query);
+  if (!normalized) return [];
+
+  return pokemonData.filter((pokemon) => {
+    const haystacks = [
+      pokemon.name,
+      pokemon.baseName,
+      pokemon.speciesId,
+      pokemon.formId,
+      pokemon.lookupName
+    ].map(normalizeName);
+
+    return haystacks.some((value) => value.includes(normalized));
+  });
 }
 
 function renderSuggestions(matches) {
@@ -59,13 +76,14 @@ function renderSuggestions(matches) {
     button.className = 'suggestion-chip';
     button.type = 'button';
     button.textContent = pokemon.name;
+
     button.addEventListener('click', () => {
       els.search.value = pokemon.name;
       activePokemon = pokemon;
-      els.megaToggle.checked = false;
       renderPokemon();
       els.suggestions.innerHTML = '';
     });
+
     els.suggestions.appendChild(button);
   });
 }
@@ -93,9 +111,7 @@ function renderAbilityItem(abilityName) {
     setAbilityHelp(`
       <p class="status-line"><strong>${ability.name}</strong></p>
       <p class="status-line">${ability.shortEffect || ability.effect}</p>
-      <p class="status-line">
-        <a href="${ability.source}" target="_blank" rel="noreferrer">Open wiki</a>
-      </p>
+      <p class="status-line"><a href="${ability.source}" target="_blank" rel="noreferrer">Open wiki</a></p>
     `);
   };
 
@@ -115,12 +131,41 @@ function renderAbilityItem(abilityName) {
   link.target = '_blank';
   link.rel = 'noreferrer';
   link.textContent = 'Wiki';
-  link.setAttribute('aria-label', `Open ${ability.name} wiki page`);
 
   li.appendChild(trigger);
   li.appendChild(link);
-
   return li;
+}
+
+function renderMegaSelector() {
+  if (!activePokemon || !activePokemon.hasMegaEvolution || !(activePokemon.megaEvolutions || []).length) {
+    els.megaToggleWrapper.classList.add('hidden');
+    els.megaToggle.innerHTML = '';
+    return;
+  }
+
+  const currentValue = els.megaToggle.value || 'base';
+
+  els.megaToggleWrapper.classList.remove('hidden');
+  els.megaToggle.innerHTML = '';
+
+  const baseOption = document.createElement('option');
+  baseOption.value = 'base';
+  baseOption.textContent = 'Base Form';
+  els.megaToggle.appendChild(baseOption);
+
+  activePokemon.megaEvolutions.forEach((formId) => {
+    const mega = pokemonByFormId[formId];
+    if (!mega) return;
+
+    const option = document.createElement('option');
+    option.value = formId;
+    option.textContent = mega.name;
+    els.megaToggle.appendChild(option);
+  });
+
+  const validValues = [...els.megaToggle.options].map((opt) => opt.value);
+  els.megaToggle.value = validValues.includes(currentValue) ? currentValue : 'base';
 }
 
 function renderPokemon() {
@@ -134,19 +179,13 @@ function renderPokemon() {
     return;
   }
 
+  renderMegaSelector();
+
   els.emptyState.classList.add('hidden');
   els.resultPanel.classList.remove('hidden');
 
   els.pokemonName.textContent = displayed.name;
-  els.pokemonMeta.textContent =
-    `${(displayed.types || []).join(' / ')} • ${displayed.availableInChampions ? 'Available in Champions' : 'Not currently available in Champions'}`;
-
-  if (activePokemon && activePokemon.hasMegaEvolution && activePokemon.megaEvolution) {
-    els.megaToggleWrapper.classList.remove('hidden');
-  } else {
-    els.megaToggleWrapper.classList.add('hidden');
-    els.megaToggle.checked = false;
-  }
+  els.pokemonMeta.textContent = `${(displayed.types || []).join(' / ')} • ${displayed.availableInChampions ? 'Available in Champions' : 'Not currently available in Champions'}`;
 
   els.abilityList.innerHTML = '';
   (displayed.abilities || []).forEach((ability) => {
@@ -171,38 +210,23 @@ function renderPokemon() {
     const range = statRanges[statKey];
     if (!range) return;
 
-    const baseStat = baseStats[statKey] ?? '—';
     const card = document.createElement('div');
     card.className = 'stat-card';
     card.innerHTML = `
       <div class="stat-label">${labels[statKey]}</div>
       <div class="stat-range">${range.min}–${range.max}</div>
-      <div class="stat-base">Base stat: ${baseStat}</div>
+      <div class="stat-base">Base stat: ${baseStats[statKey] ?? '—'}</div>
     `;
     els.statGrid.appendChild(card);
   });
 
-  els.dataStatus.innerHTML = `
-    <p class="status-line"><strong>${displayed.enriched ? 'Champions roster + enriched data' : 'Partial dataset'}</strong></p>
-    <p class="status-line">Form ID: ${displayed.formId || 'Unknown'}</p>
-    <p class="status-line">Dex #: ${displayed.nationalDex || 'Unknown'}</p>
-  `;
-}
+  const statusLines = [
+    `<p class="status-line"><strong>${displayed.enriched ? 'Champions roster + enriched data' : 'Partial dataset'}</strong></p>`,
+    `<p class="status-line">Form ID: ${displayed.formId || 'Unknown'}</p>`,
+    `<p class="status-line">Dex #: ${displayed.nationalDex || 'Unknown'}</p>`
+  ];
 
-function findMatches(query) {
-  const normalized = normalizeName(query);
-  if (!normalized) return [];
-
-  return pokemonData.filter((pokemon) => {
-    const haystacks = [
-      pokemon.name,
-      pokemon.baseName,
-      pokemon.formId,
-      pokemon.lookupName
-    ].map(normalizeName);
-
-    return haystacks.some((value) => value.includes(normalized));
-  });
+  els.dataStatus.innerHTML = statusLines.join('');
 }
 
 function handleSearchInput() {
@@ -211,7 +235,7 @@ function handleSearchInput() {
   if (!query) {
     activePokemon = null;
     els.suggestions.innerHTML = '';
-    els.megaToggle.checked = false;
+    els.megaToggle.innerHTML = '';
     renderPokemon();
     return;
   }
@@ -220,13 +244,13 @@ function handleSearchInput() {
   renderSuggestions(matches);
 
   const exact = matches.find(
-    (pokemon) =>
-      normalizeName(pokemon.name) === normalizeName(query) ||
-      normalizeName(pokemon.baseName) === normalizeName(query)
+    (pokemon) => normalizeName(pokemon.name) === normalizeName(query)
   );
 
   if (exact) {
-    activePokemon = exact;
+    activePokemon = exact.isMegaForm
+      ? pokemonData.find((p) => p.speciesId === exact.baseSpeciesId && !p.isMegaForm) || exact
+      : exact;
     renderPokemon();
   }
 }
@@ -240,14 +264,8 @@ async function init() {
   const pokemonPayload = await pokemonResponse.json();
   const abilityPayload = await abilityResponse.json();
 
-  pokemonData = Array.isArray(pokemonPayload)
-    ? pokemonPayload
-    : (pokemonPayload.pokemon || []);
-
-  abilityData =
-    Array.isArray(abilityPayload)
-      ? Object.fromEntries(abilityPayload.map((entry) => [slugify(entry.name), entry]))
-      : (abilityPayload.abilities || {});
+  pokemonData = Array.isArray(pokemonPayload) ? pokemonPayload : (pokemonPayload.pokemon || []);
+  abilityData = abilityPayload.abilities || {};
 
   pokemonByFormId = Object.fromEntries(
     pokemonData.map((pokemon) => [pokemon.formId, pokemon])
@@ -258,7 +276,7 @@ async function init() {
   els.clear.addEventListener('click', () => {
     els.search.value = '';
     activePokemon = null;
-    els.megaToggle.checked = false;
+    els.megaToggle.innerHTML = '';
     els.suggestions.innerHTML = '';
     renderPokemon();
   });

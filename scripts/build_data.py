@@ -30,12 +30,15 @@ def save_json(path: Path, payload):
 
 def slugify(value: str) -> str:
     return (
-        value.lower()
-        .replace(" ", "-")
-        .replace(".", "")
+        str(value or "")
+        .lower()
         .replace("’", "")
         .replace("'", "")
+        .replace(".", "")
         .replace(":", "")
+        .replace("(", "")
+        .replace(")", "")
+        .replace(" ", "-")
     )
 
 
@@ -50,116 +53,112 @@ def other_stat(base: int, sp: int, nature: float) -> int:
 
 
 def build_stat_ranges(base_stats: dict) -> dict:
-    if not base_stats:
+    if not isinstance(base_stats, dict):
         return {}
 
     ranges = {}
 
-    hp_base = base_stats.get("hp")
-    if isinstance(hp_base, int):
+    if isinstance(base_stats.get("hp"), int):
         ranges["hp"] = {
-            "min": hp_stat(hp_base, 0),
-            "max": hp_stat(hp_base, MAX_SP_PER_STAT),
+            "min": hp_stat(base_stats["hp"], 0),
+            "max": hp_stat(base_stats["hp"], MAX_SP_PER_STAT)
         }
 
-    for stat_key in ["atk", "def", "spa", "spd", "spe"]:
-        base = base_stats.get(stat_key)
-        if isinstance(base, int):
-            ranges[stat_key] = {
-                "min": other_stat(base, 0, 0.9),
-                "max": other_stat(base, MAX_SP_PER_STAT, 1.1),
+    for key in ["atk", "def", "spa", "spd", "spe"]:
+        if isinstance(base_stats.get(key), int):
+            ranges[key] = {
+                "min": other_stat(base_stats[key], 0, 0.9),
+                "max": other_stat(base_stats[key], MAX_SP_PER_STAT, 1.1)
             }
 
     return ranges
 
 
-def build_pokemon_record(record: dict) -> dict:
-    form_id = record.get("formId") or slugify(record.get("displayName") or record.get("name", "unknown"))
-    display_name = record.get("displayName") or record.get("name") or form_id
-    base_stats = record.get("baseStats") or {}
-    abilities = record.get("abilities") or []
-    types = record.get("types") or []
+def is_mega_form(form_id: str) -> bool:
+    form_id = str(form_id or "").lower()
+    return form_id.endswith("-mega") or form_id.endswith("-mega-x") or form_id.endswith("-mega-y")
 
-    mega_flag = form_id.startswith("mega-") or "-mega" in form_id or display_name.lower().startswith("mega ")
+
+def base_species_from_form(form_id: str, base_species_id: str | None) -> str:
+    if base_species_id:
+        return base_species_id
+    form_id = str(form_id or "")
+    for suffix in ("-mega-x", "-mega-y", "-mega"):
+        if form_id.endswith(suffix):
+            return form_id[: -len(suffix)]
+    return form_id
+
+
+def build_pokemon_record(record: dict) -> dict:
+    form_id = record.get("formId") or slugify(record.get("displayName") or record.get("name") or "unknown")
+    display_name = record.get("displayName") or record.get("name") or form_id
 
     return {
         "formId": form_id,
         "name": display_name,
         "baseName": record.get("name") or display_name,
+        "speciesId": record.get("speciesId") or form_id,
+        "baseSpeciesId": base_species_from_form(form_id, record.get("baseSpeciesId")),
         "lookupName": record.get("lookupName"),
         "nationalDex": record.get("nationalDex"),
-        "types": types,
-        "baseStats": base_stats,
-        "statRanges": build_stat_ranges(base_stats),
-        "abilities": abilities,
+        "types": record.get("types") or [],
+        "baseStats": record.get("baseStats") or {},
+        "statRanges": build_stat_ranges(record.get("baseStats") or {}),
+        "abilities": record.get("abilities") or [],
         "abilityDetails": record.get("abilityDetails") or [],
         "hiddenAbility": record.get("hiddenAbility"),
         "genus": record.get("genus"),
         "availableInChampions": bool(record.get("availableInChampions", True)),
-        "hasMegaEvolution": bool(record.get("hasMegaEvolution", False)),
-        "megaEvolution": record.get("megaEvolution"),
-        "isMegaForm": mega_flag,
+        "isMegaForm": is_mega_form(form_id),
+        "hasMegaEvolution": False,
+        "megaEvolutions": [],
         "enriched": bool(record.get("enriched", False)),
         "lookupFailed": bool(record.get("lookupFailed", False)),
         "source": {
             "roster": record.get("source"),
             "pokemonApi": record.get("pokeApiPokemon"),
-            "speciesApi": record.get("pokeApiSpecies"),
-        },
+            "speciesApi": record.get("pokeApiSpecies")
+        }
     }
 
 
-def index_abilities(ability_records: list) -> dict:
-    abilities = {}
+def index_abilities(ability_records):
+    indexed = {}
 
     for ability in ability_records:
         if not isinstance(ability, dict):
             continue
-
         name = ability.get("name")
         if not name:
             continue
-
         key = slugify(name)
-        abilities[key] = {
+        indexed[key] = {
             "name": name,
             "apiName": ability.get("apiName"),
             "effect": ability.get("effect") or "Effect text not found.",
             "shortEffect": ability.get("shortEffect") or ability.get("effect") or "Effect text not found.",
-            "source": ability.get("source"),
+            "source": ability.get("source")
         }
 
-    return dict(sorted(abilities.items(), key=lambda item: item[1]["name"].lower()))
+    return dict(sorted(indexed.items(), key=lambda item: item[1]["name"].lower()))
 
 
-def attach_mega_links(pokemon_records: list[dict]) -> list[dict]:
-    by_base_name = {}
-    mega_by_base_name = {}
+def attach_mega_links(pokemon_records):
+    mega_map = {}
 
     for record in pokemon_records:
-        name = record["name"]
-        base_name = record.get("baseName") or name
-
-        normalized_base = base_name.lower().removeprefix("mega ").strip()
-        normalized_name = name.lower().strip()
-
-        by_base_name.setdefault(normalized_base, []).append(record)
-
         if record.get("isMegaForm"):
-            stripped = normalized_name
-            if stripped.startswith("mega "):
-                stripped = stripped[5:].strip()
-            mega_by_base_name[stripped] = record
+            base_id = record.get("baseSpeciesId") or record.get("speciesId") or record.get("formId")
+            mega_map.setdefault(base_id, []).append(record["formId"])
 
     for record in pokemon_records:
         if record.get("isMegaForm"):
             continue
-
-        base_name = (record.get("baseName") or record["name"]).lower().strip()
-        mega = mega_by_base_name.get(base_name)
-        if mega:
+        base_id = record.get("speciesId") or record.get("formId")
+        megas = sorted(mega_map.get(base_id, []))
+        if megas:
             record["hasMegaEvolution"] = True
-            record["megaEvolution"] = mega["formId"]
+            record["megaEvolutions"] = megas
 
     return pokemon_records
 
@@ -169,7 +168,6 @@ def main():
         raise RuntimeError(f"{ENRICHED_PATH} is missing. Run scripts/enrich_from_pokeapi.py first.")
 
     enriched = load_json(ENRICHED_PATH)
-
     if not isinstance(enriched, dict):
         raise RuntimeError("champions_enriched.json must be a JSON object.")
 
@@ -177,17 +175,12 @@ def main():
     raw_abilities = enriched.get("abilities", [])
 
     if not isinstance(raw_records, list):
-        raise RuntimeError("'records' in champions_enriched.json must be a list.")
+        raise RuntimeError("'records' must be a list.")
 
-    pokemon_records = []
-    for item in raw_records:
-        if not isinstance(item, dict):
-            continue
-        pokemon_records.append(build_pokemon_record(item))
-
+    pokemon_records = [build_pokemon_record(record) for record in raw_records if isinstance(record, dict)]
     pokemon_records = attach_mega_links(pokemon_records)
+    pokemon_records.sort(key=lambda r: ((r.get("nationalDex") or 9999), r["name"].lower()))
 
-    pokemon_records.sort(key=lambda r: (r["nationalDex"] or 9999, r["name"].lower()))
     ability_index = index_abilities(raw_abilities)
 
     pokemon_payload = {
@@ -196,14 +189,14 @@ def main():
             "level": LEVEL,
             "iv": IV,
             "maxSpPerStat": MAX_SP_PER_STAT,
-            "totalSpBudget": TOTAL_SP_BUDGET,
+            "totalSpBudget": TOTAL_SP_BUDGET
         },
-        "pokemon": pokemon_records,
+        "pokemon": pokemon_records
     }
 
     abilities_payload = {
         "generatedAt": enriched.get("generatedAt") or time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "abilities": ability_index,
+        "abilities": ability_index
     }
 
     save_json(POKEMON_OUT_PATH, pokemon_payload)

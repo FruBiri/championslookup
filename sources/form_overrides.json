@@ -1,19 +1,128 @@
 {
-  "raichu alolan form": {"pokeApiName": "raichu-alola", "displayName": "Raichu (Alolan Form)", "speciesId": "raichu-alola", "aliases": ["alolan raichu"]},
-  "ninetales alolan form": {"pokeApiName": "ninetales-alola", "displayName": "Ninetales (Alolan Form)", "speciesId": "ninetales-alola", "aliases": ["alolan ninetales"]},
-  "arcanine hisuian form": {"pokeApiName": "arcanine-hisui", "displayName": "Arcanine (Hisuian Form)", "speciesId": "arcanine-hisui", "aliases": ["hisuian arcanine"]},
-  "slowbro galarian form": {"pokeApiName": "slowbro-galar", "displayName": "Slowbro (Galarian Form)", "speciesId": "slowbro-galar", "aliases": ["galarian slowbro"]},
-  "tauros paldean form combat breed": {"pokeApiName": "tauros-paldea-combat-breed", "displayName": "Tauros (Paldean Combat Breed)", "speciesId": "tauros-paldea-combat-breed", "aliases": ["paldean tauros combat", "tauros combat breed"]},
-  "tauros paldean form blaze breed": {"pokeApiName": "tauros-paldea-blaze-breed", "displayName": "Tauros (Paldean Blaze Breed)", "speciesId": "tauros-paldea-blaze-breed", "aliases": ["paldean tauros blaze", "tauros blaze breed"]},
-  "tauros paldean form aqua breed": {"pokeApiName": "tauros-paldea-aqua-breed", "displayName": "Tauros (Paldean Aqua Breed)", "speciesId": "tauros-paldea-aqua-breed", "aliases": ["paldean tauros aqua", "tauros aqua breed"]},
-  "ursaluna bloodmoon form": {"pokeApiName": "ursaluna-bloodmoon", "displayName": "Ursaluna (Bloodmoon Form)", "speciesId": "ursaluna-bloodmoon", "aliases": ["bloodmoon ursaluna"]},
-  "basculegion male form": {"pokeApiName": "basculegion-male", "displayName": "Basculegion (Male)", "speciesId": "basculegion-male", "aliases": ["male basculegion"]},
-  "basculegion female form": {"pokeApiName": "basculegion-female", "displayName": "Basculegion (Female)", "speciesId": "basculegion-female", "aliases": ["female basculegion"]},
-  "aegislash blade forme": {"pokeApiName": "aegislash-blade", "displayName": "Aegislash (Blade Forme)", "speciesId": "aegislash-blade", "aliases": ["blade aegislash"]},
-  "aegislash shield forme": {"pokeApiName": "aegislash-shield", "displayName": "Aegislash (Shield Forme)", "speciesId": "aegislash-shield", "aliases": ["shield aegislash"]},
-  "morpeko hangry mode": {"pokeApiName": "morpeko-hangry", "displayName": "Morpeko (Hangry Mode)", "speciesId": "morpeko-hangry", "aliases": ["hangry morpeko"]},
-  "maushold family of four": {"pokeApiName": "maushold-family-of-four", "displayName": "Maushold (Family of Four)", "speciesId": "maushold-family-of-four", "aliases": ["family of four maushold"]},
-  "alcremie rainbow swirl": {"pokeApiName": "alcremie-rainbow-swirl", "displayName": "Alcremie (Rainbow Swirl)", "speciesId": "alcremie-rainbow-swirl", "aliases": ["rainbow swirl alcremie"]},
-  "wishiwashi school form": {"pokeApiName": "wishiwashi-school", "displayName": "Wishiwashi (School Form)", "speciesId": "wishiwashi-school", "aliases": ["school form wishiwashi"]},
-  "palafin hero form": {"pokeApiName": "palafin-hero", "displayName": "Palafin (Hero Form)", "speciesId": "palafin-hero", "aliases": ["hero palafin"]}
+  "raichu alolan form": {
+    "pokeApiName": "raichu-alola",
+    "displayName": "Raichu (Alolan Form)",
+    "speciesId": "raichu-alola",
+    "aliases": ["alolan raichu"]
+  },
+  "ninetales alolan form": {
+    "pokeApiName": "ninetales-alola",
+    "displayName": "Ninetales (Alolan Form)",
+    "speciesId": "ninetales-alola",
+    "aliases": ["alolan ninetales"]
+  },
+  "arcanine hisuian form": {
+    "pokeApiName": "arcanine-hisui",
+    "displayName": "Arcanine (Hisuian Form)",
+    "speciesId": "arcanine-hisui",
+    "aliases": ["hisuian arcanine"]
+  },
+  "slowbro galarian form": {
+    "pokeApiName": "slowbro-galar",
+    "displayName": "Slowbro (Galarian Form)",
+    "speciesId": "slowbro-galar",
+    "aliases": ["galarian slowbro"]
+  },
+  "tauros paldean form combat breed": {
+    "pokeApiName": "tauros-paldea-combat-breed",
+    "displayName": "Tauros (Paldean Combat Breed)",
+    "speciesId": "tauros-paldea-combat-breed",
+    "aliases": ["paldean tauros combat", "tauros combat breed"]
+  },
+  "tauros paldean form blaze breed": {
+    "pokeApiName": "tauros-paldea-blaze-breed",
+    "displayName": "Tauros (Paldean Blaze Breed)",
+    "speciesId": "tauros-paldea-blaze-breed",
+    "aliases": ["paldean tauros blaze", "tauros blaze breed"]
+  },
+  "tauros paldean form aqua breed": {
+    "pokeApiName": "tauros-paldea-aqua-breed",
+    "displayName": "Tauros (Paldean Aqua Breed)",
+    "speciesId": "tauros-paldea-aqua-breed",
+    "aliases": ["paldean tauros aqua", "tauros aqua breed"]
+  },
+  "ursaluna bloodmoon form": {
+    "pokeApiName": "ursaluna-bloodmoon",
+    "displayName": "Ursaluna (Bloodmoon Form)",
+    "speciesId": "ursaluna-bloodmoon",
+    "aliases": ["bloodmoon ursaluna"]
+  },
+  "basculegion male form": {
+    "pokeApiName": "basculegion-male",
+    "displayName": "Basculegion (Male)",
+    "speciesId": "basculegion-male",
+    "aliases": ["male basculegion"]
+  },
+  "basculegion female form": {
+    "pokeApiName": "basculegion-female",
+    "displayName": "Basculegion (Female)",
+    "speciesId": "basculegion-female",
+    "aliases": ["female basculegion"]
+  },
+  "aegislash blade forme": {
+    "pokeApiName": "aegislash-blade",
+    "displayName": "Aegislash (Blade Forme)",
+    "speciesId": "aegislash-blade",
+    "aliases": ["blade aegislash"]
+  },
+  "aegislash shield forme": {
+    "pokeApiName": "aegislash-shield",
+    "displayName": "Aegislash (Shield Forme)",
+    "speciesId": "aegislash-shield",
+    "aliases": ["shield aegislash"]
+  },
+  "morpeko hangry mode": {
+    "pokeApiName": "morpeko-hangry",
+    "displayName": "Morpeko (Hangry Mode)",
+    "speciesId": "morpeko-hangry",
+    "aliases": ["hangry morpeko"]
+  },
+  "maushold family of four": {
+    "pokeApiName": "maushold-family-of-four",
+    "displayName": "Maushold (Family of Four)",
+    "speciesId": "maushold-family-of-four",
+    "aliases": ["family of four maushold"]
+  },
+  "alcremie rainbow swirl": {
+    "pokeApiName": "alcremie-rainbow-swirl",
+    "displayName": "Alcremie (Rainbow Swirl)",
+    "speciesId": "alcremie-rainbow-swirl",
+    "aliases": ["rainbow swirl alcremie"]
+  },
+  "wishiwashi school form": {
+    "pokeApiName": "wishiwashi-school",
+    "displayName": "Wishiwashi (School Form)",
+    "speciesId": "wishiwashi-school",
+    "aliases": ["school form wishiwashi"]
+  },
+  "palafin hero form": {
+    "pokeApiName": "palafin-hero",
+    "displayName": "Palafin (Hero Form)",
+    "speciesId": "palafin-hero",
+    "aliases": ["hero palafin"]
+  },
+  "mega charizard x": {
+    "pokeApiName": "charizard-mega-x",
+    "displayName": "Mega Charizard X",
+    "speciesId": "charizard-mega-x",
+    "aliases": ["charizard mega x", "mega-charizard-x", "charizard-mega-x"]
+  },
+  "mega charizard y": {
+    "pokeApiName": "charizard-mega-y",
+    "displayName": "Mega Charizard Y",
+    "speciesId": "charizard-mega-y",
+    "aliases": ["charizard mega y", "mega-charizard-y", "charizard-mega-y"]
+  },
+  "mega mewtwo x": {
+    "pokeApiName": "mewtwo-mega-x",
+    "displayName": "Mega Mewtwo X",
+    "speciesId": "mewtwo-mega-x",
+    "aliases": ["mewtwo mega x", "mega-mewtwo-x", "mewtwo-mega-x"]
+  },
+  "mega mewtwo y": {
+    "pokeApiName": "mewtwo-mega-y",
+    "displayName": "Mega Mewtwo Y",
+    "speciesId": "mewtwo-mega-y",
+    "aliases": ["mewtwo mega y", "mega-mewtwo-y", "mewtwo-mega-y"]
+  }
 }

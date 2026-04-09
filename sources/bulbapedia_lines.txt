@@ -1,0 +1,2233 @@
+This is a
+list of Pokémon that are available in
+Pokémon Champions
+. 187 Pokémon species are available in the game, as well as 59
+Mega Evolutions
+.
+Functionally distinct, permanent
+forms
+(such as
+regional forms
+) are listed alongside the base forms of their respective species, while other forms (such as
+Mega Evolutions
+) are listed in separate sections below. A Pokémon is considered "normally available" if it can be obtained without the use of events or
+transferring
+it from another game.
+Contents
+1
+List of Pokémon in Champions
+1.1
+Forms
+1.1.1
+Mega Evolutions
+1.1.2
+Other forms
+2
+Untransferable Pokémon
+3
+Trivia
+4
+Related articles
+List of Pokémon in Champions
+Ndex
+MS
+Pokémon
+Type
+Normally available?
+Version added
+#0003
+Venusaur
+Grass
+Poison
+TBD
+1.0.2
+#0006
+Charizard
+Fire
+Flying
+TBD
+1.0.2
+#0009
+Blastoise
+Water
+TBD
+1.0.2
+#0015
+Beedrill
+Bug
+Poison
+TBD
+1.0.2
+#0018
+Pidgeot
+Normal
+Flying
+TBD
+1.0.2
+#0024
+Arbok
+Poison
+TBD
+1.0.2
+#0025
+Pikachu
+Electric
+TBD
+1.0.2
+#0026
+Raichu
+Electric
+TBD
+1.0.2
+#0026
+Raichu
+Alolan Form
+Electric
+Psychic
+TBD
+1.0.2
+#0036
+Clefable
+Fairy
+TBD
+1.0.2
+#0038
+Ninetales
+Fire
+TBD
+1.0.2
+#0038
+Ninetales
+Alolan Form
+Ice
+Fairy
+TBD
+1.0.2
+#0059
+Arcanine
+Fire
+TBD
+1.0.2
+#0059
+Arcanine
+Hisuian Form
+Fire
+Rock
+TBD
+1.0.2
+#0065
+Alakazam
+Psychic
+TBD
+1.0.2
+#0068
+Machamp
+Fighting
+TBD
+1.0.2
+#0071
+Victreebel
+Grass
+Poison
+TBD
+1.0.2
+#0080
+Slowbro
+Water
+Psychic
+TBD
+1.0.2
+#0080
+Slowbro
+Galarian Form
+Poison
+Psychic
+TBD
+1.0.2
+#0094
+Gengar
+Ghost
+Poison
+TBD
+1.0.2
+#0115
+Kangaskhan
+Normal
+TBD
+1.0.2
+#0121
+Starmie
+Water
+Psychic
+TBD
+1.0.2
+#0127
+Pinsir
+Bug
+TBD
+1.0.2
+#0128
+Tauros
+Normal
+TBD
+1.0.2
+#0128
+Tauros
+Paldean Form
+Combat Breed
+Fighting
+TBD
+1.0.2
+#0128
+Tauros
+Paldean Form
+Blaze Breed
+Fighting
+Fire
+TBD
+1.0.2
+#0128
+Tauros
+Paldean Form
+Aqua Breed
+Fighting
+Water
+TBD
+1.0.2
+#0130
+Gyarados
+Water
+Flying
+TBD
+1.0.2
+#0132
+Ditto
+Normal
+TBD
+1.0.2
+#0134
+Vaporeon
+Water
+TBD
+1.0.2
+#0135
+Jolteon
+Electric
+TBD
+1.0.2
+#0136
+Flareon
+Fire
+TBD
+1.0.2
+#0142
+Aerodactyl
+Rock
+Flying
+TBD
+1.0.2
+#0143
+Snorlax
+Normal
+TBD
+1.0.2
+#0149
+Dragonite
+Dragon
+Flying
+TBD
+1.0.2
+#0154
+Meganium
+Grass
+TBD
+1.0.2
+#0157
+Typhlosion
+Fire
+TBD
+1.0.2
+#0157
+Typhlosion
+Hisuian Form
+Fire
+Ghost
+TBD
+1.0.2
+#0160
+Feraligatr
+Water
+TBD
+1.0.2
+#0168
+Ariados
+Bug
+Poison
+TBD
+1.0.2
+#0181
+Ampharos
+Electric
+TBD
+1.0.2
+#0184
+Azumarill
+Water
+Fairy
+TBD
+1.0.2
+#0186
+Politoed
+Water
+TBD
+1.0.2
+#0196
+Espeon
+Psychic
+TBD
+1.0.2
+#0197
+Umbreon
+Dark
+TBD
+1.0.2
+#0199
+Slowking
+Water
+Psychic
+TBD
+1.0.2
+#0199
+Slowking
+Galarian Form
+Poison
+Psychic
+TBD
+1.0.2
+#0205
+Forretress
+Bug
+Steel
+TBD
+1.0.2
+#0208
+Steelix
+Steel
+Ground
+TBD
+1.0.2
+#0212
+Scizor
+Bug
+Steel
+TBD
+1.0.2
+#0214
+Heracross
+Bug
+Fighting
+TBD
+1.0.2
+#0227
+Skarmory
+Steel
+Flying
+TBD
+1.0.2
+#0229
+Houndoom
+Dark
+Fire
+TBD
+1.0.2
+#0248
+Tyranitar
+Rock
+Dark
+TBD
+1.0.2
+#0279
+Pelipper
+Water
+Flying
+TBD
+1.0.2
+#0282
+Gardevoir
+Psychic
+Fairy
+TBD
+1.0.2
+#0302
+Sableye
+Dark
+Ghost
+TBD
+1.0.2
+#0306
+Aggron
+Steel
+Rock
+TBD
+1.0.2
+#0308
+Medicham
+Fighting
+Psychic
+TBD
+1.0.2
+#0310
+Manectric
+Electric
+TBD
+1.0.2
+#0319
+Sharpedo
+Water
+Dark
+TBD
+1.0.2
+#0323
+Camerupt
+Fire
+Ground
+TBD
+1.0.2
+#0324
+Torkoal
+Fire
+TBD
+1.0.2
+#0334
+Altaria
+Dragon
+Flying
+TBD
+1.0.2
+#0350
+Milotic
+Water
+TBD
+1.0.2
+#0351
+Castform
+Normal
+TBD
+1.0.2
+#0354
+Banette
+Ghost
+TBD
+1.0.2
+#0358
+Chimecho
+Psychic
+TBD
+1.0.2
+#0359
+Absol
+Dark
+TBD
+1.0.2
+#0362
+Glalie
+Ice
+TBD
+1.0.2
+#0389
+Torterra
+Grass
+Ground
+TBD
+1.0.2
+#0392
+Infernape
+Fire
+Fighting
+TBD
+1.0.2
+#0395
+Empoleon
+Water
+Steel
+TBD
+1.0.2
+#0405
+Luxray
+Electric
+TBD
+1.0.2
+#0407
+Roserade
+Grass
+Poison
+TBD
+1.0.2
+#0409
+Rampardos
+Rock
+TBD
+1.0.2
+#0411
+Bastiodon
+Rock
+Steel
+TBD
+1.0.2
+#0428
+Lopunny
+Normal
+TBD
+1.0.2
+#0442
+Spiritomb
+Ghost
+Dark
+TBD
+1.0.2
+#0445
+Garchomp
+Dragon
+Ground
+TBD
+1.0.2
+#0448
+Lucario
+Fighting
+Steel
+TBD
+1.0.2
+#0450
+Hippowdon
+Ground
+TBD
+1.0.2
+#0454
+Toxicroak
+Poison
+Fighting
+TBD
+1.0.2
+#0460
+Abomasnow
+Grass
+Ice
+TBD
+1.0.2
+#0461
+Weavile
+Dark
+Ice
+TBD
+1.0.2
+#0464
+Rhyperior
+Ground
+Rock
+TBD
+1.0.2
+#0470
+Leafeon
+Grass
+TBD
+1.0.2
+#0471
+Glaceon
+Ice
+TBD
+1.0.2
+#0472
+Gliscor
+Ground
+Flying
+TBD
+1.0.2
+#0473
+Mamoswine
+Ice
+Ground
+TBD
+1.0.2
+#0475
+Gallade
+Psychic
+Fighting
+TBD
+1.0.2
+#0478
+Froslass
+Ice
+Ghost
+TBD
+1.0.2
+#0479
+Rotom
+Rotom
+Electric
+Ghost
+TBD
+1.0.2
+#0479
+Rotom
+Heat Rotom
+Electric
+Fire
+TBD
+1.0.2
+#0479
+Rotom
+Wash Rotom
+Electric
+Water
+TBD
+1.0.2
+#0479
+Rotom
+Frost Rotom
+Electric
+Ice
+TBD
+1.0.2
+#0479
+Rotom
+Fan Rotom
+Electric
+Flying
+TBD
+1.0.2
+#0479
+Rotom
+Mow Rotom
+Electric
+Grass
+TBD
+1.0.2
+#0497
+Serperior
+Grass
+TBD
+1.0.2
+#0500
+Emboar
+Fire
+Fighting
+TBD
+1.0.2
+#0503
+Samurott
+Water
+TBD
+1.0.2
+#0503
+Samurott
+Hisuian Form
+Water
+Dark
+TBD
+1.0.2
+#0505
+Watchog
+Normal
+TBD
+1.0.2
+#0510
+Liepard
+Dark
+TBD
+1.0.2
+#0512
+Simisage
+Grass
+TBD
+1.0.2
+#0514
+Simisear
+Fire
+TBD
+1.0.2
+#0516
+Simipour
+Water
+TBD
+1.0.2
+#0530
+Excadrill
+Ground
+Steel
+TBD
+1.0.2
+#0531
+Audino
+Normal
+TBD
+1.0.2
+#0534
+Conkeldurr
+Fighting
+TBD
+1.0.2
+#0547
+Whimsicott
+Grass
+Fairy
+TBD
+1.0.2
+#0553
+Krookodile
+Ground
+Dark
+TBD
+1.0.2
+#0563
+Cofagrigus
+Ghost
+TBD
+1.0.2
+#0569
+Garbodor
+Poison
+TBD
+1.0.2
+#0571
+Zoroark
+Dark
+TBD
+1.0.2
+#0571
+Zoroark
+Hisuian Form
+Normal
+Ghost
+TBD
+1.0.2
+#0579
+Reuniclus
+Psychic
+TBD
+1.0.2
+#0584
+Vanilluxe
+Ice
+TBD
+1.0.2
+#0587
+Emolga
+Electric
+Flying
+TBD
+1.0.2
+#0609
+Chandelure
+Ghost
+Fire
+TBD
+1.0.2
+#0614
+Beartic
+Ice
+TBD
+1.0.2
+#0618
+Stunfisk
+Ground
+Electric
+TBD
+1.0.2
+#0618
+Stunfisk
+Galarian Form
+Ground
+Steel
+TBD
+1.0.2
+#0623
+Golurk
+Ground
+Ghost
+TBD
+1.0.2
+#0635
+Hydreigon
+Dark
+Dragon
+TBD
+1.0.2
+#0637
+Volcarona
+Bug
+Fire
+TBD
+1.0.2
+#0652
+Chesnaught
+Grass
+Fighting
+TBD
+1.0.2
+#0655
+Delphox
+Fire
+Psychic
+TBD
+1.0.2
+#0658
+Greninja
+Water
+Dark
+TBD
+1.0.2
+#0660
+Diggersby
+Normal
+Ground
+TBD
+1.0.2
+#0663
+Talonflame
+Fire
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Bug
+Flying
+TBD
+1.0.2
+#0670
+Floette
+Eternal Flower
+Fairy
+Transfer only
+1.0.2
+#0671
+Florges
+Fairy
+TBD
+1.0.2
+#0675
+Pangoro
+Fighting
+Dark
+TBD
+1.0.2
+#0676
+Furfrou
+Normal
+TBD
+1.0.2
+#0678
+Meowstic
+Male
+Psychic
+TBD
+1.0.2
+#0678
+Meowstic
+Female
+Psychic
+TBD
+1.0.2
+#0681
+Aegislash
+Steel
+Ghost
+TBD
+1.0.2
+#0683
+Aromatisse
+Fairy
+TBD
+1.0.2
+#0685
+Slurpuff
+Fairy
+TBD
+1.0.2
+#0693
+Clawitzer
+Water
+TBD
+1.0.2
+#0695
+Heliolisk
+Electric
+Normal
+TBD
+1.0.2
+#0697
+Tyrantrum
+Rock
+Dragon
+TBD
+1.0.2
+#0699
+Aurorus
+Rock
+Ice
+TBD
+1.0.2
+#0700
+Sylveon
+Fairy
+TBD
+1.0.2
+#0701
+Hawlucha
+Fighting
+Flying
+TBD
+1.0.2
+#0702
+Dedenne
+Electric
+Fairy
+TBD
+1.0.2
+#0706
+Goodra
+Dragon
+TBD
+1.0.2
+#0706
+Goodra
+Hisuian Form
+Steel
+Dragon
+TBD
+1.0.2
+#0707
+Klefki
+Steel
+Fairy
+TBD
+1.0.2
+#0709
+Trevenant
+Ghost
+Grass
+TBD
+1.0.2
+#0711
+Gourgeist
+Medium Variety
+Ghost
+Grass
+TBD
+1.0.2
+#0711
+Gourgeist
+Small Variety
+Ghost
+Grass
+TBD
+1.0.2
+#0711
+Gourgeist
+Large Variety
+Ghost
+Grass
+TBD
+1.0.2
+#0711
+Gourgeist
+Jumbo Variety
+Ghost
+Grass
+TBD
+1.0.2
+#0713
+Avalugg
+Ice
+TBD
+1.0.2
+#0713
+Avalugg
+Hisuian Form
+Ice
+Rock
+TBD
+1.0.2
+#0715
+Noivern
+Flying
+Dragon
+TBD
+1.0.2
+#0724
+Decidueye
+Grass
+Ghost
+TBD
+1.0.2
+#0724
+Decidueye
+Hisuian Form
+Grass
+Fighting
+TBD
+1.0.2
+#0727
+Incineroar
+Fire
+Dark
+TBD
+1.0.2
+#0730
+Primarina
+Water
+Fairy
+TBD
+1.0.2
+#0733
+Toucannon
+Normal
+Flying
+TBD
+1.0.2
+#0740
+Crabominable
+Fighting
+Ice
+TBD
+1.0.2
+#0745
+Lycanroc
+Midday Form
+Rock
+TBD
+1.0.2
+#0745
+Lycanroc
+Midnight Form
+Rock
+TBD
+1.0.2
+#0745
+Lycanroc
+Dusk Form
+Rock
+TBD
+1.0.2
+#0748
+Toxapex
+Poison
+Water
+TBD
+1.0.2
+#0750
+Mudsdale
+Ground
+TBD
+1.0.2
+#0752
+Araquanid
+Water
+Bug
+TBD
+1.0.2
+#0758
+Salazzle
+Poison
+Fire
+TBD
+1.0.2
+#0763
+Tsareena
+Grass
+TBD
+1.0.2
+#0765
+Oranguru
+Normal
+Psychic
+TBD
+1.0.2
+#0766
+Passimian
+Fighting
+TBD
+1.0.2
+#0778
+Mimikyu
+Ghost
+Fairy
+TBD
+1.0.2
+#0780
+Drampa
+Normal
+Dragon
+TBD
+1.0.2
+#0784
+Kommo-o
+Dragon
+Fighting
+TBD
+1.0.2
+#0823
+Corviknight
+Flying
+Steel
+TBD
+1.0.2
+#0841
+Flapple
+Grass
+Dragon
+TBD
+1.0.2
+#0842
+Appletun
+Grass
+Dragon
+TBD
+1.0.2
+#0844
+Sandaconda
+Ground
+TBD
+1.0.2
+#0855
+Polteageist
+Ghost
+TBD
+1.0.2
+#0858
+Hatterene
+Psychic
+Fairy
+TBD
+1.0.2
+#0866
+Mr. Rime
+Ice
+Psychic
+TBD
+1.0.2
+#0867
+Runerigus
+Ground
+Ghost
+TBD
+1.0.2
+#0869
+Alcremie
+Fairy
+TBD
+1.0.2
+#0877
+Morpeko
+Electric
+Dark
+TBD
+1.0.2
+#0887
+Dragapult
+Dragon
+Ghost
+TBD
+1.0.2
+#0899
+Wyrdeer
+Normal
+Psychic
+TBD
+1.0.2
+#0900
+Kleavor
+Bug
+Rock
+TBD
+1.0.2
+#0902
+Basculegion
+Male
+Water
+Ghost
+TBD
+1.0.2
+#0902
+Basculegion
+Female
+Water
+Ghost
+TBD
+1.0.2
+#0903
+Sneasler
+Fighting
+Poison
+TBD
+1.0.2
+#0908
+Meowscarada
+Grass
+Dark
+TBD
+1.0.2
+#0911
+Skeledirge
+Fire
+Ghost
+TBD
+1.0.2
+#0914
+Quaquaval
+Water
+Fighting
+TBD
+1.0.2
+#0925
+Maushold
+Normal
+TBD
+1.0.2
+#0934
+Garganacl
+Rock
+TBD
+1.0.2
+#0936
+Armarouge
+Fire
+Psychic
+TBD
+1.0.2
+#0937
+Ceruledge
+Fire
+Ghost
+TBD
+1.0.2
+#0939
+Bellibolt
+Electric
+TBD
+1.0.2
+#0952
+Scovillain
+Grass
+Fire
+TBD
+1.0.2
+#0956
+Espathra
+Psychic
+TBD
+1.0.2
+#0959
+Tinkaton
+Fairy
+Steel
+TBD
+1.0.2
+#0964
+Palafin
+Water
+TBD
+1.0.2
+#0968
+Orthworm
+Steel
+TBD
+1.0.2
+#0970
+Glimmora
+Rock
+Poison
+TBD
+1.0.2
+#0981
+Farigiraf
+Normal
+Psychic
+TBD
+1.0.2
+#0983
+Kingambit
+Dark
+Steel
+TBD
+1.0.2
+#1013
+Sinistcha
+Grass
+Ghost
+TBD
+1.0.2
+#1018
+Archaludon
+Steel
+Dragon
+TBD
+1.0.2
+#1019
+Hydrapple
+Grass
+Dragon
+TBD
+1.0.2
+Forms
+Mega Evolutions
+Ndex
+MS
+Pokémon
+Type
+Normally available?
+Version added
+#0003
+Venusaur
+Mega Venusaur
+Grass
+Poison
+TBD
+1.0.2
+#0006
+Charizard
+Mega Charizard X
+Fire
+Dragon
+TBD
+1.0.2
+#0006
+Charizard
+Mega Charizard Y
+Fire
+Flying
+TBD
+1.0.2
+#0009
+Blastoise
+Mega Blastoise
+Water
+TBD
+1.0.2
+#0015
+Beedrill
+Mega Beedrill
+Bug
+Poison
+TBD
+1.0.2
+#0018
+Pidgeot
+Mega Pidgeot
+Normal
+Flying
+TBD
+1.0.2
+#0036
+Clefable
+Mega Clefable
+Fairy
+Flying
+TBD
+1.0.2
+#0065
+Alakazam
+Mega Alakazam
+Psychic
+TBD
+1.0.2
+#0071
+Victreebel
+Mega Victreebel
+Grass
+Poison
+TBD
+1.0.2
+#0080
+Slowbro
+Mega Slowbro
+Water
+Psychic
+TBD
+1.0.2
+#0094
+Gengar
+Mega Gengar
+Ghost
+Poison
+TBD
+1.0.2
+#0115
+Kangaskhan
+Mega Kangaskhan
+Normal
+TBD
+1.0.2
+#0121
+Starmie
+Mega Starmie
+Water
+Psychic
+TBD
+1.0.2
+#0127
+Pinsir
+Mega Pinsir
+Bug
+Flying
+TBD
+1.0.2
+#0130
+Gyarados
+Mega Gyarados
+Water
+Dark
+TBD
+1.0.2
+#0142
+Aerodactyl
+Mega Aerodactyl
+Rock
+Flying
+TBD
+1.0.2
+#0149
+Dragonite
+Mega Dragonite
+Dragon
+Flying
+TBD
+1.0.2
+#0154
+Meganium
+Mega Meganium
+Grass
+Fairy
+TBD
+1.0.2
+#0160
+Feraligatr
+Mega Feraligatr
+Water
+Dragon
+TBD
+1.0.2
+#0181
+Ampharos
+Mega Ampharos
+Electric
+Dragon
+TBD
+1.0.2
+#0208
+Steelix
+Mega Steelix
+Steel
+Ground
+TBD
+1.0.2
+#0212
+Scizor
+Mega Scizor
+Bug
+Steel
+TBD
+1.0.2
+#0214
+Heracross
+Mega Heracross
+Bug
+Fighting
+TBD
+1.0.2
+#0227
+Skarmory
+Mega Skarmory
+Steel
+Flying
+TBD
+1.0.2
+#0229
+Houndoom
+Mega Houndoom
+Dark
+Fire
+TBD
+1.0.2
+#0248
+Tyranitar
+Mega Tyranitar
+Rock
+Dark
+TBD
+1.0.2
+#0282
+Gardevoir
+Mega Gardevoir
+Psychic
+Fairy
+TBD
+1.0.2
+#0302
+Sableye
+Mega Sableye
+Dark
+Ghost
+TBD
+1.0.2
+#0306
+Aggron
+Mega Aggron
+Steel
+TBD
+1.0.2
+#0308
+Medicham
+Mega Medicham
+Fighting
+Psychic
+TBD
+1.0.2
+#0310
+Manectric
+Mega Manectric
+Electric
+TBD
+1.0.2
+#0319
+Sharpedo
+Mega Sharpedo
+Water
+Dark
+TBD
+1.0.2
+#0323
+Camerupt
+Mega Camerupt
+Fire
+Ground
+TBD
+1.0.2
+#0334
+Altaria
+Mega Altaria
+Dragon
+Fairy
+TBD
+1.0.2
+#0354
+Banette
+Mega Banette
+Ghost
+TBD
+1.0.2
+#0358
+Chimecho
+Mega Chimecho
+Psychic
+Steel
+TBD
+1.0.2
+#0359
+Absol
+Mega Absol
+Dark
+TBD
+1.0.2
+#0362
+Glalie
+Mega Glalie
+Ice
+TBD
+1.0.2
+#0428
+Lopunny
+Mega Lopunny
+Normal
+Fighting
+TBD
+1.0.2
+#0445
+Garchomp
+Mega Garchomp
+Dragon
+Ground
+TBD
+1.0.2
+#0448
+Lucario
+Mega Lucario
+Fighting
+Steel
+TBD
+1.0.2
+#0460
+Abomasnow
+Mega Abomasnow
+Grass
+Ice
+TBD
+1.0.2
+#0475
+Gallade
+Mega Gallade
+Psychic
+Fighting
+TBD
+1.0.2
+#0478
+Froslass
+Mega Froslass
+Ice
+Ghost
+TBD
+1.0.2
+#0500
+Emboar
+Mega Emboar
+Fire
+Fighting
+TBD
+1.0.2
+#0530
+Excadrill
+Mega Excadrill
+Ground
+Steel
+TBD
+1.0.2
+#0531
+Audino
+Mega Audino
+Normal
+Fairy
+TBD
+1.0.2
+#0609
+Chandelure
+Mega Chandelure
+Ghost
+Fire
+TBD
+1.0.2
+#0623
+Golurk
+Mega Golurk
+Ground
+Ghost
+TBD
+1.0.2
+#0652
+Chesnaught
+Mega Chesnaught
+Grass
+Fighting
+TBD
+1.0.2
+#0655
+Delphox
+Mega Delphox
+Fire
+Psychic
+TBD
+1.0.2
+#0658
+Greninja
+Mega Greninja
+Water
+Dark
+TBD
+1.0.2
+#0670
+Floette
+Mega Floette
+Fairy
+TBD
+1.0.2
+#0678
+Meowstic
+Mega Meowstic
+Psychic
+TBD
+1.0.2
+#0701
+Hawlucha
+Mega Hawlucha
+Fighting
+Flying
+TBD
+1.0.2
+#0740
+Crabominable
+Mega Crabominable
+Fighting
+Ice
+TBD
+1.0.2
+#0780
+Drampa
+Mega Drampa
+Normal
+Dragon
+TBD
+1.0.2
+#0952
+Scovillain
+Mega Scovillain
+Grass
+Fire
+TBD
+1.0.2
+#0970
+Glimmora
+Mega Glimmora
+Rock
+Poison
+TBD
+1.0.2
+Other forms
+Ndex
+MS
+Pokémon
+Type
+Normally available?
+Version added
+#0351
+Castform
+Sunny Form
+Fire
+TBD
+1.0.2
+#0351
+Castform
+Rainy Form
+Water
+TBD
+1.0.2
+#0351
+Castform
+Snowy Form
+Ice
+TBD
+1.0.2
+#0666
+Vivillon
+Icy Snow Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Polar Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Tundra Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Continental Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Garden Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Elegant Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Meadow Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Modern Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Marine Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Archipelago Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+High Plains Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Sandstorm Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+River Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Monsoon Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Savanna Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Sun Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Ocean Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Jungle Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0666
+Vivillon
+Poké Ball Pattern
+Bug
+Flying
+TBD
+1.0.2
+#0671
+Florges
+Yellow Flower
+Fairy
+TBD
+1.0.2
+#0671
+Florges
+Orange Flower
+Fairy
+TBD
+1.0.2
+#0671
+Florges
+Blue Flower
+Fairy
+TBD
+1.0.2
+#0671
+Florges
+White Flower
+Fairy
+TBD
+1.0.2
+#0676
+Furfrou
+Heart Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+Star Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+Diamond Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+Debutante Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+Matron Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+Dandy Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+La Reine Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+Kabuki Trim
+Normal
+TBD
+1.0.2
+#0676
+Furfrou
+Pharaoh Trim
+Normal
+TBD
+1.0.2
+#0681
+Aegislash
+Blade Forme
+Steel
+Ghost
+TBD
+1.0.2
+#0869
+Alcremie
+Ruby Cream
+Fairy
+TBD
+1.0.2
+#0869
+Alcremie
+Matcha Cream
+Fairy
+TBD
+1.0.2
+#0869
+Alcremie
+Mint Cream
+Fairy
+TBD
+1.0.2
+#0869
+Alcremie
+Lemon Cream
+Fairy
+TBD
+1.0.2
+#0869
+Alcremie
+Salted Cream
+Fairy
+TBD
+1.0.2
+#0869
+Alcremie
+Ruby Swirl
+Fairy
+TBD
+1.0.2
+#0869
+Alcremie
+Caramel Swirl
+Fairy
+TBD
+1.0.2
+#0869
+Alcremie
+Rainbow Swirl
+Fairy
+TBD
+1.0.2
+#0877
+Morpeko
+Hangry Mode
+Electric
+Dark
+TBD
+1.0.2
+#0925
+Maushold
+Family of Four
+Normal
+TBD
+1.0.2
+#0964
+Palafin
+Hero Form
+Water
+TBD
+1.0.2
+Greninja with
+Battle Bond
+cannot be sent to Pokémon Champions.
+Untransferable Pokémon
+These Pokémon are present in the game data, but cannot currently be transferred in from
+HOME
+.
+Ndex
+MS
+Pokémon
+Type
+Normally available?
+Version added
+#0923
+Pawmot
+Electric
+Fighting
+TBD
+1.0.2
+Trivia
+Metagross
+,
+Ursaluna
+,
+Dondozo
+,
+Tatsugiri
+, and Mega
+Raichu
+X were shown in promotional material, but were not present in the game at release.
+No
+Legendary
+or
+Mythical Pokémon
+are present in the game.
+Pikachu
+is the only Pokémon present in the game that is capable of
+Evolution
+.
+Related articles
+Pokémon Champions
+Lists of Pokémon
+Availability
+Pokémon by availability
+•
+Pokémon available in every core series game
+Mutually exclusive Pokémon
+•
+Permanently missable Pokémon
+PE
+•
+SwSh
+•
+BDSP
+•
+LA
+•
+SV
+•
+ZA
+Picross
+•
+GO
+•
+Smile
+•
+Café ReMix
+•
+UNITE
+•
+Sleep
+•
+Friends
+•
+Champions
+Attributes
+Egg Group
+•
+Category
+(
+Abundance
+•
+Other languages
+)
+Food preferences
+•
+Habitat
+•
+IQ group
+•
+Height
+•
+Tone
+•
+Weight
+•
+Footprint
+Shape
+•
+Icon (Gen I–II)
+•
+Color
+•
+Color palette (Gen I)
+•
+Unique type combinations
+Abilities
+and
+moves
+Ability
+• Hidden Ability (
+Gen V
+•
+Gen VI
+•
+Gen VII
+•
+Gen VIII
+)
+Field moves (
+Gen I
+•
+Gen II
+•
+Gen III
+•
+Gen IV
+•
+Gen V
+•
+Gen VI
+)
+Base stats
+Gen I
+•
+Gen II-V
+•
+Gen VI
+•
+Gen VII
+•
+Gen VIII
+•
+Gen IX
+Fully evolved Pokémon
+•
+Unique base stat totals
+•
+GO
+Other stats
+Catch rate
+(
+GO
+) • EVs given in battle (
+Gen III
+•
+Gen IV
+•
+Gen V-VI
+•
+Gen VII
+•
+Gen VIII
+•
+Gen IX
+) •
+Gender ratio
+Steps to hatch
+•
+Items held by wild Pokémon
+(
+Gen II
+) •
+Experience type
+•
+Base friendship
+•
+Call rate
+Pokéathlon performance stats
+•
+Super Training Energy Shot
+Miscellaneous
+Alphabetically
+•
+Pal Park area
+•
+Pokéwalker
+•
+Debut episode
+•
+Petting
+Pokémon names
+Japanese
+•
+German
+•
+French
+•
+Spanish
+•
+Italian
+•
+Korean
+•
+Chinese
+•
+Brazilian Portuguese
+Turkish
+•
+Russian
+•
+Thai
+•
+Hindi
+Index number
+Generation I
+•
+Generation II
+•
+Generation III
+•
+Generation IV
+•
+Generation V
+Generation VI
+•
+Generation VII
+•
+Generation VIII
+•
+Generation IX
+Pinball
+•
+Pinball RS
+Glitch Pokémon
+Other lists
+Pokédex and other numbering systems
+Pokémon Evolution lists
+•
+Pokémon forms and variants
+Pokémon distribution lists

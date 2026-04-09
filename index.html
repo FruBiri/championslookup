@@ -1,75 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pokémon Champions Stat Lookup</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Champions Lookup</title>
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <main class="app-shell">
-    <header class="topbar">
-      <div>
-        <h1>Pokémon Champions Stat Lookup</h1>
-        <p class="subhead">Fast battle lookup for valid stat ranges, abilities, and Mega forms.</p>
-      </div>
-      <div class="badges">
-        <span class="badge">Level 50</span>
-        <span class="badge">Champions data only</span>
-      </div>
-    </header>
-
     <section class="search-panel">
-      <label for="pokemon-search" class="search-label">Pokémon name</label>
+      <h1>Pokémon Champions Lookup</h1>
+      <p class="helper-text">Search a Pokémon to view compact stat ranges and Abilities.</p>
+
       <div class="search-row">
-        <input id="pokemon-search" type="text" placeholder="Type a name, e.g. Delphox" autocomplete="off" />
+        <input id="pokemon-search" type="text" placeholder="Type a Pokémon name..." autocomplete="off">
         <button id="clear-button" type="button">Clear</button>
       </div>
-      <div id="suggestions" class="suggestions" aria-live="polite"></div>
+
+      <div id="suggestions" class="suggestions"></div>
     </section>
 
-    <section id="result-panel" class="result-panel hidden">
-      <div class="result-header">
+    <section id="empty-state" class="card">
+      <h2>No Pokémon selected</h2>
+      <p>Start typing a name above.</p>
+    </section>
+
+    <section id="result-panel" class="card hidden">
+      <div class="header-row">
         <div>
-          <h2 id="pokemon-name">—</h2>
-          <p id="pokemon-meta" class="meta-line"></p>
+          <h2 id="pokemon-name">Pokémon</h2>
+          <p id="pokemon-meta" class="muted"></p>
         </div>
-        <label id="mega-toggle-wrapper" class="toggle hidden">
-          <input id="mega-toggle" type="checkbox" />
-          <span>Show Mega Evolution</span>
-        </label>
+
+        <div id="mega-toggle-wrapper" class="mega-wrapper hidden">
+          <label for="mega-toggle">Form</label>
+          <select id="mega-toggle"></select>
+        </div>
       </div>
 
-      <div class="info-grid">
-        <section class="card">
-          <h3>Abilities</h3>
-          <ul id="ability-list" class="ability-list"></ul>
-          <div id="ability-help" class="ability-help">
-            <p class="helper-text">Tap or hover an Ability to see its effect. Click “Open wiki” for the full reference.</p>
-          </div>
-        </section>
-
-        <section class="card">
-          <h3>Data status</h3>
-          <div id="data-status"></div>
-        </section>
-      </div>
-
-      <section class="card">
-        <div class="card-header-row">
-          <h3>Stat ranges</h3>
-          <span class="helper-text">Lowest possible to highest possible</span>
+      <section class="subsection">
+        <h3>Abilities</h3>
+        <p class="helper-text">Tap, click, or hover an Ability to see its effect.</p>
+        <ul id="ability-list" class="ability-list"></ul>
+        <div id="ability-help" class="ability-help">
+          <p class="helper-text">Tap, click, or hover an Ability to see its effect.</p>
         </div>
+      </section>
+
+      <section class="subsection">
+        <h3>Stat ranges</h3>
         <div id="stat-grid" class="stat-grid"></div>
       </section>
-    </section>
 
-    <section id="empty-state" class="empty-state">
-      <h2>Search for a Pokémon</h2>
-      <p>Designed for live battles: short, fast, and readable at a glance.</p>
+      <section class="subsection">
+        <h3>Dataset status</h3>
+        <div id="data-status"></div>
+      </section>
     </section>
   </main>
 
-  <script src="app.js?v=3" type="module"></script>
+  <script src="app.js?v=4" type="module"></script>
 </body>
 </html>

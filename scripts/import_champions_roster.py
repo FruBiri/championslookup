@@ -7,189 +7,263 @@ from bs4 import BeautifulSoup
 
 URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
 
-OUT_DIR = Path("sources")
-OUT_DIR.mkdir(exist_ok=True)
-OUT_FILE = OUT_DIR / "champions_roster_raw.json"
+BASE_DIR = Path(__file__).resolve().parent.parent
+SOURCES_DIR = BASE_DIR / "sources"
+OUT_PATH = SOURCES_DIR / "champions_roster_raw.json"
+DEBUG_LINES_PATH = SOURCES_DIR / "bulbapedia_lines.txt"
 
 TYPE_NAMES = {
-    "Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison",
-    "Ground","Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark",
-    "Steel","Fairy"
+    "Normal", "Fire", "Water", "Electric", "Grass", "Ice", "Fighting", "Poison",
+    "Ground", "Flying", "Psychic", "Bug", "Rock", "Ghost", "Dragon", "Dark",
+    "Steel", "Fairy"
 }
 
 FORM_REPLACEMENTS = {
-    "Alolan Form": "alola",
-    "Galarian Form": "galar",
-    "Hisuian Form": "hisui",
-    "Paldean Form": "paldea",
-    "Hero Form": "hero",
-    "Hangry Mode": "hangry",
-    "Family of Four": "family-of-four",
-    "Combat Breed": "combat-breed",
-    "Blaze Breed": "blaze-breed",
-    "Aqua Breed": "aqua-breed",
-    "Blade Forme": "blade",
-    "Shield Forme": "shield",
+    "alolan form": "alola",
+    "galarian form": "galar",
+    "hisuian form": "hisui",
+    "paldean form": "paldea",
+    "hero form": "hero",
+    "hangry mode": "hangry",
+    "family of four": "family-of-four",
+    "combat breed": "combat-breed",
+    "blaze breed": "blaze-breed",
+    "aqua breed": "aqua-breed",
+    "blade forme": "blade",
+    "shield forme": "shield",
+    "school form": "school",
+    "bloodmoon form": "bloodmoon",
+    "male form": "male",
+    "female form": "female",
+    "rainbow swirl": "rainbow-swirl",
 }
-
-ENTRY_RE = re.compile(
-    r"(?ms)^(#\d{4})\s+.*?\b([A-Z][A-Za-z0-9'’:. -]+?)\s*\n"   # ndex + name
-    r"(.*?)(?=^#\d{4}\s+|\Z)"                                   # payload until next dex
-)
 
 
 def slugify(value: str) -> str:
-    value = value.lower().strip()
+    value = (value or "").lower().strip()
     value = value.replace("♀", "-f").replace("♂", "-m")
+    value = value.replace("’", "").replace("'", "")
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-")
 
 
-def normalize_form_id(name: str, form_bits: list[str]) -> str:
-    base = slugify(name)
-    if not form_bits:
-        return base
-
-    norm_bits = []
-    for bit in form_bits:
-        bit = bit.strip()
-        if not bit:
-            continue
-        bit = FORM_REPLACEMENTS.get(bit, slugify(bit))
-        norm_bits.append(bit)
-
-    return f"{base}-{'-'.join(norm_bits)}"
+def dedupe_preserve_order(items):
+    seen = set()
+    out = []
+    for item in items:
+        if item and item not in seen:
+            seen.add(item)
+            out.append(item)
+    return out
 
 
-def fetch_page_text() -> str:
-    resp = requests.get(URL, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
-    resp.raise_for_status()
+def fetch_lines():
+    response = requests.get(
+        URL,
+        timeout=30,
+        headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+    )
+    response.raise_for_status()
 
-    soup = BeautifulSoup(resp.text, "html.parser")
-
+    soup = BeautifulSoup(response.text, "html.parser")
     main = soup.select_one(".mw-parser-output")
     text = main.get_text("\n", strip=True) if main else soup.get_text("\n", strip=True)
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
 
-    # keep only the main Champions roster block
-    start_marker = "List of Pokémon in Champions\nNdex"
-    stop_marker = "Untransferable Pokémon"
-
-    start = text.find(start_marker)
-    if start == -1:
-        raise RuntimeError("Could not find the regular Champions roster start marker.")
-
-    stop = text.find(stop_marker, start)
-    if stop == -1:
-        raise RuntimeError("Could not find the Untransferable Pokémon stop marker.")
-
-    return text[start:stop]
+    SOURCES_DIR.mkdir(parents=True, exist_ok=True)
+    DEBUG_LINES_PATH.write_text("\n".join(lines), encoding="utf-8")
+    return lines
 
 
-def parse_entry_payload(name: str, payload: str) -> dict:
-    lines = [line.strip() for line in payload.splitlines() if line.strip()]
+def find_main_roster_start(lines):
+    # Your parsed text shows the header as separate lines:
+    # List of Pokémon in Champions
+    # Ndex
+    # MS
+    # Pokémon
+    # Type
+    # Normally available?
+    # Version added
+    for i in range(len(lines) - 6):
+        if (
+            lines[i] == "List of Pokémon in Champions"
+            and lines[i + 1] == "Ndex"
+            and lines[i + 2] == "MS"
+            and lines[i + 3] == "Pokémon"
+            and lines[i + 4] == "Type"
+            and lines[i + 5] == "Normally available?"
+            and lines[i + 6] == "Version added"
+        ):
+            return i + 7
 
-    version_added = None
-    types = []
-    form_bits = []
+    raise RuntimeError(
+        f"Could not find main roster header block. See debug file: {DEBUG_LINES_PATH}"
+    )
 
-    for line in lines:
-        if re.fullmatch(r"\d+\.\d+(?:\.\d+)?", line):
-            version_added = line
-            continue
 
-        if line == "TBD":
-            continue
-
-        if line in TYPE_NAMES:
-            types.append(line)
-            continue
-
-        # split combined lines like "Alolan Form Electric Psychic TBD 1.0.2"
-        tokens = re.split(r"\s{2,}|\t", line)
-        if len(tokens) == 1:
-            words = line.split()
-            rebuilt = []
-            i = 0
-            while i < len(words):
-                two = " ".join(words[i:i+2])
-                if two in FORM_REPLACEMENTS:
-                    form_bits.append(two)
-                    i += 2
-                    continue
-                if words[i] in TYPE_NAMES:
-                    types.append(words[i])
-                    i += 1
-                    continue
-                if re.fullmatch(r"\d+\.\d+(?:\.\d+)?", words[i]):
-                    version_added = words[i]
-                    i += 1
-                    continue
-                if words[i] != "TBD":
-                    rebuilt.append(words[i])
-                i += 1
-
-            if rebuilt:
-                form_bits.append(" ".join(rebuilt).strip())
-        else:
-            for token in tokens:
-                token = token.strip()
-                if not token or token == "TBD":
-                    continue
-                if token in TYPE_NAMES:
-                    types.append(token)
-                    continue
-                if token in FORM_REPLACEMENTS:
-                    form_bits.append(token)
-                    continue
-                if re.fullmatch(r"\d+\.\d+(?:\.\d+)?", token):
-                    version_added = token
-                    continue
-                form_bits.append(token)
-
-    # dedupe while preserving order
-    deduped_types = list(dict.fromkeys(types))
-    deduped_form_bits = list(dict.fromkeys([b for b in form_bits if b]))
-
-    return {
-        "name": name,
-        "types": deduped_types,
-        "formText": " ".join(deduped_form_bits) if deduped_form_bits else None,
-        "formId": normalize_form_id(name, deduped_form_bits),
-        "versionAdded": version_added,
+def find_main_roster_end(lines, start_idx):
+    stop_markers = {
+        "Forms",
+        "Mega Evolutions",
+        "Other forms",
+        "Untransferable Pokémon",
+        "Trivia",
+        "Related articles",
     }
 
+    for i in range(start_idx, len(lines)):
+        if lines[i] in stop_markers:
+            return i
 
-def parse_roster(text: str) -> list[dict]:
+    return len(lines)
+
+
+def normalize_form_id(name: str, form_text: str | None) -> str:
+    low_name = (name or "").lower().strip()
+    low_form = (form_text or "").lower().strip()
+
+    if low_name.startswith("mega "):
+        rest = low_name[5:].strip()
+        if rest.endswith(" x"):
+            return f"{slugify(rest[:-2].strip())}-mega-x"
+        if rest.endswith(" y"):
+            return f"{slugify(rest[:-2].strip())}-mega-y"
+        return f"{slugify(rest)}-mega"
+
+    base = slugify(name)
+    if not low_form:
+        return base
+
+    suffixes = []
+    remainder = low_form
+
+    ordered_phrases = [
+        "alolan form",
+        "galarian form",
+        "hisuian form",
+        "paldean form",
+        "combat breed",
+        "blaze breed",
+        "aqua breed",
+        "hero form",
+        "hangry mode",
+        "family of four",
+        "blade forme",
+        "shield forme",
+        "school form",
+        "bloodmoon form",
+        "male form",
+        "female form",
+        "rainbow swirl",
+    ]
+
+    for phrase in ordered_phrases:
+        if phrase in remainder:
+            suffixes.append(FORM_REPLACEMENTS[phrase])
+            remainder = remainder.replace(phrase, " ")
+
+    remainder = re.sub(r"\bTBD\b", " ", remainder, flags=re.I)
+    remainder = re.sub(r"\b\d+\.\d+(?:\.\d+)?\b", " ", remainder)
+    remainder = " ".join(remainder.split())
+
+    if remainder:
+        remainder_slug = slugify(remainder)
+        if remainder_slug:
+            suffixes.extend([p for p in remainder_slug.split("-") if p])
+
+    suffixes = dedupe_preserve_order(suffixes)
+    return f"{base}-{'-'.join(suffixes)}" if suffixes else base
+
+
+def format_display_name(name: str, form_text: str | None) -> str:
+    if not form_text:
+        return name
+    return f"{name} ({form_text})"
+
+
+def parse_main_roster(lines):
+    start_idx = find_main_roster_start(lines)
+    end_idx = find_main_roster_end(lines, start_idx)
+    block = lines[start_idx:end_idx]
+
     entries = []
+    i = 0
 
-    for match in ENTRY_RE.finditer(text):
-        ndex = match.group(1).replace("#", "")
-        name = match.group(2).strip()
-        payload = match.group(3).strip()
+    while i < len(block):
+        line = block[i]
 
-        parsed = parse_entry_payload(name, payload)
+        if not re.fullmatch(r"#\d{4}", line):
+            i += 1
+            continue
+
+        ndex = line[1:]
+        if i + 1 >= len(block):
+            break
+
+        name = block[i + 1]
+        i += 2
+
+        form_parts = []
+        types = []
+        version_added = None
+
+        while i < len(block) and not re.fullmatch(r"#\d{4}", block[i]):
+            current = block[i]
+
+            if current in TYPE_NAMES:
+                types.append(current)
+            elif current == "TBD":
+                pass
+            elif re.fullmatch(r"\d+\.\d+(?:\.\d+)?", current):
+                version_added = current
+            else:
+                form_parts.append(current)
+
+            i += 1
+
+        form_text = " ".join(form_parts).strip() if form_parts else None
+
         entries.append({
             "ndex": ndex,
-            "name": parsed["name"],
-            "formText": parsed["formText"],
-            "formId": parsed["formId"],
-            "types": parsed["types"],
-            "versionAdded": parsed["versionAdded"],
+            "name": name,
+            "displayName": format_display_name(name, form_text),
+            "formText": form_text,
+            "formId": normalize_form_id(name, form_text),
+            "types": dedupe_preserve_order(types),
+            "versionAdded": version_added,
             "availableInChampions": True,
             "source": URL,
         })
 
-    return entries
+    # dedupe by formId, keep richer entry
+    by_form_id = {}
+    for entry in entries:
+        score = 0
+        if entry.get("formText"):
+            score += 2
+        if entry.get("types"):
+            score += 1
+        if entry.get("versionAdded"):
+            score += 1
+
+        existing = by_form_id.get(entry["formId"])
+        if not existing or score > existing["_score"]:
+            by_form_id[entry["formId"]] = {"_score": score, "entry": entry}
+
+    return [v["entry"] for v in by_form_id.values()]
 
 
 def main():
-    text = fetch_page_text()
-    roster = parse_roster(text)
+    lines = fetch_lines()
+    entries = parse_main_roster(lines)
 
-    with OUT_FILE.open("w", encoding="utf-8") as f:
-        json.dump(roster, f, indent=2, ensure_ascii=False)
+    with OUT_PATH.open("w", encoding="utf-8") as f:
+        json.dump(entries, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote {len(roster)} roster entries to {OUT_FILE}")
+    print(f"Wrote {len(entries)} roster entries to {OUT_PATH}")
 
 
 if __name__ == "__main__":

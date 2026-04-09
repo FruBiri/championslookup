@@ -34,140 +34,175 @@ def save_json(path: Path, payload):
 
 
 def slugify(value: str) -> str:
-    value = value.lower().strip()
+    value = (value or "").lower().strip()
     value = value.replace("♀", "-f").replace("♂", "-m")
+    value = value.replace("’", "").replace("'", "")
     value = re.sub(r"[^a-z0-9]+", "-", value)
     return value.strip("-")
 
 
-def pokeapi_slug(value: str) -> str:
-    value = value.strip()
-    value = value.replace("Farfetch’d", "Farfetchd")
-    value = value.replace("Sirfetch’d", "Sirfetchd")
-    value = value.replace("Mr. Mime", "Mr Mime")
-    value = value.replace("Mime Jr.", "Mime Jr")
-    value = value.replace("Type: Null", "Type Null")
-    value = value.replace("Nidoran♀", "Nidoran F")
-    value = value.replace("Nidoran♂", "Nidoran M")
-    return slugify(value)
-
-
 def fetch_json(url: str):
-    resp = SESSION.get(url, timeout=30)
-    if resp.status_code == 404:
+    response = SESSION.get(url, timeout=30)
+    if response.status_code == 404:
         return None
-    resp.raise_for_status()
+    response.raise_for_status()
     time.sleep(0.1)
-    return resp.json()
+    return response.json()
 
 
-def get_english_text(entries, key="effect_entries", text_key="short_effect"):
+def get_english_effect(entries, field_name):
     for entry in entries:
-        lang = entry.get("language", {}).get("name")
-        if lang == "en":
-            return entry.get(text_key)
+        if entry.get("language", {}).get("name") == "en":
+            value = entry.get(field_name)
+            if value:
+                return value.replace("\n", " ").replace("\f", " ").strip()
     return None
 
 
-def extract_english_genus(species_json):
+def get_english_genus(species_json):
     for entry in species_json.get("genera", []):
         if entry.get("language", {}).get("name") == "en":
             return entry.get("genus")
     return None
 
 
-def parse_base_form_id(form_id: str) -> str:
-    prefixes = [
-        "-mega-x",
-        "-mega-y",
-        "-mega",
-        "-alola",
-        "-galar",
-        "-hisui",
-        "-paldea",
-        "-hero",
-        "-hangry",
-        "-family-of-four",
-        "-combat-breed",
-        "-blaze-breed",
-        "-aqua-breed",
-        "-blade",
-        "-shield",
-    ]
-    for suffix in prefixes:
+def load_overrides():
+    raw = load_json(OVERRIDES_PATH, {})
+    if not isinstance(raw, dict):
+        return {}
+
+    normalized = {}
+
+    for key, value in raw.items():
+        if not isinstance(value, dict):
+            continue
+
+        candidates = [key]
+        aliases = value.get("aliases", [])
+        if isinstance(aliases, list):
+            candidates.extend(aliases)
+
+        for candidate in candidates:
+            normalized[slugify(candidate).replace("-", " ")] = value
+
+    return normalized
+
+
+def normalize_override_key(record):
+    candidates = []
+
+    name = (record.get("name") or "").strip()
+    display_name = (record.get("displayName") or "").strip()
+    form_text = (record.get("formText") or "").strip()
+    form_id = (record.get("formId") or "").strip()
+
+    if name and form_text:
+        candidates.append(f"{name} {form_text}")
+    if display_name:
+        candidates.append(display_name)
+    if form_id:
+        candidates.append(form_id.replace("-", " "))
+    if name:
+        candidates.append(name)
+
+    normalized = []
+    for candidate in candidates:
+        candidate = candidate.replace("(", " ").replace(")", " ")
+        candidate = re.sub(r"\s+", " ", candidate).strip()
+        if candidate:
+            normalized.append(slugify(candidate).replace("-", " "))
+
+    seen = set()
+    ordered = []
+    for item in normalized:
+        if item not in seen:
+            seen.add(item)
+            ordered.append(item)
+    return ordered
+
+
+def fallback_pokeapi_name(record):
+    form_id = (record.get("formId") or "").strip()
+    if form_id:
+        return form_id
+    return slugify(record.get("name") or "")
+
+
+def strip_mega_suffix(form_id: str) -> str:
+    for suffix in ("-mega-x", "-mega-y", "-mega"):
         if form_id.endswith(suffix):
             return form_id[: -len(suffix)]
     return form_id
 
 
-def load_overrides():
-    overrides = load_json(OVERRIDES_PATH, {})
-    return {
-        "pokemon_name_map": overrides.get("pokemon_name_map", {}),
-        "form_id_map": overrides.get("form_id_map", {}),
-        "ability_name_map": overrides.get("ability_name_map", {}),
-    }
+def build_ability_record(display_name, api_name, ability_cache):
+    key = slugify(api_name)
+    if key in ability_cache:
+        return ability_cache[key]
 
-
-def resolve_pokemon_lookup_name(record: dict, overrides: dict) -> str:
-    form_id = record.get("formId", "")
-    name = record.get("name", "")
-
-    if form_id in overrides["form_id_map"]:
-        return overrides["form_id_map"][form_id]
-
-    if name in overrides["pokemon_name_map"]:
-        return overrides["pokemon_name_map"][name]
-
-    return pokeapi_slug(form_id or name)
-
-
-def build_ability_record(ability_name: str, ability_api_name: str, cache: dict, overrides: dict):
-    cache_key = ability_api_name.lower()
-
-    if cache_key in cache:
-        return cache[cache_key]
-
-    mapped_name = overrides["ability_name_map"].get(ability_api_name, ability_api_name)
-    data = fetch_json(POKEAPI_ABILITY.format(name=mapped_name))
+    data = fetch_json(POKEAPI_ABILITY.format(name=api_name))
     if not data:
         record = {
-            "name": ability_name,
-            "apiName": mapped_name,
+            "name": display_name,
+            "apiName": api_name,
             "effect": "Effect text not found.",
             "shortEffect": "Effect text not found.",
-            "source": f"https://pokeapi.co/api/v2/ability/{mapped_name}",
+            "source": f"https://pokeapi.co/api/v2/ability/{api_name}"
         }
-        cache[cache_key] = record
+        ability_cache[key] = record
         return record
 
-    effect = get_english_text(data.get("effect_entries", []), text_key="effect") or "Effect text not found."
-    short_effect = get_english_text(data.get("effect_entries", []), text_key="short_effect") or effect
+    effect = get_english_effect(data.get("effect_entries", []), "effect") or "Effect text not found."
+    short_effect = get_english_effect(data.get("effect_entries", []), "short_effect") or effect
 
     record = {
-        "name": ability_name,
-        "apiName": data.get("name", mapped_name),
-        "effect": effect.replace("\n", " ").replace("\f", " ").strip(),
-        "shortEffect": short_effect.replace("\n", " ").replace("\f", " ").strip(),
-        "source": f"https://pokeapi.co/api/v2/ability/{data.get('name', mapped_name)}",
+        "name": display_name,
+        "apiName": data.get("name", api_name),
+        "effect": effect,
+        "shortEffect": short_effect,
+        "source": f"https://pokeapi.co/api/v2/ability/{data.get('name', api_name)}"
     }
-    cache[cache_key] = record
+    ability_cache[key] = record
     return record
 
 
-def enrich_record(record: dict, overrides: dict, ability_cache: dict):
-    lookup_name = resolve_pokemon_lookup_name(record, overrides)
-    pokemon_json = fetch_json(POKEAPI_POKEMON.format(name=lookup_name))
+def build_display_name(record, override):
+    if override and override.get("displayName"):
+        return override["displayName"]
+    if record.get("displayName"):
+        return record["displayName"]
+    return record.get("name") or record.get("formId") or "Unknown"
+
+
+def enrich_record(record, overrides, ability_cache):
+    override = None
+    for candidate in normalize_override_key(record):
+        if candidate in overrides:
+            override = overrides[candidate]
+            break
+
+    pokeapi_name = None
+    if override and override.get("pokeApiName"):
+        pokeapi_name = override["pokeApiName"]
+    else:
+        pokeapi_name = fallback_pokeapi_name(record)
+
+    pokemon_json = fetch_json(POKEAPI_POKEMON.format(name=pokeapi_name))
 
     if not pokemon_json:
+        form_id = record.get("formId") or fallback_pokeapi_name(record)
         return {
             **record,
-            "lookupName": lookup_name,
+            "displayName": build_display_name(record, override),
+            "speciesId": override.get("speciesId") if override else form_id,
+            "baseSpeciesId": strip_mega_suffix(form_id),
+            "lookupName": pokeapi_name,
             "enriched": False,
             "lookupFailed": True,
-            "abilities": record.get("abilities", []),
-            "baseStats": record.get("baseStats"),
-            "types": record.get("types", []),
+            "baseStats": record.get("baseStats") or {},
+            "abilities": [],
+            "abilityDetails": [],
+            "hiddenAbility": None
         }
 
     species_name = pokemon_json.get("species", {}).get("name")
@@ -196,49 +231,52 @@ def enrich_record(record: dict, overrides: dict, ability_cache: dict):
         if t.get("type", {}).get("name")
     ]
 
-    ability_names = []
-    ability_records = []
+    abilities = []
+    ability_details = []
     hidden_ability = None
 
     for ability_info in pokemon_json.get("abilities", []):
-        api_name = ability_info.get("ability", {}).get("name")
-        if not api_name:
+        ability_api_name = ability_info.get("ability", {}).get("name")
+        if not ability_api_name:
             continue
 
-        display_name = api_name.replace("-", " ").title()
-        ability_names.append(display_name)
+        display_name = ability_api_name.replace("-", " ").title()
+        abilities.append(display_name)
 
-        ability_record = build_ability_record(display_name, api_name, ability_cache, overrides)
-        ability_records.append(ability_record)
+        detail = build_ability_record(display_name, ability_api_name, ability_cache)
+        ability_details.append(detail)
 
         if ability_info.get("is_hidden"):
             hidden_ability = display_name
 
-    genus = extract_english_genus(species_json) if species_json else None
+    form_id = record.get("formId") or pokemon_json.get("name")
+    species_id = override.get("speciesId") if override and override.get("speciesId") else form_id
 
     return {
         **record,
-        "lookupName": lookup_name,
+        "displayName": build_display_name(record, override),
+        "speciesId": species_id,
+        "baseSpeciesId": strip_mega_suffix(form_id),
+        "lookupName": pokemon_json.get("name"),
+        "nationalDex": pokemon_json.get("id"),
+        "genus": get_english_genus(species_json) if species_json else None,
+        "types": types,
+        "baseStats": stats,
+        "abilities": abilities,
+        "abilityDetails": ability_details,
+        "hiddenAbility": hidden_ability,
         "enriched": True,
         "lookupFailed": False,
-        "nationalDex": pokemon_json.get("id"),
-        "displayName": record.get("name"),
-        "genus": genus,
-        "baseStats": stats,
-        "types": types or record.get("types", []),
-        "abilities": ability_names,
-        "abilityDetails": ability_records,
-        "hiddenAbility": hidden_ability,
         "pokeApiPokemon": f"https://pokeapi.co/api/v2/pokemon/{pokemon_json.get('name')}",
-        "pokeApiSpecies": f"https://pokeapi.co/api/v2/pokemon-species/{species_name}" if species_name else None,
+        "pokeApiSpecies": f"https://pokeapi.co/api/v2/pokemon-species/{species_name}" if species_name else None
     }
 
 
-def dedupe_records(records: list[dict]) -> list[dict]:
+def dedupe_records(records):
     by_form_id = {}
 
     for record in records:
-        form_id = record.get("formId") or slugify(record.get("name", ""))
+        form_id = record.get("formId") or slugify(record.get("displayName") or record.get("name"))
         score = 0
         if record.get("enriched"):
             score += 5
@@ -251,25 +289,18 @@ def dedupe_records(records: list[dict]) -> list[dict]:
 
         existing = by_form_id.get(form_id)
         if not existing or score > existing["_score"]:
-            by_form_id[form_id] = {
-                "_score": score,
-                "record": record,
-            }
+            by_form_id[form_id] = {"_score": score, "record": record}
 
     return [v["record"] for v in by_form_id.values()]
 
 
 def main():
     if not ROSTER_PATH.exists():
-        raise RuntimeError(
-            f"{ROSTER_PATH} is missing. Run scripts/import_champions_roster.py first."
-        )
+        raise RuntimeError(f"{ROSTER_PATH} is missing. Run scripts/import_champions_roster.py first.")
 
     roster = load_json(ROSTER_PATH, [])
     if not isinstance(roster, list):
-        raise RuntimeError(
-            f"Unexpected roster format in {ROSTER_PATH}. Expected a JSON list."
-        )
+        raise RuntimeError("champions_roster_raw.json must be a JSON list.")
 
     overrides = load_overrides()
     ability_cache = {}
@@ -277,37 +308,33 @@ def main():
 
     print(f"Loaded {len(roster)} raw roster entries")
 
-    for idx, record in enumerate(roster, start=1):
-        name = record.get("name", "Unknown")
-        form_id = record.get("formId", "")
-        print(f"[{idx}/{len(roster)}] Enriching {name} ({form_id})...")
+    for index, record in enumerate(roster, start=1):
+        label = record.get("displayName") or record.get("name") or "Unknown"
+        print(f"[{index}/{len(roster)}] Enriching {label}...")
         try:
             enriched = enrich_record(record, overrides, ability_cache)
         except Exception as exc:
             enriched = {
                 **record,
+                "displayName": record.get("displayName") or record.get("name"),
                 "enriched": False,
                 "lookupFailed": True,
-                "error": str(exc),
+                "error": str(exc)
             }
         enriched_records.append(enriched)
 
-    deduped_records = dedupe_records(enriched_records)
+    deduped = dedupe_records(enriched_records)
 
     payload = {
         "generatedAt": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "rawCount": len(roster),
-        "dedupedCount": len(deduped_records),
-        "records": deduped_records,
-        "abilities": sorted(
-            ability_cache.values(),
-            key=lambda x: x.get("name", "").lower()
-        ),
+        "dedupedCount": len(deduped),
+        "records": deduped,
+        "abilities": sorted(ability_cache.values(), key=lambda x: x.get("name", "").lower())
     }
 
     save_json(OUT_PATH, payload)
-
-    print(f"Wrote {len(deduped_records)} enriched records to {OUT_PATH}")
+    print(f"Wrote {len(deduped)} enriched records to {OUT_PATH}")
 
 
 if __name__ == "__main__":

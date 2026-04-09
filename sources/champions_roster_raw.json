@@ -2,6 +2,7 @@
   {
     "ndex": "0003",
     "name": "Venusaur",
+    "displayName": "Venusaur",
     "formText": null,
     "formId": "venusaur",
     "types": [
@@ -15,6 +16,7 @@
   {
     "ndex": "0006",
     "name": "Charizard",
+    "displayName": "Charizard",
     "formText": null,
     "formId": "charizard",
     "types": [
@@ -28,6 +30,7 @@
   {
     "ndex": "0009",
     "name": "Blastoise",
+    "displayName": "Blastoise",
     "formText": null,
     "formId": "blastoise",
     "types": [
@@ -40,6 +43,7 @@
   {
     "ndex": "0015",
     "name": "Beedrill",
+    "displayName": "Beedrill",
     "formText": null,
     "formId": "beedrill",
     "types": [
@@ -53,6 +57,7 @@
   {
     "ndex": "0018",
     "name": "Pidgeot",
+    "displayName": "Pidgeot",
     "formText": null,
     "formId": "pidgeot",
     "types": [
@@ -66,6 +71,7 @@
   {
     "ndex": "0024",
     "name": "Arbok",
+    "displayName": "Arbok",
     "formText": null,
     "formId": "arbok",
     "types": [
@@ -78,6 +84,7 @@
   {
     "ndex": "0025",
     "name": "Pikachu",
+    "displayName": "Pikachu",
     "formText": null,
     "formId": "pikachu",
     "types": [
@@ -90,6 +97,7 @@
   {
     "ndex": "0026",
     "name": "Raichu",
+    "displayName": "Raichu",
     "formText": null,
     "formId": "raichu",
     "types": [
@@ -102,6 +110,7 @@
   {
     "ndex": "0026",
     "name": "Raichu",
+    "displayName": "Raichu (Alolan Form)",
     "formText": "Alolan Form",
     "formId": "raichu-alola",
     "types": [
@@ -115,6 +124,7 @@
   {
     "ndex": "0036",
     "name": "Clefable",
+    "displayName": "Clefable",
     "formText": null,
     "formId": "clefable",
     "types": [
@@ -127,6 +137,7 @@
   {
     "ndex": "0038",
     "name": "Ninetales",
+    "displayName": "Ninetales",
     "formText": null,
     "formId": "ninetales",
     "types": [
@@ -139,6 +150,7 @@
   {
     "ndex": "0038",
     "name": "Ninetales",
+    "displayName": "Ninetales (Alolan Form)",
     "formText": "Alolan Form",
     "formId": "ninetales-alola",
     "types": [
@@ -152,6 +164,7 @@
   {
     "ndex": "0059",
     "name": "Arcanine",
+    "displayName": "Arcanine",
     "formText": null,
     "formId": "arcanine",
     "types": [
@@ -164,6 +177,7 @@
   {
     "ndex": "0059",
     "name": "Arcanine",
+    "displayName": "Arcanine (Hisuian Form)",
     "formText": "Hisuian Form",
     "formId": "arcanine-hisui",
     "types": [
@@ -177,6 +191,7 @@
   {
     "ndex": "0065",
     "name": "Alakazam",
+    "displayName": "Alakazam",
     "formText": null,
     "formId": "alakazam",
     "types": [
@@ -189,6 +204,7 @@
   {
     "ndex": "0068",
     "name": "Machamp",
+    "displayName": "Machamp",
     "formText": null,
     "formId": "machamp",
     "types": [
@@ -201,6 +217,7 @@
   {
     "ndex": "0071",
     "name": "Victreebel",
+    "displayName": "Victreebel",
     "formText": null,
     "formId": "victreebel",
     "types": [
@@ -214,6 +231,7 @@
   {
     "ndex": "0080",
     "name": "Slowbro",
+    "displayName": "Slowbro",
     "formText": null,
     "formId": "slowbro",
     "types": [
@@ -227,6 +245,7 @@
   {
     "ndex": "0080",
     "name": "Slowbro",
+    "displayName": "Slowbro (Galarian Form)",
     "formText": "Galarian Form",
     "formId": "slowbro-galar",
     "types": [
@@ -240,6 +259,7 @@
   {
     "ndex": "0094",
     "name": "Gengar",
+    "displayName": "Gengar",
     "formText": null,
     "formId": "gengar",
     "types": [
@@ -253,6 +273,7 @@
   {
     "ndex": "0115",
     "name": "Kangaskhan",
+    "displayName": "Kangaskhan",
     "formText": null,
     "formId": "kangaskhan",
     "types": [
@@ -265,6 +286,7 @@
   {
     "ndex": "0121",
     "name": "Starmie",
+    "displayName": "Starmie",
     "formText": null,
     "formId": "starmie",
     "types": [
@@ -278,6 +300,7 @@
   {
     "ndex": "0127",
     "name": "Pinsir",
+    "displayName": "Pinsir",
     "formText": null,
     "formId": "pinsir",
     "types": [
@@ -290,6 +313,7 @@
   {
     "ndex": "0128",
     "name": "Tauros",
+    "displayName": "Tauros",
     "formText": null,
     "formId": "tauros",
     "types": [
@@ -302,6 +326,7 @@
   {
     "ndex": "0128",
     "name": "Tauros",
+    "displayName": "Tauros (Paldean Form Combat Breed)",
     "formText": "Paldean Form Combat Breed",
     "formId": "tauros-paldea-combat-breed",
     "types": [
@@ -314,6 +339,7 @@
   {
     "ndex": "0128",
     "name": "Tauros",
+    "displayName": "Tauros (Paldean Form Blaze Breed)",
     "formText": "Paldean Form Blaze Breed",
     "formId": "tauros-paldea-blaze-breed",
     "types": [
@@ -327,6 +353,7 @@
   {
     "ndex": "0128",
     "name": "Tauros",
+    "displayName": "Tauros (Paldean Form Aqua Breed)",
     "formText": "Paldean Form Aqua Breed",
     "formId": "tauros-paldea-aqua-breed",
     "types": [
@@ -340,6 +367,7 @@
   {
     "ndex": "0130",
     "name": "Gyarados",
+    "displayName": "Gyarados",
     "formText": null,
     "formId": "gyarados",
     "types": [
@@ -353,6 +381,7 @@
   {
     "ndex": "0132",
     "name": "Ditto",
+    "displayName": "Ditto",
     "formText": null,
     "formId": "ditto",
     "types": [
@@ -365,6 +394,7 @@
   {
     "ndex": "0134",
     "name": "Vaporeon",
+    "displayName": "Vaporeon",
     "formText": null,
     "formId": "vaporeon",
     "types": [
@@ -377,6 +407,7 @@
   {
     "ndex": "0135",
     "name": "Jolteon",
+    "displayName": "Jolteon",
     "formText": null,
     "formId": "jolteon",
     "types": [
@@ -389,6 +420,7 @@
   {
     "ndex": "0136",
     "name": "Flareon",
+    "displayName": "Flareon",
     "formText": null,
     "formId": "flareon",
     "types": [
@@ -401,6 +433,7 @@
   {
     "ndex": "0142",
     "name": "Aerodactyl",
+    "displayName": "Aerodactyl",
     "formText": null,
     "formId": "aerodactyl",
     "types": [
@@ -414,6 +447,7 @@
   {
     "ndex": "0143",
     "name": "Snorlax",
+    "displayName": "Snorlax",
     "formText": null,
     "formId": "snorlax",
     "types": [
@@ -426,6 +460,7 @@
   {
     "ndex": "0149",
     "name": "Dragonite",
+    "displayName": "Dragonite",
     "formText": null,
     "formId": "dragonite",
     "types": [
@@ -439,6 +474,7 @@
   {
     "ndex": "0154",
     "name": "Meganium",
+    "displayName": "Meganium",
     "formText": null,
     "formId": "meganium",
     "types": [
@@ -451,6 +487,7 @@
   {
     "ndex": "0157",
     "name": "Typhlosion",
+    "displayName": "Typhlosion",
     "formText": null,
     "formId": "typhlosion",
     "types": [
@@ -463,6 +500,7 @@
   {
     "ndex": "0157",
     "name": "Typhlosion",
+    "displayName": "Typhlosion (Hisuian Form)",
     "formText": "Hisuian Form",
     "formId": "typhlosion-hisui",
     "types": [
@@ -476,6 +514,7 @@
   {
     "ndex": "0160",
     "name": "Feraligatr",
+    "displayName": "Feraligatr",
     "formText": null,
     "formId": "feraligatr",
     "types": [
@@ -488,6 +527,7 @@
   {
     "ndex": "0168",
     "name": "Ariados",
+    "displayName": "Ariados",
     "formText": null,
     "formId": "ariados",
     "types": [
@@ -501,6 +541,7 @@
   {
     "ndex": "0181",
     "name": "Ampharos",
+    "displayName": "Ampharos",
     "formText": null,
     "formId": "ampharos",
     "types": [
@@ -513,6 +554,7 @@
   {
     "ndex": "0184",
     "name": "Azumarill",
+    "displayName": "Azumarill",
     "formText": null,
     "formId": "azumarill",
     "types": [
@@ -526,6 +568,7 @@
   {
     "ndex": "0186",
     "name": "Politoed",
+    "displayName": "Politoed",
     "formText": null,
     "formId": "politoed",
     "types": [
@@ -538,6 +581,7 @@
   {
     "ndex": "0196",
     "name": "Espeon",
+    "displayName": "Espeon",
     "formText": null,
     "formId": "espeon",
     "types": [
@@ -550,6 +594,7 @@
   {
     "ndex": "0197",
     "name": "Umbreon",
+    "displayName": "Umbreon",
     "formText": null,
     "formId": "umbreon",
     "types": [
@@ -562,6 +607,7 @@
   {
     "ndex": "0199",
     "name": "Slowking",
+    "displayName": "Slowking",
     "formText": null,
     "formId": "slowking",
     "types": [
@@ -575,6 +621,7 @@
   {
     "ndex": "0199",
     "name": "Slowking",
+    "displayName": "Slowking (Galarian Form)",
     "formText": "Galarian Form",
     "formId": "slowking-galar",
     "types": [
@@ -588,6 +635,7 @@
   {
     "ndex": "0205",
     "name": "Forretress",
+    "displayName": "Forretress",
     "formText": null,
     "formId": "forretress",
     "types": [
@@ -601,6 +649,7 @@
   {
     "ndex": "0208",
     "name": "Steelix",
+    "displayName": "Steelix",
     "formText": null,
     "formId": "steelix",
     "types": [
@@ -614,6 +663,7 @@
   {
     "ndex": "0212",
     "name": "Scizor",
+    "displayName": "Scizor",
     "formText": null,
     "formId": "scizor",
     "types": [
@@ -627,6 +677,7 @@
   {
     "ndex": "0214",
     "name": "Heracross",
+    "displayName": "Heracross",
     "formText": null,
     "formId": "heracross",
     "types": [
@@ -640,6 +691,7 @@
   {
     "ndex": "0227",
     "name": "Skarmory",
+    "displayName": "Skarmory",
     "formText": null,
     "formId": "skarmory",
     "types": [
@@ -653,6 +705,7 @@
   {
     "ndex": "0229",
     "name": "Houndoom",
+    "displayName": "Houndoom",
     "formText": null,
     "formId": "houndoom",
     "types": [
@@ -666,6 +719,7 @@
   {
     "ndex": "0248",
     "name": "Tyranitar",
+    "displayName": "Tyranitar",
     "formText": null,
     "formId": "tyranitar",
     "types": [
@@ -679,6 +733,7 @@
   {
     "ndex": "0279",
     "name": "Pelipper",
+    "displayName": "Pelipper",
     "formText": null,
     "formId": "pelipper",
     "types": [
@@ -692,6 +747,7 @@
   {
     "ndex": "0282",
     "name": "Gardevoir",
+    "displayName": "Gardevoir",
     "formText": null,
     "formId": "gardevoir",
     "types": [
@@ -705,6 +761,7 @@
   {
     "ndex": "0302",
     "name": "Sableye",
+    "displayName": "Sableye",
     "formText": null,
     "formId": "sableye",
     "types": [
@@ -718,6 +775,7 @@
   {
     "ndex": "0306",
     "name": "Aggron",
+    "displayName": "Aggron",
     "formText": null,
     "formId": "aggron",
     "types": [
@@ -731,6 +789,7 @@
   {
     "ndex": "0308",
     "name": "Medicham",
+    "displayName": "Medicham",
     "formText": null,
     "formId": "medicham",
     "types": [
@@ -744,6 +803,7 @@
   {
     "ndex": "0310",
     "name": "Manectric",
+    "displayName": "Manectric",
     "formText": null,
     "formId": "manectric",
     "types": [
@@ -756,6 +816,7 @@
   {
     "ndex": "0319",
     "name": "Sharpedo",
+    "displayName": "Sharpedo",
     "formText": null,
     "formId": "sharpedo",
     "types": [
@@ -769,6 +830,7 @@
   {
     "ndex": "0323",
     "name": "Camerupt",
+    "displayName": "Camerupt",
     "formText": null,
     "formId": "camerupt",
     "types": [
@@ -782,6 +844,7 @@
   {
     "ndex": "0324",
     "name": "Torkoal",
+    "displayName": "Torkoal",
     "formText": null,
     "formId": "torkoal",
     "types": [
@@ -794,6 +857,7 @@
   {
     "ndex": "0334",
     "name": "Altaria",
+    "displayName": "Altaria",
     "formText": null,
     "formId": "altaria",
     "types": [
@@ -807,6 +871,7 @@
   {
     "ndex": "0350",
     "name": "Milotic",
+    "displayName": "Milotic",
     "formText": null,
     "formId": "milotic",
     "types": [
@@ -819,6 +884,7 @@
   {
     "ndex": "0351",
     "name": "Castform",
+    "displayName": "Castform",
     "formText": null,
     "formId": "castform",
     "types": [
@@ -831,6 +897,7 @@
   {
     "ndex": "0354",
     "name": "Banette",
+    "displayName": "Banette",
     "formText": null,
     "formId": "banette",
     "types": [
@@ -843,6 +910,7 @@
   {
     "ndex": "0358",
     "name": "Chimecho",
+    "displayName": "Chimecho",
     "formText": null,
     "formId": "chimecho",
     "types": [
@@ -855,6 +923,7 @@
   {
     "ndex": "0359",
     "name": "Absol",
+    "displayName": "Absol",
     "formText": null,
     "formId": "absol",
     "types": [
@@ -867,6 +936,7 @@
   {
     "ndex": "0362",
     "name": "Glalie",
+    "displayName": "Glalie",
     "formText": null,
     "formId": "glalie",
     "types": [
@@ -879,6 +949,7 @@
   {
     "ndex": "0389",
     "name": "Torterra",
+    "displayName": "Torterra",
     "formText": null,
     "formId": "torterra",
     "types": [
@@ -892,6 +963,7 @@
   {
     "ndex": "0392",
     "name": "Infernape",
+    "displayName": "Infernape",
     "formText": null,
     "formId": "infernape",
     "types": [
@@ -905,6 +977,7 @@
   {
     "ndex": "0395",
     "name": "Empoleon",
+    "displayName": "Empoleon",
     "formText": null,
     "formId": "empoleon",
     "types": [
@@ -918,6 +991,7 @@
   {
     "ndex": "0405",
     "name": "Luxray",
+    "displayName": "Luxray",
     "formText": null,
     "formId": "luxray",
     "types": [
@@ -930,6 +1004,7 @@
   {
     "ndex": "0407",
     "name": "Roserade",
+    "displayName": "Roserade",
     "formText": null,
     "formId": "roserade",
     "types": [
@@ -943,6 +1018,7 @@
   {
     "ndex": "0409",
     "name": "Rampardos",
+    "displayName": "Rampardos",
     "formText": null,
     "formId": "rampardos",
     "types": [
@@ -955,6 +1031,7 @@
   {
     "ndex": "0411",
     "name": "Bastiodon",
+    "displayName": "Bastiodon",
     "formText": null,
     "formId": "bastiodon",
     "types": [
@@ -968,6 +1045,7 @@
   {
     "ndex": "0428",
     "name": "Lopunny",
+    "displayName": "Lopunny",
     "formText": null,
     "formId": "lopunny",
     "types": [
@@ -980,6 +1058,7 @@
   {
     "ndex": "0442",
     "name": "Spiritomb",
+    "displayName": "Spiritomb",
     "formText": null,
     "formId": "spiritomb",
     "types": [
@@ -993,6 +1072,7 @@
   {
     "ndex": "0445",
     "name": "Garchomp",
+    "displayName": "Garchomp",
     "formText": null,
     "formId": "garchomp",
     "types": [
@@ -1006,6 +1086,7 @@
   {
     "ndex": "0448",
     "name": "Lucario",
+    "displayName": "Lucario",
     "formText": null,
     "formId": "lucario",
     "types": [
@@ -1019,6 +1100,7 @@
   {
     "ndex": "0450",
     "name": "Hippowdon",
+    "displayName": "Hippowdon",
     "formText": null,
     "formId": "hippowdon",
     "types": [
@@ -1031,6 +1113,7 @@
   {
     "ndex": "0454",
     "name": "Toxicroak",
+    "displayName": "Toxicroak",
     "formText": null,
     "formId": "toxicroak",
     "types": [
@@ -1044,6 +1127,7 @@
   {
     "ndex": "0460",
     "name": "Abomasnow",
+    "displayName": "Abomasnow",
     "formText": null,
     "formId": "abomasnow",
     "types": [
@@ -1057,6 +1141,7 @@
   {
     "ndex": "0461",
     "name": "Weavile",
+    "displayName": "Weavile",
     "formText": null,
     "formId": "weavile",
     "types": [
@@ -1070,6 +1155,7 @@
   {
     "ndex": "0464",
     "name": "Rhyperior",
+    "displayName": "Rhyperior",
     "formText": null,
     "formId": "rhyperior",
     "types": [
@@ -1083,6 +1169,7 @@
   {
     "ndex": "0470",
     "name": "Leafeon",
+    "displayName": "Leafeon",
     "formText": null,
     "formId": "leafeon",
     "types": [
@@ -1095,6 +1182,7 @@
   {
     "ndex": "0471",
     "name": "Glaceon",
+    "displayName": "Glaceon",
     "formText": null,
     "formId": "glaceon",
     "types": [
@@ -1107,6 +1195,7 @@
   {
     "ndex": "0472",
     "name": "Gliscor",
+    "displayName": "Gliscor",
     "formText": null,
     "formId": "gliscor",
     "types": [
@@ -1120,6 +1209,7 @@
   {
     "ndex": "0473",
     "name": "Mamoswine",
+    "displayName": "Mamoswine",
     "formText": null,
     "formId": "mamoswine",
     "types": [
@@ -1133,6 +1223,7 @@
   {
     "ndex": "0475",
     "name": "Gallade",
+    "displayName": "Gallade",
     "formText": null,
     "formId": "gallade",
     "types": [
@@ -1146,6 +1237,7 @@
   {
     "ndex": "0478",
     "name": "Froslass",
+    "displayName": "Froslass",
     "formText": null,
     "formId": "froslass",
     "types": [
@@ -1159,6 +1251,7 @@
   {
     "ndex": "0479",
     "name": "Rotom",
+    "displayName": "Rotom (Rotom)",
     "formText": "Rotom",
     "formId": "rotom-rotom",
     "types": [
@@ -1172,6 +1265,7 @@
   {
     "ndex": "0479",
     "name": "Rotom",
+    "displayName": "Rotom (Heat Rotom)",
     "formText": "Heat Rotom",
     "formId": "rotom-heat-rotom",
     "types": [
@@ -1185,6 +1279,7 @@
   {
     "ndex": "0479",
     "name": "Rotom",
+    "displayName": "Rotom (Wash Rotom)",
     "formText": "Wash Rotom",
     "formId": "rotom-wash-rotom",
     "types": [
@@ -1198,6 +1293,7 @@
   {
     "ndex": "0479",
     "name": "Rotom",
+    "displayName": "Rotom (Frost Rotom)",
     "formText": "Frost Rotom",
     "formId": "rotom-frost-rotom",
     "types": [
@@ -1211,6 +1307,7 @@
   {
     "ndex": "0479",
     "name": "Rotom",
+    "displayName": "Rotom (Fan Rotom)",
     "formText": "Fan Rotom",
     "formId": "rotom-fan-rotom",
     "types": [
@@ -1224,6 +1321,7 @@
   {
     "ndex": "0479",
     "name": "Rotom",
+    "displayName": "Rotom (Mow Rotom)",
     "formText": "Mow Rotom",
     "formId": "rotom-mow-rotom",
     "types": [
@@ -1237,6 +1335,7 @@
   {
     "ndex": "0497",
     "name": "Serperior",
+    "displayName": "Serperior",
     "formText": null,
     "formId": "serperior",
     "types": [
@@ -1249,6 +1348,7 @@
   {
     "ndex": "0500",
     "name": "Emboar",
+    "displayName": "Emboar",
     "formText": null,
     "formId": "emboar",
     "types": [
@@ -1262,6 +1362,7 @@
   {
     "ndex": "0503",
     "name": "Samurott",
+    "displayName": "Samurott",
     "formText": null,
     "formId": "samurott",
     "types": [
@@ -1274,6 +1375,7 @@
   {
     "ndex": "0503",
     "name": "Samurott",
+    "displayName": "Samurott (Hisuian Form)",
     "formText": "Hisuian Form",
     "formId": "samurott-hisui",
     "types": [
@@ -1287,6 +1389,7 @@
   {
     "ndex": "0505",
     "name": "Watchog",
+    "displayName": "Watchog",
     "formText": null,
     "formId": "watchog",
     "types": [
@@ -1299,6 +1402,7 @@
   {
     "ndex": "0510",
     "name": "Liepard",
+    "displayName": "Liepard",
     "formText": null,
     "formId": "liepard",
     "types": [
@@ -1311,6 +1415,7 @@
   {
     "ndex": "0512",
     "name": "Simisage",
+    "displayName": "Simisage",
     "formText": null,
     "formId": "simisage",
     "types": [
@@ -1323,6 +1428,7 @@
   {
     "ndex": "0514",
     "name": "Simisear",
+    "displayName": "Simisear",
     "formText": null,
     "formId": "simisear",
     "types": [
@@ -1335,6 +1441,7 @@
   {
     "ndex": "0516",
     "name": "Simipour",
+    "displayName": "Simipour",
     "formText": null,
     "formId": "simipour",
     "types": [
@@ -1347,6 +1454,7 @@
   {
     "ndex": "0530",
     "name": "Excadrill",
+    "displayName": "Excadrill",
     "formText": null,
     "formId": "excadrill",
     "types": [
@@ -1360,6 +1468,7 @@
   {
     "ndex": "0531",
     "name": "Audino",
+    "displayName": "Audino",
     "formText": null,
     "formId": "audino",
     "types": [
@@ -1372,6 +1481,7 @@
   {
     "ndex": "0534",
     "name": "Conkeldurr",
+    "displayName": "Conkeldurr",
     "formText": null,
     "formId": "conkeldurr",
     "types": [
@@ -1384,6 +1494,7 @@
   {
     "ndex": "0547",
     "name": "Whimsicott",
+    "displayName": "Whimsicott",
     "formText": null,
     "formId": "whimsicott",
     "types": [
@@ -1397,6 +1508,7 @@
   {
     "ndex": "0553",
     "name": "Krookodile",
+    "displayName": "Krookodile",
     "formText": null,
     "formId": "krookodile",
     "types": [
@@ -1410,6 +1522,7 @@
   {
     "ndex": "0563",
     "name": "Cofagrigus",
+    "displayName": "Cofagrigus",
     "formText": null,
     "formId": "cofagrigus",
     "types": [
@@ -1422,6 +1535,7 @@
   {
     "ndex": "0569",
     "name": "Garbodor",
+    "displayName": "Garbodor",
     "formText": null,
     "formId": "garbodor",
     "types": [
@@ -1434,6 +1548,7 @@
   {
     "ndex": "0571",
     "name": "Zoroark",
+    "displayName": "Zoroark",
     "formText": null,
     "formId": "zoroark",
     "types": [
@@ -1446,6 +1561,7 @@
   {
     "ndex": "0571",
     "name": "Zoroark",
+    "displayName": "Zoroark (Hisuian Form)",
     "formText": "Hisuian Form",
     "formId": "zoroark-hisui",
     "types": [
@@ -1459,6 +1575,7 @@
   {
     "ndex": "0579",
     "name": "Reuniclus",
+    "displayName": "Reuniclus",
     "formText": null,
     "formId": "reuniclus",
     "types": [
@@ -1471,6 +1588,7 @@
   {
     "ndex": "0584",
     "name": "Vanilluxe",
+    "displayName": "Vanilluxe",
     "formText": null,
     "formId": "vanilluxe",
     "types": [
@@ -1483,6 +1601,7 @@
   {
     "ndex": "0587",
     "name": "Emolga",
+    "displayName": "Emolga",
     "formText": null,
     "formId": "emolga",
     "types": [
@@ -1496,6 +1615,7 @@
   {
     "ndex": "0609",
     "name": "Chandelure",
+    "displayName": "Chandelure",
     "formText": null,
     "formId": "chandelure",
     "types": [
@@ -1509,6 +1629,7 @@
   {
     "ndex": "0614",
     "name": "Beartic",
+    "displayName": "Beartic",
     "formText": null,
     "formId": "beartic",
     "types": [
@@ -1521,6 +1642,7 @@
   {
     "ndex": "0618",
     "name": "Stunfisk",
+    "displayName": "Stunfisk",
     "formText": null,
     "formId": "stunfisk",
     "types": [
@@ -1534,6 +1656,7 @@
   {
     "ndex": "0618",
     "name": "Stunfisk",
+    "displayName": "Stunfisk (Galarian Form)",
     "formText": "Galarian Form",
     "formId": "stunfisk-galar",
     "types": [
@@ -1547,6 +1670,7 @@
   {
     "ndex": "0623",
     "name": "Golurk",
+    "displayName": "Golurk",
     "formText": null,
     "formId": "golurk",
     "types": [
@@ -1560,6 +1684,7 @@
   {
     "ndex": "0635",
     "name": "Hydreigon",
+    "displayName": "Hydreigon",
     "formText": null,
     "formId": "hydreigon",
     "types": [
@@ -1573,6 +1698,7 @@
   {
     "ndex": "0637",
     "name": "Volcarona",
+    "displayName": "Volcarona",
     "formText": null,
     "formId": "volcarona",
     "types": [
@@ -1586,6 +1712,7 @@
   {
     "ndex": "0652",
     "name": "Chesnaught",
+    "displayName": "Chesnaught",
     "formText": null,
     "formId": "chesnaught",
     "types": [
@@ -1599,6 +1726,7 @@
   {
     "ndex": "0655",
     "name": "Delphox",
+    "displayName": "Delphox",
     "formText": null,
     "formId": "delphox",
     "types": [
@@ -1612,6 +1740,7 @@
   {
     "ndex": "0658",
     "name": "Greninja",
+    "displayName": "Greninja",
     "formText": null,
     "formId": "greninja",
     "types": [
@@ -1625,6 +1754,7 @@
   {
     "ndex": "0660",
     "name": "Diggersby",
+    "displayName": "Diggersby",
     "formText": null,
     "formId": "diggersby",
     "types": [
@@ -1638,6 +1768,7 @@
   {
     "ndex": "0663",
     "name": "Talonflame",
+    "displayName": "Talonflame",
     "formText": null,
     "formId": "talonflame",
     "types": [
@@ -1651,6 +1782,7 @@
   {
     "ndex": "0666",
     "name": "Vivillon",
+    "displayName": "Vivillon",
     "formText": null,
     "formId": "vivillon",
     "types": [
@@ -1664,6 +1796,7 @@
   {
     "ndex": "0670",
     "name": "Floette",
+    "displayName": "Floette (Eternal Flower Transfer only)",
     "formText": "Eternal Flower Transfer only",
     "formId": "floette-eternal-flower-transfer-only",
     "types": [
@@ -1676,6 +1809,7 @@
   {
     "ndex": "0671",
     "name": "Florges",
+    "displayName": "Florges",
     "formText": null,
     "formId": "florges",
     "types": [
@@ -1688,6 +1822,7 @@
   {
     "ndex": "0675",
     "name": "Pangoro",
+    "displayName": "Pangoro",
     "formText": null,
     "formId": "pangoro",
     "types": [
@@ -1701,6 +1836,7 @@
   {
     "ndex": "0676",
     "name": "Furfrou",
+    "displayName": "Furfrou",
     "formText": null,
     "formId": "furfrou",
     "types": [
@@ -1713,6 +1849,7 @@
   {
     "ndex": "0678",
     "name": "Meowstic",
+    "displayName": "Meowstic (Male)",
     "formText": "Male",
     "formId": "meowstic-male",
     "types": [
@@ -1725,6 +1862,7 @@
   {
     "ndex": "0678",
     "name": "Meowstic",
+    "displayName": "Meowstic (Female)",
     "formText": "Female",
     "formId": "meowstic-female",
     "types": [
@@ -1737,6 +1875,7 @@
   {
     "ndex": "0681",
     "name": "Aegislash",
+    "displayName": "Aegislash",
     "formText": null,
     "formId": "aegislash",
     "types": [
@@ -1750,6 +1889,7 @@
   {
     "ndex": "0683",
     "name": "Aromatisse",
+    "displayName": "Aromatisse",
     "formText": null,
     "formId": "aromatisse",
     "types": [
@@ -1762,6 +1902,7 @@
   {
     "ndex": "0685",
     "name": "Slurpuff",
+    "displayName": "Slurpuff",
     "formText": null,
     "formId": "slurpuff",
     "types": [
@@ -1774,6 +1915,7 @@
   {
     "ndex": "0693",
     "name": "Clawitzer",
+    "displayName": "Clawitzer",
     "formText": null,
     "formId": "clawitzer",
     "types": [
@@ -1786,6 +1928,7 @@
   {
     "ndex": "0695",
     "name": "Heliolisk",
+    "displayName": "Heliolisk",
     "formText": null,
     "formId": "heliolisk",
     "types": [
@@ -1799,6 +1942,7 @@
   {
     "ndex": "0697",
     "name": "Tyrantrum",
+    "displayName": "Tyrantrum",
     "formText": null,
     "formId": "tyrantrum",
     "types": [
@@ -1812,6 +1956,7 @@
   {
     "ndex": "0699",
     "name": "Aurorus",
+    "displayName": "Aurorus",
     "formText": null,
     "formId": "aurorus",
     "types": [
@@ -1825,6 +1970,7 @@
   {
     "ndex": "0700",
     "name": "Sylveon",
+    "displayName": "Sylveon",
     "formText": null,
     "formId": "sylveon",
     "types": [
@@ -1837,6 +1983,7 @@
   {
     "ndex": "0701",
     "name": "Hawlucha",
+    "displayName": "Hawlucha",
     "formText": null,
     "formId": "hawlucha",
     "types": [
@@ -1850,6 +1997,7 @@
   {
     "ndex": "0702",
     "name": "Dedenne",
+    "displayName": "Dedenne",
     "formText": null,
     "formId": "dedenne",
     "types": [
@@ -1863,6 +2011,7 @@
   {
     "ndex": "0706",
     "name": "Goodra",
+    "displayName": "Goodra",
     "formText": null,
     "formId": "goodra",
     "types": [
@@ -1875,6 +2024,7 @@
   {
     "ndex": "0706",
     "name": "Goodra",
+    "displayName": "Goodra (Hisuian Form)",
     "formText": "Hisuian Form",
     "formId": "goodra-hisui",
     "types": [
@@ -1888,6 +2038,7 @@
   {
     "ndex": "0707",
     "name": "Klefki",
+    "displayName": "Klefki",
     "formText": null,
     "formId": "klefki",
     "types": [
@@ -1901,6 +2052,7 @@
   {
     "ndex": "0709",
     "name": "Trevenant",
+    "displayName": "Trevenant",
     "formText": null,
     "formId": "trevenant",
     "types": [
@@ -1914,6 +2066,7 @@
   {
     "ndex": "0711",
     "name": "Gourgeist",
+    "displayName": "Gourgeist (Medium Variety)",
     "formText": "Medium Variety",
     "formId": "gourgeist-medium-variety",
     "types": [
@@ -1927,6 +2080,7 @@
   {
     "ndex": "0711",
     "name": "Gourgeist",
+    "displayName": "Gourgeist (Small Variety)",
     "formText": "Small Variety",
     "formId": "gourgeist-small-variety",
     "types": [
@@ -1940,6 +2094,7 @@
   {
     "ndex": "0711",
     "name": "Gourgeist",
+    "displayName": "Gourgeist (Large Variety)",
     "formText": "Large Variety",
     "formId": "gourgeist-large-variety",
     "types": [
@@ -1953,6 +2108,7 @@
   {
     "ndex": "0711",
     "name": "Gourgeist",
+    "displayName": "Gourgeist (Jumbo Variety)",
     "formText": "Jumbo Variety",
     "formId": "gourgeist-jumbo-variety",
     "types": [
@@ -1966,6 +2122,7 @@
   {
     "ndex": "0713",
     "name": "Avalugg",
+    "displayName": "Avalugg",
     "formText": null,
     "formId": "avalugg",
     "types": [
@@ -1978,6 +2135,7 @@
   {
     "ndex": "0713",
     "name": "Avalugg",
+    "displayName": "Avalugg (Hisuian Form)",
     "formText": "Hisuian Form",
     "formId": "avalugg-hisui",
     "types": [
@@ -1991,6 +2149,7 @@
   {
     "ndex": "0715",
     "name": "Noivern",
+    "displayName": "Noivern",
     "formText": null,
     "formId": "noivern",
     "types": [
@@ -2004,6 +2163,7 @@
   {
     "ndex": "0724",
     "name": "Decidueye",
+    "displayName": "Decidueye",
     "formText": null,
     "formId": "decidueye",
     "types": [
@@ -2017,6 +2177,7 @@
   {
     "ndex": "0724",
     "name": "Decidueye",
+    "displayName": "Decidueye (Hisuian Form)",
     "formText": "Hisuian Form",
     "formId": "decidueye-hisui",
     "types": [
@@ -2030,6 +2191,7 @@
   {
     "ndex": "0727",
     "name": "Incineroar",
+    "displayName": "Incineroar",
     "formText": null,
     "formId": "incineroar",
     "types": [
@@ -2043,6 +2205,7 @@
   {
     "ndex": "0730",
     "name": "Primarina",
+    "displayName": "Primarina",
     "formText": null,
     "formId": "primarina",
     "types": [
@@ -2056,6 +2219,7 @@
   {
     "ndex": "0733",
     "name": "Toucannon",
+    "displayName": "Toucannon",
     "formText": null,
     "formId": "toucannon",
     "types": [
@@ -2069,6 +2233,7 @@
   {
     "ndex": "0740",
     "name": "Crabominable",
+    "displayName": "Crabominable",
     "formText": null,
     "formId": "crabominable",
     "types": [
@@ -2082,6 +2247,7 @@
   {
     "ndex": "0745",
     "name": "Lycanroc",
+    "displayName": "Lycanroc (Midday Form)",
     "formText": "Midday Form",
     "formId": "lycanroc-midday-form",
     "types": [
@@ -2094,6 +2260,7 @@
   {
     "ndex": "0745",
     "name": "Lycanroc",
+    "displayName": "Lycanroc (Midnight Form)",
     "formText": "Midnight Form",
     "formId": "lycanroc-midnight-form",
     "types": [
@@ -2106,6 +2273,7 @@
   {
     "ndex": "0745",
     "name": "Lycanroc",
+    "displayName": "Lycanroc (Dusk Form)",
     "formText": "Dusk Form",
     "formId": "lycanroc-dusk-form",
     "types": [
@@ -2118,6 +2286,7 @@
   {
     "ndex": "0748",
     "name": "Toxapex",
+    "displayName": "Toxapex",
     "formText": null,
     "formId": "toxapex",
     "types": [
@@ -2131,6 +2300,7 @@
   {
     "ndex": "0750",
     "name": "Mudsdale",
+    "displayName": "Mudsdale",
     "formText": null,
     "formId": "mudsdale",
     "types": [
@@ -2143,6 +2313,7 @@
   {
     "ndex": "0752",
     "name": "Araquanid",
+    "displayName": "Araquanid",
     "formText": null,
     "formId": "araquanid",
     "types": [
@@ -2156,6 +2327,7 @@
   {
     "ndex": "0758",
     "name": "Salazzle",
+    "displayName": "Salazzle",
     "formText": null,
     "formId": "salazzle",
     "types": [
@@ -2169,6 +2341,7 @@
   {
     "ndex": "0763",
     "name": "Tsareena",
+    "displayName": "Tsareena",
     "formText": null,
     "formId": "tsareena",
     "types": [
@@ -2181,6 +2354,7 @@
   {
     "ndex": "0765",
     "name": "Oranguru",
+    "displayName": "Oranguru",
     "formText": null,
     "formId": "oranguru",
     "types": [
@@ -2194,6 +2368,7 @@
   {
     "ndex": "0766",
     "name": "Passimian",
+    "displayName": "Passimian",
     "formText": null,
     "formId": "passimian",
     "types": [
@@ -2206,6 +2381,7 @@
   {
     "ndex": "0778",
     "name": "Mimikyu",
+    "displayName": "Mimikyu",
     "formText": null,
     "formId": "mimikyu",
     "types": [
@@ -2219,6 +2395,7 @@
   {
     "ndex": "0780",
     "name": "Drampa",
+    "displayName": "Drampa",
     "formText": null,
     "formId": "drampa",
     "types": [
@@ -2232,6 +2409,7 @@
   {
     "ndex": "0784",
     "name": "Kommo-o",
+    "displayName": "Kommo-o",
     "formText": null,
     "formId": "kommo-o",
     "types": [
@@ -2245,6 +2423,7 @@
   {
     "ndex": "0823",
     "name": "Corviknight",
+    "displayName": "Corviknight",
     "formText": null,
     "formId": "corviknight",
     "types": [
@@ -2258,6 +2437,7 @@
   {
     "ndex": "0841",
     "name": "Flapple",
+    "displayName": "Flapple",
     "formText": null,
     "formId": "flapple",
     "types": [
@@ -2271,6 +2451,7 @@
   {
     "ndex": "0842",
     "name": "Appletun",
+    "displayName": "Appletun",
     "formText": null,
     "formId": "appletun",
     "types": [
@@ -2284,6 +2465,7 @@
   {
     "ndex": "0844",
     "name": "Sandaconda",
+    "displayName": "Sandaconda",
     "formText": null,
     "formId": "sandaconda",
     "types": [
@@ -2296,6 +2478,7 @@
   {
     "ndex": "0855",
     "name": "Polteageist",
+    "displayName": "Polteageist",
     "formText": null,
     "formId": "polteageist",
     "types": [
@@ -2308,6 +2491,7 @@
   {
     "ndex": "0858",
     "name": "Hatterene",
+    "displayName": "Hatterene",
     "formText": null,
     "formId": "hatterene",
     "types": [
@@ -2321,6 +2505,7 @@
   {
     "ndex": "0866",
     "name": "Mr. Rime",
+    "displayName": "Mr. Rime",
     "formText": null,
     "formId": "mr-rime",
     "types": [
@@ -2334,6 +2519,7 @@
   {
     "ndex": "0867",
     "name": "Runerigus",
+    "displayName": "Runerigus",
     "formText": null,
     "formId": "runerigus",
     "types": [
@@ -2347,6 +2533,7 @@
   {
     "ndex": "0869",
     "name": "Alcremie",
+    "displayName": "Alcremie",
     "formText": null,
     "formId": "alcremie",
     "types": [
@@ -2359,6 +2546,7 @@
   {
     "ndex": "0877",
     "name": "Morpeko",
+    "displayName": "Morpeko",
     "formText": null,
     "formId": "morpeko",
     "types": [
@@ -2372,6 +2560,7 @@
   {
     "ndex": "0887",
     "name": "Dragapult",
+    "displayName": "Dragapult",
     "formText": null,
     "formId": "dragapult",
     "types": [
@@ -2385,6 +2574,7 @@
   {
     "ndex": "0899",
     "name": "Wyrdeer",
+    "displayName": "Wyrdeer",
     "formText": null,
     "formId": "wyrdeer",
     "types": [
@@ -2398,6 +2588,7 @@
   {
     "ndex": "0900",
     "name": "Kleavor",
+    "displayName": "Kleavor",
     "formText": null,
     "formId": "kleavor",
     "types": [
@@ -2411,6 +2602,7 @@
   {
     "ndex": "0902",
     "name": "Basculegion",
+    "displayName": "Basculegion (Male)",
     "formText": "Male",
     "formId": "basculegion-male",
     "types": [
@@ -2424,6 +2616,7 @@
   {
     "ndex": "0902",
     "name": "Basculegion",
+    "displayName": "Basculegion (Female)",
     "formText": "Female",
     "formId": "basculegion-female",
     "types": [
@@ -2437,6 +2630,7 @@
   {
     "ndex": "0903",
     "name": "Sneasler",
+    "displayName": "Sneasler",
     "formText": null,
     "formId": "sneasler",
     "types": [
@@ -2450,6 +2644,7 @@
   {
     "ndex": "0908",
     "name": "Meowscarada",
+    "displayName": "Meowscarada",
     "formText": null,
     "formId": "meowscarada",
     "types": [
@@ -2463,6 +2658,7 @@
   {
     "ndex": "0911",
     "name": "Skeledirge",
+    "displayName": "Skeledirge",
     "formText": null,
     "formId": "skeledirge",
     "types": [
@@ -2476,6 +2672,7 @@
   {
     "ndex": "0914",
     "name": "Quaquaval",
+    "displayName": "Quaquaval",
     "formText": null,
     "formId": "quaquaval",
     "types": [
@@ -2489,6 +2686,7 @@
   {
     "ndex": "0925",
     "name": "Maushold",
+    "displayName": "Maushold",
     "formText": null,
     "formId": "maushold",
     "types": [
@@ -2501,6 +2699,7 @@
   {
     "ndex": "0934",
     "name": "Garganacl",
+    "displayName": "Garganacl",
     "formText": null,
     "formId": "garganacl",
     "types": [
@@ -2513,6 +2712,7 @@
   {
     "ndex": "0936",
     "name": "Armarouge",
+    "displayName": "Armarouge",
     "formText": null,
     "formId": "armarouge",
     "types": [
@@ -2526,6 +2726,7 @@
   {
     "ndex": "0937",
     "name": "Ceruledge",
+    "displayName": "Ceruledge",
     "formText": null,
     "formId": "ceruledge",
     "types": [
@@ -2539,6 +2740,7 @@
   {
     "ndex": "0939",
     "name": "Bellibolt",
+    "displayName": "Bellibolt",
     "formText": null,
     "formId": "bellibolt",
     "types": [
@@ -2551,6 +2753,7 @@
   {
     "ndex": "0952",
     "name": "Scovillain",
+    "displayName": "Scovillain",
     "formText": null,
     "formId": "scovillain",
     "types": [
@@ -2564,6 +2767,7 @@
   {
     "ndex": "0956",
     "name": "Espathra",
+    "displayName": "Espathra",
     "formText": null,
     "formId": "espathra",
     "types": [
@@ -2576,6 +2780,7 @@
   {
     "ndex": "0959",
     "name": "Tinkaton",
+    "displayName": "Tinkaton",
     "formText": null,
     "formId": "tinkaton",
     "types": [
@@ -2589,6 +2794,7 @@
   {
     "ndex": "0964",
     "name": "Palafin",
+    "displayName": "Palafin",
     "formText": null,
     "formId": "palafin",
     "types": [
@@ -2601,6 +2807,7 @@
   {
     "ndex": "0968",
     "name": "Orthworm",
+    "displayName": "Orthworm",
     "formText": null,
     "formId": "orthworm",
     "types": [
@@ -2613,6 +2820,7 @@
   {
     "ndex": "0970",
     "name": "Glimmora",
+    "displayName": "Glimmora",
     "formText": null,
     "formId": "glimmora",
     "types": [
@@ -2626,6 +2834,7 @@
   {
     "ndex": "0981",
     "name": "Farigiraf",
+    "displayName": "Farigiraf",
     "formText": null,
     "formId": "farigiraf",
     "types": [
@@ -2639,6 +2848,7 @@
   {
     "ndex": "0983",
     "name": "Kingambit",
+    "displayName": "Kingambit",
     "formText": null,
     "formId": "kingambit",
     "types": [
@@ -2652,6 +2862,7 @@
   {
     "ndex": "1013",
     "name": "Sinistcha",
+    "displayName": "Sinistcha",
     "formText": null,
     "formId": "sinistcha",
     "types": [
@@ -2665,6 +2876,7 @@
   {
     "ndex": "1018",
     "name": "Archaludon",
+    "displayName": "Archaludon",
     "formText": null,
     "formId": "archaludon",
     "types": [
@@ -2678,1353 +2890,12 @@
   {
     "ndex": "1019",
     "name": "Hydrapple",
-    "formText": "Forms Mega Evolutions Ndex MS Pokémon Type Normally available? Version added",
-    "formId": "hydrapple-forms-mega-evolutions-ndex-ms-pok-mon-type-normally-available-version-added",
+    "displayName": "Hydrapple",
+    "formText": null,
+    "formId": "hydrapple",
     "types": [
       "Grass",
       "Dragon"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0003",
-    "name": "Venusaur",
-    "formText": "Mega Venusaur",
-    "formId": "venusaur-mega-venusaur",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0006",
-    "name": "Charizard",
-    "formText": "Mega Charizard X",
-    "formId": "charizard-mega-charizard-x",
-    "types": [
-      "Fire",
-      "Dragon"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0006",
-    "name": "Charizard",
-    "formText": "Mega Charizard Y",
-    "formId": "charizard-mega-charizard-y",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0009",
-    "name": "Blastoise",
-    "formText": "Mega Blastoise",
-    "formId": "blastoise-mega-blastoise",
-    "types": [
-      "Water"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0015",
-    "name": "Beedrill",
-    "formText": "Mega Beedrill",
-    "formId": "beedrill-mega-beedrill",
-    "types": [
-      "Bug",
-      "Poison"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0018",
-    "name": "Pidgeot",
-    "formText": "Mega Pidgeot",
-    "formId": "pidgeot-mega-pidgeot",
-    "types": [
-      "Normal",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0036",
-    "name": "Clefable",
-    "formText": "Mega Clefable",
-    "formId": "clefable-mega-clefable",
-    "types": [
-      "Fairy",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0065",
-    "name": "Alakazam",
-    "formText": "Mega Alakazam",
-    "formId": "alakazam-mega-alakazam",
-    "types": [
-      "Psychic"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0071",
-    "name": "Victreebel",
-    "formText": "Mega Victreebel",
-    "formId": "victreebel-mega-victreebel",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0080",
-    "name": "Slowbro",
-    "formText": "Mega Slowbro",
-    "formId": "slowbro-mega-slowbro",
-    "types": [
-      "Water",
-      "Psychic"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0094",
-    "name": "Gengar",
-    "formText": "Mega Gengar",
-    "formId": "gengar-mega-gengar",
-    "types": [
-      "Ghost",
-      "Poison"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0115",
-    "name": "Kangaskhan",
-    "formText": "Mega Kangaskhan",
-    "formId": "kangaskhan-mega-kangaskhan",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0121",
-    "name": "Starmie",
-    "formText": "Mega Starmie",
-    "formId": "starmie-mega-starmie",
-    "types": [
-      "Water",
-      "Psychic"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0127",
-    "name": "Pinsir",
-    "formText": "Mega Pinsir",
-    "formId": "pinsir-mega-pinsir",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0130",
-    "name": "Gyarados",
-    "formText": "Mega Gyarados",
-    "formId": "gyarados-mega-gyarados",
-    "types": [
-      "Water",
-      "Dark"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0142",
-    "name": "Aerodactyl",
-    "formText": "Mega Aerodactyl",
-    "formId": "aerodactyl-mega-aerodactyl",
-    "types": [
-      "Rock",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0149",
-    "name": "Dragonite",
-    "formText": "Mega Dragonite",
-    "formId": "dragonite-mega-dragonite",
-    "types": [
-      "Dragon",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0154",
-    "name": "Meganium",
-    "formText": "Mega Meganium",
-    "formId": "meganium-mega-meganium",
-    "types": [
-      "Grass",
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0160",
-    "name": "Feraligatr",
-    "formText": "Mega Feraligatr",
-    "formId": "feraligatr-mega-feraligatr",
-    "types": [
-      "Water",
-      "Dragon"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0181",
-    "name": "Ampharos",
-    "formText": "Mega Ampharos",
-    "formId": "ampharos-mega-ampharos",
-    "types": [
-      "Electric",
-      "Dragon"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0208",
-    "name": "Steelix",
-    "formText": "Mega Steelix",
-    "formId": "steelix-mega-steelix",
-    "types": [
-      "Steel",
-      "Ground"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0212",
-    "name": "Scizor",
-    "formText": "Mega Scizor",
-    "formId": "scizor-mega-scizor",
-    "types": [
-      "Bug",
-      "Steel"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0214",
-    "name": "Heracross",
-    "formText": "Mega Heracross",
-    "formId": "heracross-mega-heracross",
-    "types": [
-      "Bug",
-      "Fighting"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0227",
-    "name": "Skarmory",
-    "formText": "Mega Skarmory",
-    "formId": "skarmory-mega-skarmory",
-    "types": [
-      "Steel",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0229",
-    "name": "Houndoom",
-    "formText": "Mega Houndoom",
-    "formId": "houndoom-mega-houndoom",
-    "types": [
-      "Dark",
-      "Fire"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0248",
-    "name": "Tyranitar",
-    "formText": "Mega Tyranitar",
-    "formId": "tyranitar-mega-tyranitar",
-    "types": [
-      "Rock",
-      "Dark"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0282",
-    "name": "Gardevoir",
-    "formText": "Mega Gardevoir",
-    "formId": "gardevoir-mega-gardevoir",
-    "types": [
-      "Psychic",
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0302",
-    "name": "Sableye",
-    "formText": "Mega Sableye",
-    "formId": "sableye-mega-sableye",
-    "types": [
-      "Dark",
-      "Ghost"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0306",
-    "name": "Aggron",
-    "formText": "Mega Aggron",
-    "formId": "aggron-mega-aggron",
-    "types": [
-      "Steel"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0308",
-    "name": "Medicham",
-    "formText": "Mega Medicham",
-    "formId": "medicham-mega-medicham",
-    "types": [
-      "Fighting",
-      "Psychic"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0310",
-    "name": "Manectric",
-    "formText": "Mega Manectric",
-    "formId": "manectric-mega-manectric",
-    "types": [
-      "Electric"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0319",
-    "name": "Sharpedo",
-    "formText": "Mega Sharpedo",
-    "formId": "sharpedo-mega-sharpedo",
-    "types": [
-      "Water",
-      "Dark"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0323",
-    "name": "Camerupt",
-    "formText": "Mega Camerupt",
-    "formId": "camerupt-mega-camerupt",
-    "types": [
-      "Fire",
-      "Ground"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0334",
-    "name": "Altaria",
-    "formText": "Mega Altaria",
-    "formId": "altaria-mega-altaria",
-    "types": [
-      "Dragon",
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0354",
-    "name": "Banette",
-    "formText": "Mega Banette",
-    "formId": "banette-mega-banette",
-    "types": [
-      "Ghost"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0358",
-    "name": "Chimecho",
-    "formText": "Mega Chimecho",
-    "formId": "chimecho-mega-chimecho",
-    "types": [
-      "Psychic",
-      "Steel"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0359",
-    "name": "Absol",
-    "formText": "Mega Absol",
-    "formId": "absol-mega-absol",
-    "types": [
-      "Dark"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0362",
-    "name": "Glalie",
-    "formText": "Mega Glalie",
-    "formId": "glalie-mega-glalie",
-    "types": [
-      "Ice"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0428",
-    "name": "Lopunny",
-    "formText": "Mega Lopunny",
-    "formId": "lopunny-mega-lopunny",
-    "types": [
-      "Normal",
-      "Fighting"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0445",
-    "name": "Garchomp",
-    "formText": "Mega Garchomp",
-    "formId": "garchomp-mega-garchomp",
-    "types": [
-      "Dragon",
-      "Ground"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0448",
-    "name": "Lucario",
-    "formText": "Mega Lucario",
-    "formId": "lucario-mega-lucario",
-    "types": [
-      "Fighting",
-      "Steel"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0460",
-    "name": "Abomasnow",
-    "formText": "Mega Abomasnow",
-    "formId": "abomasnow-mega-abomasnow",
-    "types": [
-      "Grass",
-      "Ice"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0475",
-    "name": "Gallade",
-    "formText": "Mega Gallade",
-    "formId": "gallade-mega-gallade",
-    "types": [
-      "Psychic",
-      "Fighting"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0478",
-    "name": "Froslass",
-    "formText": "Mega Froslass",
-    "formId": "froslass-mega-froslass",
-    "types": [
-      "Ice",
-      "Ghost"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0500",
-    "name": "Emboar",
-    "formText": "Mega Emboar",
-    "formId": "emboar-mega-emboar",
-    "types": [
-      "Fire",
-      "Fighting"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0530",
-    "name": "Excadrill",
-    "formText": "Mega Excadrill",
-    "formId": "excadrill-mega-excadrill",
-    "types": [
-      "Ground",
-      "Steel"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0531",
-    "name": "Audino",
-    "formText": "Mega Audino",
-    "formId": "audino-mega-audino",
-    "types": [
-      "Normal",
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0609",
-    "name": "Chandelure",
-    "formText": "Mega Chandelure",
-    "formId": "chandelure-mega-chandelure",
-    "types": [
-      "Ghost",
-      "Fire"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0623",
-    "name": "Golurk",
-    "formText": "Mega Golurk",
-    "formId": "golurk-mega-golurk",
-    "types": [
-      "Ground",
-      "Ghost"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0652",
-    "name": "Chesnaught",
-    "formText": "Mega Chesnaught",
-    "formId": "chesnaught-mega-chesnaught",
-    "types": [
-      "Grass",
-      "Fighting"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0655",
-    "name": "Delphox",
-    "formText": "Mega Delphox",
-    "formId": "delphox-mega-delphox",
-    "types": [
-      "Fire",
-      "Psychic"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0658",
-    "name": "Greninja",
-    "formText": "Mega Greninja",
-    "formId": "greninja-mega-greninja",
-    "types": [
-      "Water",
-      "Dark"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0670",
-    "name": "Floette",
-    "formText": "Mega Floette",
-    "formId": "floette-mega-floette",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0678",
-    "name": "Meowstic",
-    "formText": "Mega Meowstic",
-    "formId": "meowstic-mega-meowstic",
-    "types": [
-      "Psychic"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0701",
-    "name": "Hawlucha",
-    "formText": "Mega Hawlucha",
-    "formId": "hawlucha-mega-hawlucha",
-    "types": [
-      "Fighting",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0740",
-    "name": "Crabominable",
-    "formText": "Mega Crabominable",
-    "formId": "crabominable-mega-crabominable",
-    "types": [
-      "Fighting",
-      "Ice"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0780",
-    "name": "Drampa",
-    "formText": "Mega Drampa",
-    "formId": "drampa-mega-drampa",
-    "types": [
-      "Normal",
-      "Dragon"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0952",
-    "name": "Scovillain",
-    "formText": "Mega Scovillain",
-    "formId": "scovillain-mega-scovillain",
-    "types": [
-      "Grass",
-      "Fire"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0970",
-    "name": "Glimmora",
-    "formText": "Mega Glimmora Other forms Ndex MS Pokémon Type Normally available? Version added",
-    "formId": "glimmora-mega-glimmora-other-forms-ndex-ms-pok-mon-type-normally-available-version-added",
-    "types": [
-      "Rock",
-      "Poison"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0351",
-    "name": "Castform",
-    "formText": "Sunny Form",
-    "formId": "castform-sunny-form",
-    "types": [
-      "Fire"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0351",
-    "name": "Castform",
-    "formText": "Rainy Form",
-    "formId": "castform-rainy-form",
-    "types": [
-      "Water"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0351",
-    "name": "Castform",
-    "formText": "Snowy Form",
-    "formId": "castform-snowy-form",
-    "types": [
-      "Ice"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Icy Snow Pattern",
-    "formId": "vivillon-icy-snow-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Polar Pattern",
-    "formId": "vivillon-polar-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Tundra Pattern",
-    "formId": "vivillon-tundra-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Continental Pattern",
-    "formId": "vivillon-continental-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Garden Pattern",
-    "formId": "vivillon-garden-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Elegant Pattern",
-    "formId": "vivillon-elegant-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Meadow Pattern",
-    "formId": "vivillon-meadow-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Modern Pattern",
-    "formId": "vivillon-modern-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Marine Pattern",
-    "formId": "vivillon-marine-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Archipelago Pattern",
-    "formId": "vivillon-archipelago-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "High Plains Pattern",
-    "formId": "vivillon-high-plains-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Sandstorm Pattern",
-    "formId": "vivillon-sandstorm-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "River Pattern",
-    "formId": "vivillon-river-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Monsoon Pattern",
-    "formId": "vivillon-monsoon-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Savanna Pattern",
-    "formId": "vivillon-savanna-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Sun Pattern",
-    "formId": "vivillon-sun-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Ocean Pattern",
-    "formId": "vivillon-ocean-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Jungle Pattern",
-    "formId": "vivillon-jungle-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0666",
-    "name": "Vivillon",
-    "formText": "Poké Ball Pattern",
-    "formId": "vivillon-pok-ball-pattern",
-    "types": [
-      "Bug",
-      "Flying"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0671",
-    "name": "Florges",
-    "formText": "Yellow Flower",
-    "formId": "florges-yellow-flower",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0671",
-    "name": "Florges",
-    "formText": "Orange Flower",
-    "formId": "florges-orange-flower",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0671",
-    "name": "Florges",
-    "formText": "Blue Flower",
-    "formId": "florges-blue-flower",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0671",
-    "name": "Florges",
-    "formText": "White Flower",
-    "formId": "florges-white-flower",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Heart Trim",
-    "formId": "furfrou-heart-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Star Trim",
-    "formId": "furfrou-star-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Diamond Trim",
-    "formId": "furfrou-diamond-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Debutante Trim",
-    "formId": "furfrou-debutante-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Matron Trim",
-    "formId": "furfrou-matron-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Dandy Trim",
-    "formId": "furfrou-dandy-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "La Reine Trim",
-    "formId": "furfrou-la-reine-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Kabuki Trim",
-    "formId": "furfrou-kabuki-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0676",
-    "name": "Furfrou",
-    "formText": "Pharaoh Trim",
-    "formId": "furfrou-pharaoh-trim",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0681",
-    "name": "Aegislash",
-    "formText": "Blade Forme",
-    "formId": "aegislash-blade",
-    "types": [
-      "Steel",
-      "Ghost"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Ruby Cream",
-    "formId": "alcremie-ruby-cream",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Matcha Cream",
-    "formId": "alcremie-matcha-cream",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Mint Cream",
-    "formId": "alcremie-mint-cream",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Lemon Cream",
-    "formId": "alcremie-lemon-cream",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Salted Cream",
-    "formId": "alcremie-salted-cream",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Ruby Swirl",
-    "formId": "alcremie-ruby-swirl",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Caramel Swirl",
-    "formId": "alcremie-caramel-swirl",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0869",
-    "name": "Alcremie",
-    "formText": "Rainbow Swirl",
-    "formId": "alcremie-rainbow-swirl",
-    "types": [
-      "Fairy"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0877",
-    "name": "Morpeko",
-    "formText": "Hangry Mode",
-    "formId": "morpeko-hangry",
-    "types": [
-      "Electric",
-      "Dark"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0925",
-    "name": "Maushold",
-    "formText": "Family of Four",
-    "formId": "maushold-family-of-four",
-    "types": [
-      "Normal"
-    ],
-    "versionAdded": "1.0.2",
-    "availableInChampions": true,
-    "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions"
-  },
-  {
-    "ndex": "0964",
-    "name": "Palafin",
-    "formText": "Hero Form Greninja with Battle Bond cannot be sent to Pokémon Champions.",
-    "formId": "palafin-hero-greninja-with-battle-bond-cannot-be-sent-to-pok-mon-champions",
-    "types": [
-      "Water"
     ],
     "versionAdded": "1.0.2",
     "availableInChampions": true,
