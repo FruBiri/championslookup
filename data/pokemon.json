@@ -1,0 +1,52 @@
+[
+  {
+    "speciesId": "delphox",
+    "displayName": "Delphox",
+    "aliases": ["mega delphox"],
+    "availableInChampions": true,
+    "hasMegaEvolution": true,
+    "verification": {
+      "label": "Champions-aligned prototype",
+      "sourceSet": "Official Champions + community Champions trackers",
+      "notes": "Roster and training model are Champions-specific. Base stats and Mega form should be revalidated as the live service updates."
+    },
+    "baseForm": {
+      "formId": "delphox",
+      "displayName": "Delphox",
+      "types": ["Fire", "Psychic"],
+      "abilities": ["Blaze", "Magician"],
+      "baseStats": {
+        "hp": 75,
+        "atk": 69,
+        "def": 72,
+        "spa": 114,
+        "spd": 100,
+        "spe": 104
+      },
+      "verification": {
+        "label": "Champions roster verified",
+        "sourceSet": "Official Champions roster availability + Champions community data",
+        "notes": "Delphox appears in Champions-tracking sources and supports configurable training in Champions."
+      }
+    },
+    "megaForm": {
+      "formId": "mega_delphox",
+      "displayName": "Mega Delphox",
+      "types": ["Fire", "Psychic"],
+      "abilities": ["Levitate"],
+      "baseStats": {
+        "hp": 75,
+        "atk": 69,
+        "def": 72,
+        "spa": 159,
+        "spd": 125,
+        "spe": 134
+      },
+      "verification": {
+        "label": "Mega form prototype",
+        "sourceSet": "Champions community tracking",
+        "notes": "Mega Delphox and Levitate are reflected in current Champions trackers; keep this revalidated against live patches."
+      }
+    }
+  }
+]

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pokémon Champions Stat Lookup</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <h1>Pokémon Champions Stat Lookup</h1>
+        <p class="subhead">Fast battle lookup for valid stat ranges, abilities, and Mega forms.</p>
+      </div>
+      <div class="badges">
+        <span class="badge">Level 50</span>
+        <span class="badge">Champions data only</span>
+      </div>
+    </header>
+
+    <section class="search-panel">
+      <label for="pokemon-search" class="search-label">Pokémon name</label>
+      <div class="search-row">
+        <input id="pokemon-search" type="text" placeholder="Type a name, e.g. Delphox" autocomplete="off" />
+        <button id="clear-button" type="button">Clear</button>
+      </div>
+      <div id="suggestions" class="suggestions" aria-live="polite"></div>
+    </section>
+
+    <section id="result-panel" class="result-panel hidden">
+      <div class="result-header">
+        <div>
+          <h2 id="pokemon-name">—</h2>
+          <p id="pokemon-meta" class="meta-line"></p>
+        </div>
+        <label id="mega-toggle-wrapper" class="toggle hidden">
+          <input id="mega-toggle" type="checkbox" />
+          <span>Show Mega Evolution</span>
+        </label>
+      </div>
+
+      <div class="info-grid">
+        <section class="card">
+          <h3>Abilities</h3>
+          <ul id="ability-list" class="ability-list"></ul>
+        </section>
+
+        <section class="card">
+          <h3>Data status</h3>
+          <div id="data-status"></div>
+        </section>
+      </div>
+
+      <section class="card">
+        <div class="card-header-row">
+          <h3>Stat ranges</h3>
+          <span class="helper-text">Lowest possible to highest possible</span>
+        </div>
+        <div id="stat-grid" class="stat-grid"></div>
+      </section>
+    </section>
+
+    <section id="empty-state" class="empty-state">
+      <h2>Search for a Pokémon</h2>
+      <p>Designed for live battles: short, fast, and readable at a glance.</p>
+    </section>
+  </main>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
