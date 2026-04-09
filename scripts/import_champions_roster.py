@@ -78,8 +78,8 @@ def fetch_lines():
     return lines
 
 
-def find_main_roster_start(lines):
-    # Your parsed text shows the header as separate lines:
+def find_header_block(lines, section_title):
+    # Parsed Bulbapedia text appears as one item per line:
     # List of Pokémon in Champions
     # Ndex
     # MS
@@ -89,7 +89,7 @@ def find_main_roster_start(lines):
     # Version added
     for i in range(len(lines) - 6):
         if (
-            lines[i] == "List of Pokémon in Champions"
+            lines[i] == section_title
             and lines[i + 1] == "Ndex"
             and lines[i + 2] == "MS"
             and lines[i + 3] == "Pokémon"
@@ -98,13 +98,10 @@ def find_main_roster_start(lines):
             and lines[i + 6] == "Version added"
         ):
             return i + 7
-
-    raise RuntimeError(
-        f"Could not find main roster header block. See debug file: {DEBUG_LINES_PATH}"
-    )
+    return None
 
 
-def find_main_roster_end(lines, start_idx):
+def find_section_end(lines, start_idx):
     stop_markers = {
         "Forms",
         "Mega Evolutions",
@@ -117,7 +114,6 @@ def find_main_roster_end(lines, start_idx):
     for i in range(start_idx, len(lines)):
         if lines[i] in stop_markers:
             return i
-
     return len(lines)
 
 
@@ -181,14 +177,14 @@ def normalize_form_id(name: str, form_text: str | None) -> str:
 def format_display_name(name: str, form_text: str | None) -> str:
     if not form_text:
         return name
+    # Mega names already include Mega in the base name line
+    if name.lower().startswith("mega "):
+        return name
     return f"{name} ({form_text})"
 
 
-def parse_main_roster(lines):
-    start_idx = find_main_roster_start(lines)
-    end_idx = find_main_roster_end(lines, start_idx)
+def parse_line_stream_entries(lines, start_idx, end_idx):
     block = lines[start_idx:end_idx]
-
     entries = []
     i = 0
 
@@ -238,8 +234,12 @@ def parse_main_roster(lines):
             "source": URL,
         })
 
-    # dedupe by formId, keep richer entry
+    return entries
+
+
+def dedupe_entries(entries):
     by_form_id = {}
+
     for entry in entries:
         score = 0
         if entry.get("formText"):
@@ -247,6 +247,8 @@ def parse_main_roster(lines):
         if entry.get("types"):
             score += 1
         if entry.get("versionAdded"):
+            score += 1
+        if entry.get("name", "").lower().startswith("mega "):
             score += 1
 
         existing = by_form_id.get(entry["formId"])
@@ -256,14 +258,38 @@ def parse_main_roster(lines):
     return [v["entry"] for v in by_form_id.values()]
 
 
+def parse_main_roster(lines):
+    start_idx = find_header_block(lines, "List of Pokémon in Champions")
+    if start_idx is None:
+        raise RuntimeError(f"Could not find main roster header block. See {DEBUG_LINES_PATH}")
+
+    end_idx = find_section_end(lines, start_idx)
+    return parse_line_stream_entries(lines, start_idx, end_idx)
+
+
+def parse_mega_roster(lines):
+    start_idx = find_header_block(lines, "Mega Evolutions")
+    if start_idx is None:
+        return []
+
+    end_idx = find_section_end(lines, start_idx)
+    return parse_line_stream_entries(lines, start_idx, end_idx)
+
+
 def main():
     lines = fetch_lines()
-    entries = parse_main_roster(lines)
+
+    main_entries = parse_main_roster(lines)
+    mega_entries = parse_mega_roster(lines)
+
+    combined = dedupe_entries(main_entries + mega_entries)
 
     with OUT_PATH.open("w", encoding="utf-8") as f:
-        json.dump(entries, f, indent=2, ensure_ascii=False)
+        json.dump(combined, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote {len(entries)} roster entries to {OUT_PATH}")
+    print(f"Wrote {len(combined)} roster entries to {OUT_PATH}")
+    print(f"  Main roster entries: {len(main_entries)}")
+    print(f"  Mega entries: {len(mega_entries)}")
 
 
 if __name__ == "__main__":
