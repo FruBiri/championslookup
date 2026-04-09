@@ -2,9 +2,7 @@
   {
     "speciesId": "delphox",
     "displayName": "Delphox",
-    "aliases": [
-      "mega delphox"
-    ],
+    "aliases": ["mega delphox"],
     "availableInChampions": true,
     "hasMegaEvolution": true,
     "verification": {
@@ -15,14 +13,8 @@
     "baseForm": {
       "formId": "delphox",
       "displayName": "Delphox",
-      "types": [
-        "Fire",
-        "Psychic"
-      ],
-      "abilities": [
-        "Blaze",
-        "Magician"
-      ],
+      "types": ["Fire", "Psychic"],
+      "abilities": ["Blaze", "Magician"],
       "baseStats": {
         "hp": 75,
         "atk": 69,
@@ -40,13 +32,8 @@
     "megaForm": {
       "formId": "mega_delphox",
       "displayName": "Mega Delphox",
-      "types": [
-        "Fire",
-        "Psychic"
-      ],
-      "abilities": [
-        "Levitate"
-      ],
+      "types": ["Fire", "Psychic"],
+      "abilities": ["Levitate"],
       "baseStats": {
         "hp": 75,
         "atk": 69,

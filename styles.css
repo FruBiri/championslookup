@@ -167,15 +167,45 @@ button:hover {
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.ability-list li {
+.ability-pill {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ability-trigger,
+.ability-link {
   padding: 7px 10px;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: var(--panel-2);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.ability-trigger {
+  min-height: 0;
+}
+
+.ability-link {
+  color: var(--accent);
+}
+
+.ability-help {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  min-height: 70px;
+}
+
+.ability-help a {
+  color: var(--accent);
 }
 
 .stat-grid {

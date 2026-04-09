@@ -1,37 +1,56 @@
 # Pokémon Champions Stat Lookup
 
-A lightweight static web app for quick in-battle lookup.
+Fast, battle-focused lookup for Pokémon Champions stat ranges, Abilities, and Mega forms.
 
-## Current behavior
-- Search by Pokémon name
-- Show only the lowest possible stat and highest possible stat for each of the 6 stats
-- Show current possible abilities
-- Toggle Mega Evolution when available
-- Uses a local JSON dataset
+## How it works
 
-## Why static first
-GitHub Pages is enough for the UI, and a checked-in JSON dataset keeps the app fast and simple while Champions data sources are still evolving.
+This site is a static app for GitHub Pages. The page reads local JSON files from `data/`.
+You edit or generate source files in `sources/`, run the data build script, and commit the
+updated output.
 
-## GitHub Pages deployment
-1. Create a GitHub repo.
-2. Upload all files in this folder.
-3. In repo settings, enable GitHub Pages from the main branch root.
-4. Wait for the Pages URL to publish.
+## File layout
 
-## Data model
-Each species entry should include:
-- speciesId
-- displayName
-- availableInChampions
-- hasMegaEvolution
-- baseForm
-- megaForm
-- verification metadata
+- `index.html` – app shell
+- `styles.css` – UI
+- `app.js` – search, stat rendering, Mega toggle, Ability help
+- `sources/pokemon_seed.json` – editable source-of-truth Pokémon records
+- `sources/abilities_seed.json` – editable source-of-truth Ability records
+- `data/pokemon.json` – generated file served by GitHub Pages
+- `data/abilities.json` – generated file served by GitHub Pages
+- `scripts/build_data.py` – writes generated JSON from the seed files
+- `.github/workflows/update-data.yml` – optional GitHub Actions job
 
-## Stat model currently used
-- Level 50
-- Fixed IV = 31
-- Per-stat investment range = 0 to 32
-- Displayed range = absolute low to absolute high only
+## Local update flow
 
-This is optimized for fast lookup rather than full build simulation.
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python scripts/build_data.py
+```
+
+Commit the changed `data/*.json` files and push.
+
+## GitHub Pages
+
+Because the site uses plain JSON fetched from the same repo, GitHub Pages can host the app
+without a backend server.
+
+## Source policy
+
+Keep Champions availability Champions-specific.
+
+Recommended source priority:
+1. Official Pokémon Champions pages for roster gating and training behavior.
+2. Champions-specific community trackers for forms, mega availability, and live updates.
+3. Manual review before committing new data.
+
+Avoid treating a generic Pokédex as proof that a Pokémon or form is currently valid in Champions.
+
+## Ability help
+
+Abilities use both:
+- a quick local effect summary in the UI
+- an external wiki link for full detail
+
+That keeps the battle screen short while still giving you a deeper reference when needed.

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Blaze",
+    "effect": "When HP is below one-third of its maximum, the power of the Pokémon's Fire-type moves is boosted.",
+    "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Blaze_(Ability)"
+  },
+  {
+    "name": "Magician",
+    "effect": "If the Pokémon damages a target with a move while not holding an item, it steals the target's held item.",
+    "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Magician_(Ability)"
+  },
+  {
+    "name": "Levitate",
+    "effect": "The Pokémon is immune to damaging Ground-type moves and is treated as ungrounded for battlefield effects that care about grounding.",
+    "sourceUrl": "https://bulbapedia.bulbagarden.net/wiki/Levitate_(Ability)"
+  }
+]

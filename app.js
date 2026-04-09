@@ -1,4 +1,5 @@
-const DATA_PATH = './data/pokemon.json';
+const POKEMON_DATA_PATH = './data/pokemon.json';
+const ABILITY_DATA_PATH = './data/abilities.json';
 const LEVEL = 50;
 const FIXED_IV = 31;
 const MAX_STAT_POINTS_PER_STAT = 32;
@@ -15,10 +16,12 @@ const els = {
   statGrid: document.getElementById('stat-grid'),
   megaToggle: document.getElementById('mega-toggle'),
   megaToggleWrapper: document.getElementById('mega-toggle-wrapper'),
-  dataStatus: document.getElementById('data-status')
+  dataStatus: document.getElementById('data-status'),
+  abilityHelp: document.getElementById('ability-help')
 };
 
 let pokemonData = [];
+let abilityData = {};
 let activePokemon = null;
 
 function normalizeName(value) {
@@ -27,6 +30,10 @@ function normalizeName(value) {
     .normalize('NFKD')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
+}
+
+function slugify(value) {
+  return normalizeName(value).replace(/\s+/g, '-');
 }
 
 function calculateStatRange(baseStat, statName) {
@@ -38,7 +45,7 @@ function calculateStatRange(baseStat, statName) {
   }
 
   const baseAt50 = Math.floor(((2 * baseStat + FIXED_IV) * LEVEL) / 100) + 5;
-  const lowest = Math.floor((baseAt50 + 0) * 0.9);
+  const lowest = Math.floor(baseAt50 * 0.9);
   const highest = Math.floor((baseAt50 + MAX_STAT_POINTS_PER_STAT) * 1.1);
   return { min: lowest, max: highest };
 }
@@ -68,10 +75,64 @@ function renderSuggestions(matches) {
   });
 }
 
+function setAbilityHelp(content) {
+  els.abilityHelp.innerHTML = content || '<p class="helper-text">Tap or hover an Ability to see its effect. Click “Open wiki” for the full reference.</p>';
+}
+
+function renderAbilityItem(abilityName) {
+  const key = slugify(abilityName);
+  const ability = abilityData[key] || {
+    name: abilityName,
+    effect: 'Ability reference has not been added to the local dataset yet.',
+    sourceUrl: `https://bulbapedia.bulbagarden.net/wiki/${encodeURIComponent(abilityName)}_(Ability)`
+  };
+
+  const li = document.createElement('li');
+  li.className = 'ability-pill';
+
+  const trigger = document.createElement('button');
+  trigger.type = 'button';
+  trigger.className = 'ability-trigger';
+  trigger.textContent = ability.name;
+  trigger.title = ability.effect;
+  trigger.addEventListener('mouseenter', () => {
+    setAbilityHelp(`
+      <p class="status-line"><strong>${ability.name}</strong></p>
+      <p class="status-line">${ability.effect}</p>
+    `);
+  });
+  trigger.addEventListener('focus', () => {
+    setAbilityHelp(`
+      <p class="status-line"><strong>${ability.name}</strong></p>
+      <p class="status-line">${ability.effect}</p>
+    `);
+  });
+  trigger.addEventListener('click', () => {
+    setAbilityHelp(`
+      <p class="status-line"><strong>${ability.name}</strong></p>
+      <p class="status-line">${ability.effect}</p>
+      <p class="status-line"><a href="${ability.sourceUrl}" target="_blank" rel="noreferrer">Open wiki</a></p>
+    `);
+  });
+
+  const link = document.createElement('a');
+  link.className = 'ability-link';
+  link.href = ability.sourceUrl;
+  link.target = '_blank';
+  link.rel = 'noreferrer';
+  link.textContent = 'Open wiki';
+  link.setAttribute('aria-label', `Open ${ability.name} wiki page`);
+
+  li.appendChild(trigger);
+  li.appendChild(link);
+  return li;
+}
+
 function renderPokemon() {
   if (!activePokemon) {
     els.resultPanel.classList.add('hidden');
     els.emptyState.classList.remove('hidden');
+    setAbilityHelp('');
     return;
   }
 
@@ -91,10 +152,9 @@ function renderPokemon() {
 
   els.abilityList.innerHTML = '';
   form.abilities.forEach((ability) => {
-    const li = document.createElement('li');
-    li.textContent = ability;
-    els.abilityList.appendChild(li);
+    els.abilityList.appendChild(renderAbilityItem(ability));
   });
+  setAbilityHelp('');
 
   els.statGrid.innerHTML = '';
   const labels = {
@@ -156,8 +216,14 @@ function handleSearchInput() {
 }
 
 async function init() {
-  const response = await fetch(DATA_PATH);
-  pokemonData = await response.json();
+  const [pokemonResponse, abilityResponse] = await Promise.all([
+    fetch(POKEMON_DATA_PATH),
+    fetch(ABILITY_DATA_PATH)
+  ]);
+
+  pokemonData = await pokemonResponse.json();
+  const rawAbilityData = await abilityResponse.json();
+  abilityData = Object.fromEntries(rawAbilityData.map((entry) => [slugify(entry.name), entry]));
 
   els.search.addEventListener('input', handleSearchInput);
   els.clear.addEventListener('click', () => {
@@ -176,6 +242,6 @@ init().catch((error) => {
   console.error(error);
   els.emptyState.innerHTML = `
     <h2>Unable to load data</h2>
-    <p>Check that <code>data/pokemon.json</code> is present and GitHub Pages is serving it.</p>
+    <p>Check that <code>data/pokemon.json</code> and <code>data/abilities.json</code> are present and GitHub Pages is serving them.</p>
   `;
 });
