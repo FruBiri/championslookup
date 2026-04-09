@@ -224,6 +224,17 @@ def parse_line_stream_entries(lines, start_idx, end_idx):
             i += 1
 
         form_text = " ".join(form_parts).strip() if form_parts else None
+        # Normalize Mega rows where the form text redundantly contains the full Mega name
+        if form_text:
+            low_form = form_text.lower().strip()
+            low_name = name.lower().strip()
+
+            if low_form == f"mega {low_name}":
+                name = f"Mega {name}"
+                form_text = None
+            elif low_form.startswith("mega ") and low_name in low_form:
+                name = form_text
+                form_text = None
 
         entries.append({
             "ndex": ndex,

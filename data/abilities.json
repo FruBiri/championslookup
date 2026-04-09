@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-09T23:47:40Z",
+  "generatedAt": "2026-04-09T23:54:26Z",
   "abilities": {
     "adaptability": {
       "name": "Adaptability",
@@ -7,6 +7,13 @@
       "effect": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
       "shortEffect": "Increases the same-type attack bonus from 1.5× to 2×.",
       "source": "https://pokeapi.co/api/v2/ability/adaptability"
+    },
+    "aerilate": {
+      "name": "Aerilate",
+      "apiName": "aerilate",
+      "effect": "Turns the bearer's normal-type moves into flying-type moves.  Moves changed by this ability have 1.3× their power.",
+      "shortEffect": "Turns the bearer's normal moves into flying moves and strengthens them to 1.3× their power.",
+      "source": "https://pokeapi.co/api/v2/ability/aerilate"
     },
     "aftermath": {
       "name": "Aftermath",
@@ -186,8 +193,8 @@
     "drought": {
       "name": "Drought",
       "apiName": "drought",
-      "effect": "The weather changes to strong sunlight when this Pokémon enters battle and does not end unless cancelled by another weather condition.  If multiple Pokémon with this ability, drizzle, sand stream, or snow warning are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
-      "shortEffect": "Summons strong sunlight that lasts indefinitely upon entering battle.",
+      "effect": "Turns the sunlight harsh when the Pokémon enters battle.",
+      "shortEffect": "Summons harsh sunlight.",
       "source": "https://pokeapi.co/api/v2/ability/drought"
     },
     "dry-skin": {
@@ -217,6 +224,13 @@
       "effect": "The Pokémon becomes charged when it takes damage, boosting the power of the next Electric-type move the Pokémon uses.",
       "shortEffect": "When hit by an attack, the power of the next Electric-type move it uses is doubled.",
       "source": "https://pokeapi.co/api/v2/ability/electromorphosis"
+    },
+    "filter": {
+      "name": "Filter",
+      "apiName": "filter",
+      "effect": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.  This ability functions identically to solid rock.",
+      "shortEffect": "Decreases damage taken from super-effective moves by 1/4.",
+      "source": "https://pokeapi.co/api/v2/ability/filter"
     },
     "flame-body": {
       "name": "Flame Body",
@@ -659,6 +673,13 @@
       "shortEffect": "Prevents confusion.",
       "source": "https://pokeapi.co/api/v2/ability/own-tempo"
     },
+    "parental-bond": {
+      "name": "Parental Bond",
+      "apiName": "parental-bond",
+      "effect": "Lets the bearer hit twice with damaging moves.  The second hit has half power.",
+      "shortEffect": "Lets the bearer hit twice with damaging moves.  The second hit has half power.",
+      "source": "https://pokeapi.co/api/v2/ability/parental-bond"
+    },
     "pickpocket": {
       "name": "Pickpocket",
       "apiName": "pickpocket",
@@ -882,6 +903,13 @@
       "effect": "When the Pokémon enters a battle, the effects of Light Screen, Reflect, and Aurora Veil are nullified for both opposing and ally Pokémon.",
       "shortEffect": "Nullifies effects of Light Screen, Reflect, and Aurora Veil.",
       "source": "https://pokeapi.co/api/v2/ability/screen-cleaner"
+    },
+    "shadow-tag": {
+      "name": "Shadow Tag",
+      "apiName": "shadow-tag",
+      "effect": "Prevents opposing Pokémon from fleeing or switching out.",
+      "shortEffect": "Traps opposing Pokémon.",
+      "source": "https://pokeapi.co/api/v2/ability/shadow-tag"
     },
     "sharpness": {
       "name": "Sharpness",
@@ -1141,6 +1169,13 @@
       "effect": "When this Pokémon has 1/3 or less of its HP remaining, its water-type moves inflict 1.5× as much regular damage.",
       "shortEffect": "Strengthens water moves to inflict 1.5× damage at 1/3 max HP or less.",
       "source": "https://pokeapi.co/api/v2/ability/torrent"
+    },
+    "tough-claws": {
+      "name": "Tough Claws",
+      "apiName": "tough-claws",
+      "effect": "Increases the power of moves that make direct contact.",
+      "shortEffect": "Boosts contact moves.",
+      "source": "https://pokeapi.co/api/v2/ability/tough-claws"
     },
     "toxic-debris": {
       "name": "Toxic Debris",

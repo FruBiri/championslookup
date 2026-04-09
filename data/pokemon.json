@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-09T23:47:40Z",
+  "generatedAt": "2026-04-09T23:54:26Z",
   "format": {
     "level": 50,
     "iv": 31,
@@ -77,8 +77,10 @@
       "genus": "Seed Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "venusaur-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -157,14 +159,161 @@
       "genus": "Flame Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "charizard-mega-x",
+        "charizard-mega-y"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
         "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
         "pokemonApi": "https://pokeapi.co/api/v2/pokemon/charizard",
         "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/charizard"
+      }
+    },
+    {
+      "formId": "charizard-mega-x",
+      "name": "Mega Charizard X",
+      "baseName": "Mega Charizard X",
+      "speciesId": "charizard-mega-x",
+      "baseSpeciesId": "charizard",
+      "lookupName": "Mega Charizard X",
+      "nationalDex": 6,
+      "types": [
+        "Fire",
+        "Dragon"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "atk": 130,
+        "def": 111,
+        "spa": 130,
+        "spd": 85,
+        "spe": 100
+      },
+      "statRanges": {
+        "hp": {
+          "min": 153,
+          "max": 185
+        },
+        "atk": {
+          "min": 135,
+          "max": 200
+        },
+        "def": {
+          "min": 117,
+          "max": 179
+        },
+        "spa": {
+          "min": 135,
+          "max": 200
+        },
+        "spd": {
+          "min": 94,
+          "max": 150
+        },
+        "spe": {
+          "min": 108,
+          "max": 167
+        }
+      },
+      "abilities": [
+        "Tough Claws"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Tough Claws",
+          "apiName": "tough-claws",
+          "effect": "Increases the power of moves that make direct contact.",
+          "shortEffect": "Boosts contact moves.",
+          "source": "https://pokeapi.co/api/v2/ability/tough-claws"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": null,
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": null,
+        "speciesApi": null
+      }
+    },
+    {
+      "formId": "charizard-mega-y",
+      "name": "Mega Charizard Y",
+      "baseName": "Mega Charizard Y",
+      "speciesId": "charizard-mega-y",
+      "baseSpeciesId": "charizard",
+      "lookupName": "Mega Charizard Y",
+      "nationalDex": 6,
+      "types": [
+        "Fire",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "atk": 104,
+        "def": 78,
+        "spa": 159,
+        "spd": 115,
+        "spe": 100
+      },
+      "statRanges": {
+        "hp": {
+          "min": 153,
+          "max": 185
+        },
+        "atk": {
+          "min": 111,
+          "max": 171
+        },
+        "def": {
+          "min": 88,
+          "max": 143
+        },
+        "spa": {
+          "min": 161,
+          "max": 232
+        },
+        "spd": {
+          "min": 121,
+          "max": 183
+        },
+        "spe": {
+          "min": 108,
+          "max": 167
+        }
+      },
+      "abilities": [
+        "Drought"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Drought",
+          "apiName": "drought",
+          "effect": "Turns the sunlight harsh when the Pokémon enters battle.",
+          "shortEffect": "Summons harsh sunlight.",
+          "source": "https://pokeapi.co/api/v2/ability/drought"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": null,
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": null,
+        "speciesApi": null
       }
     },
     {
@@ -236,8 +385,10 @@
       "genus": "Shellfish Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "blastoise-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -316,8 +467,10 @@
       "genus": "Poison Bee Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "beedrill-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -404,8 +557,10 @@
       "genus": "Bird Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "pidgeot-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -736,8 +891,10 @@
       "genus": "Fairy Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "clefable-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -989,8 +1146,10 @@
       "genus": "Psi Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "alakazam-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -1156,8 +1315,10 @@
       "genus": "Flycatcher Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "victreebel-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -1244,8 +1405,10 @@
       "genus": "Hermit Crab Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "slowbro-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -1316,8 +1479,10 @@
       "genus": "Shadow Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "gengar-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -1403,8 +1568,10 @@
       "genus": "Parent Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "kangaskhan-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -1491,8 +1658,10 @@
       "genus": "Mysterious Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "starmie-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -1578,8 +1747,10 @@
       "genus": "Stag Beetle Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "pinsir-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -1745,8 +1916,10 @@
       "genus": "Atrocious Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "gyarados-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -2149,8 +2322,10 @@
       "genus": "Fossil Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "aerodactyl-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -2316,8 +2491,10 @@
       "genus": "Dragon Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "dragonite-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -2395,8 +2572,10 @@
       "genus": "Herb Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "meganium-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -2553,8 +2732,10 @@
       "genus": "Big Jaw Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "feraligatr-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -2720,8 +2901,10 @@
       "genus": "Light Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "ampharos-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -3309,8 +3492,10 @@
       "genus": "Iron Snake Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "steelix-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -3397,8 +3582,10 @@
       "genus": "Pincer Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "scizor-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -3485,8 +3672,10 @@
       "genus": "Single Horn Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "heracross-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -3573,8 +3762,10 @@
       "genus": "Armor Bird Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "skarmory-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -3661,8 +3852,10 @@
       "genus": "Dark Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "houndoom-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -3741,8 +3934,10 @@
       "genus": "Armor Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "tyranitar-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -3917,8 +4112,10 @@
       "genus": "Embrace Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "gardevoir-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4005,8 +4202,10 @@
       "genus": "Darkness Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "sableye-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4093,8 +4292,10 @@
       "genus": "Iron Armor Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "aggron-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4173,8 +4374,10 @@
       "genus": "Meditate Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "medicham-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4260,8 +4463,10 @@
       "genus": "Discharge Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "manectric-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4340,8 +4545,10 @@
       "genus": "Brutal Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "sharpedo-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4428,8 +4635,10 @@
       "genus": "Eruption Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "camerupt-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4595,8 +4804,10 @@
       "genus": "Humming Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "altaria-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4840,8 +5051,10 @@
       "genus": "Marionette Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "banette-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4911,8 +5124,10 @@
       "genus": "Wind Chime Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "chimecho-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -4998,8 +5213,10 @@
       "genus": "Disaster Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "absol-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -5085,8 +5302,10 @@
       "genus": "Face Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "glalie-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -5746,8 +5965,10 @@
       "genus": "Rabbit Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "lopunny-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -5906,8 +6127,10 @@
       "genus": "Mach Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "garchomp-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -5994,8 +6217,10 @@
       "genus": "Aura Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "lucario-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -6241,8 +6466,10 @@
       "genus": "Frost Tree Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "abomasnow-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -6831,8 +7058,10 @@
       "genus": "Blade Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "gallade-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -6911,8 +7140,10 @@
       "genus": "Snow Land Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "froslass-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -7070,8 +7301,10 @@
       "genus": "Mega Fire Pig Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "emboar-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -7648,8 +7881,10 @@
       "genus": "Subterrene Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "excadrill-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -7735,8 +7970,10 @@
       "genus": "Hearing Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "audino-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -8569,14 +8806,88 @@
       "genus": "Luring Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "chandelure-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
         "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
         "pokemonApi": "https://pokeapi.co/api/v2/pokemon/chandelure",
         "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/chandelure"
+      }
+    },
+    {
+      "formId": "chandelure-mega",
+      "name": "Mega Chandelure",
+      "baseName": "Mega Chandelure",
+      "speciesId": "chandelure-mega",
+      "baseSpeciesId": "chandelure",
+      "lookupName": "Mega Chandelure",
+      "nationalDex": 609,
+      "types": [
+        "Ghost",
+        "Fire"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "atk": 75,
+        "def": 110,
+        "spa": 175,
+        "spd": 110,
+        "spe": 90
+      },
+      "statRanges": {
+        "hp": {
+          "min": 135,
+          "max": 167
+        },
+        "atk": {
+          "min": 85,
+          "max": 139
+        },
+        "def": {
+          "min": 117,
+          "max": 178
+        },
+        "spa": {
+          "min": 175,
+          "max": 249
+        },
+        "spd": {
+          "min": 117,
+          "max": 178
+        },
+        "spe": {
+          "min": 99,
+          "max": 156
+        }
+      },
+      "abilities": [
+        "Shadow Tag"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Shadow Tag",
+          "apiName": "shadow-tag",
+          "effect": "Prevents opposing Pokémon from fleeing or switching out.",
+          "shortEffect": "Traps opposing Pokémon.",
+          "source": "https://pokeapi.co/api/v2/ability/shadow-tag"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": null,
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": null,
+        "speciesApi": null
       }
     },
     {
@@ -8832,8 +9143,10 @@
       "genus": "Automaton Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "golurk-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -9064,8 +9377,10 @@
       "genus": "Spiny Armor Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "chesnaught-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -9144,8 +9459,10 @@
       "genus": "Fox Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "delphox-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -9224,8 +9541,10 @@
       "genus": "Ninja Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "greninja-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -10449,8 +10768,10 @@
       "genus": "Wrestling Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "hawlucha-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -11383,8 +11704,10 @@
       "genus": "Woolly Crab Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "crabominable-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -12060,8 +12383,10 @@
       "genus": "Placid Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "drampa-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -14007,8 +14332,10 @@
       "genus": "Spicy Pepper Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "scovillain-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -14341,8 +14668,10 @@
       "genus": "Ore Pokémon",
       "availableInChampions": true,
       "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
+      "hasMegaEvolution": true,
+      "megaEvolutions": [
+        "glimmora-mega"
+      ],
       "enriched": true,
       "lookupFailed": false,
       "source": {
@@ -14784,65 +15113,6 @@
       }
     },
     {
-      "formId": "abomasnow-mega-abomasnow",
-      "name": "Abomasnow (Mega Abomasnow)",
-      "baseName": "Abomasnow",
-      "speciesId": "abomasnow-mega-abomasnow",
-      "baseSpeciesId": "abomasnow-mega-abomasnow",
-      "lookupName": "abomasnow-mega-abomasnow",
-      "nationalDex": null,
-      "types": [
-        "Grass",
-        "Ice"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "absol-mega-absol",
-      "name": "Absol (Mega Absol)",
-      "baseName": "Absol",
-      "speciesId": "absol-mega-absol",
-      "baseSpeciesId": "absol-mega-absol",
-      "lookupName": "absol-mega-absol",
-      "nationalDex": null,
-      "types": [
-        "Dark"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
       "formId": "aegislash",
       "name": "Aegislash",
       "baseName": "Aegislash",
@@ -14873,692 +15143,6 @@
       }
     },
     {
-      "formId": "aerodactyl-mega-aerodactyl",
-      "name": "Aerodactyl (Mega Aerodactyl)",
-      "baseName": "Aerodactyl",
-      "speciesId": "aerodactyl-mega-aerodactyl",
-      "baseSpeciesId": "aerodactyl-mega-aerodactyl",
-      "lookupName": "aerodactyl-mega-aerodactyl",
-      "nationalDex": null,
-      "types": [
-        "Rock",
-        "Flying"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "aggron-mega-aggron",
-      "name": "Aggron (Mega Aggron)",
-      "baseName": "Aggron",
-      "speciesId": "aggron-mega-aggron",
-      "baseSpeciesId": "aggron-mega-aggron",
-      "lookupName": "aggron-mega-aggron",
-      "nationalDex": null,
-      "types": [
-        "Steel"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "alakazam-mega-alakazam",
-      "name": "Alakazam (Mega Alakazam)",
-      "baseName": "Alakazam",
-      "speciesId": "alakazam-mega-alakazam",
-      "baseSpeciesId": "alakazam-mega-alakazam",
-      "lookupName": "alakazam-mega-alakazam",
-      "nationalDex": null,
-      "types": [
-        "Psychic"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "altaria-mega-altaria",
-      "name": "Altaria (Mega Altaria)",
-      "baseName": "Altaria",
-      "speciesId": "altaria-mega-altaria",
-      "baseSpeciesId": "altaria-mega-altaria",
-      "lookupName": "altaria-mega-altaria",
-      "nationalDex": null,
-      "types": [
-        "Dragon",
-        "Fairy"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "ampharos-mega-ampharos",
-      "name": "Ampharos (Mega Ampharos)",
-      "baseName": "Ampharos",
-      "speciesId": "ampharos-mega-ampharos",
-      "baseSpeciesId": "ampharos-mega-ampharos",
-      "lookupName": "ampharos-mega-ampharos",
-      "nationalDex": null,
-      "types": [
-        "Electric",
-        "Dragon"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "audino-mega-audino",
-      "name": "Audino (Mega Audino)",
-      "baseName": "Audino",
-      "speciesId": "audino-mega-audino",
-      "baseSpeciesId": "audino-mega-audino",
-      "lookupName": "audino-mega-audino",
-      "nationalDex": null,
-      "types": [
-        "Normal",
-        "Fairy"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "banette-mega-banette",
-      "name": "Banette (Mega Banette)",
-      "baseName": "Banette",
-      "speciesId": "banette-mega-banette",
-      "baseSpeciesId": "banette-mega-banette",
-      "lookupName": "banette-mega-banette",
-      "nationalDex": null,
-      "types": [
-        "Ghost"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "beedrill-mega-beedrill",
-      "name": "Beedrill (Mega Beedrill)",
-      "baseName": "Beedrill",
-      "speciesId": "beedrill-mega-beedrill",
-      "baseSpeciesId": "beedrill-mega-beedrill",
-      "lookupName": "beedrill-mega-beedrill",
-      "nationalDex": null,
-      "types": [
-        "Bug",
-        "Poison"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "blastoise-mega-blastoise",
-      "name": "Blastoise (Mega Blastoise)",
-      "baseName": "Blastoise",
-      "speciesId": "blastoise-mega-blastoise",
-      "baseSpeciesId": "blastoise-mega-blastoise",
-      "lookupName": "blastoise-mega-blastoise",
-      "nationalDex": null,
-      "types": [
-        "Water"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "camerupt-mega-camerupt",
-      "name": "Camerupt (Mega Camerupt)",
-      "baseName": "Camerupt",
-      "speciesId": "camerupt-mega-camerupt",
-      "baseSpeciesId": "camerupt-mega-camerupt",
-      "lookupName": "camerupt-mega-camerupt",
-      "nationalDex": null,
-      "types": [
-        "Fire",
-        "Ground"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "chandelure-mega-chandelure",
-      "name": "Chandelure (Mega Chandelure)",
-      "baseName": "Chandelure",
-      "speciesId": "chandelure-mega-chandelure",
-      "baseSpeciesId": "chandelure-mega-chandelure",
-      "lookupName": "chandelure-mega-chandelure",
-      "nationalDex": null,
-      "types": [
-        "Ghost",
-        "Fire"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "charizard-mega-charizard-x",
-      "name": "Charizard (Mega Charizard X)",
-      "baseName": "Charizard",
-      "speciesId": "charizard-mega-charizard-x",
-      "baseSpeciesId": "charizard-mega-charizard-x",
-      "lookupName": "charizard-mega-charizard-x",
-      "nationalDex": null,
-      "types": [
-        "Fire",
-        "Dragon"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "charizard-mega-charizard-y",
-      "name": "Charizard (Mega Charizard Y)",
-      "baseName": "Charizard",
-      "speciesId": "charizard-mega-charizard-y",
-      "baseSpeciesId": "charizard-mega-charizard-y",
-      "lookupName": "charizard-mega-charizard-y",
-      "nationalDex": null,
-      "types": [
-        "Fire",
-        "Flying"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "chesnaught-mega-chesnaught",
-      "name": "Chesnaught (Mega Chesnaught)",
-      "baseName": "Chesnaught",
-      "speciesId": "chesnaught-mega-chesnaught",
-      "baseSpeciesId": "chesnaught-mega-chesnaught",
-      "lookupName": "chesnaught-mega-chesnaught",
-      "nationalDex": null,
-      "types": [
-        "Grass",
-        "Fighting"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "chimecho-mega-chimecho",
-      "name": "Chimecho (Mega Chimecho)",
-      "baseName": "Chimecho",
-      "speciesId": "chimecho-mega-chimecho",
-      "baseSpeciesId": "chimecho-mega-chimecho",
-      "lookupName": "chimecho-mega-chimecho",
-      "nationalDex": null,
-      "types": [
-        "Psychic",
-        "Steel"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "clefable-mega-clefable",
-      "name": "Clefable (Mega Clefable)",
-      "baseName": "Clefable",
-      "speciesId": "clefable-mega-clefable",
-      "baseSpeciesId": "clefable-mega-clefable",
-      "lookupName": "clefable-mega-clefable",
-      "nationalDex": null,
-      "types": [
-        "Fairy",
-        "Flying"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "crabominable-mega-crabominable",
-      "name": "Crabominable (Mega Crabominable)",
-      "baseName": "Crabominable",
-      "speciesId": "crabominable-mega-crabominable",
-      "baseSpeciesId": "crabominable-mega-crabominable",
-      "lookupName": "crabominable-mega-crabominable",
-      "nationalDex": null,
-      "types": [
-        "Fighting",
-        "Ice"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "delphox-mega-delphox",
-      "name": "Delphox (Mega Delphox)",
-      "baseName": "Delphox",
-      "speciesId": "delphox-mega-delphox",
-      "baseSpeciesId": "delphox-mega-delphox",
-      "lookupName": "delphox-mega-delphox",
-      "nationalDex": null,
-      "types": [
-        "Fire",
-        "Psychic"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "dragonite-mega-dragonite",
-      "name": "Dragonite (Mega Dragonite)",
-      "baseName": "Dragonite",
-      "speciesId": "dragonite-mega-dragonite",
-      "baseSpeciesId": "dragonite-mega-dragonite",
-      "lookupName": "dragonite-mega-dragonite",
-      "nationalDex": null,
-      "types": [
-        "Dragon",
-        "Flying"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "drampa-mega-drampa",
-      "name": "Drampa (Mega Drampa)",
-      "baseName": "Drampa",
-      "speciesId": "drampa-mega-drampa",
-      "baseSpeciesId": "drampa-mega-drampa",
-      "lookupName": "drampa-mega-drampa",
-      "nationalDex": null,
-      "types": [
-        "Normal",
-        "Dragon"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "emboar-mega-emboar",
-      "name": "Emboar (Mega Emboar)",
-      "baseName": "Emboar",
-      "speciesId": "emboar-mega-emboar",
-      "baseSpeciesId": "emboar-mega-emboar",
-      "lookupName": "emboar-mega-emboar",
-      "nationalDex": null,
-      "types": [
-        "Fire",
-        "Fighting"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "excadrill-mega-excadrill",
-      "name": "Excadrill (Mega Excadrill)",
-      "baseName": "Excadrill",
-      "speciesId": "excadrill-mega-excadrill",
-      "baseSpeciesId": "excadrill-mega-excadrill",
-      "lookupName": "excadrill-mega-excadrill",
-      "nationalDex": null,
-      "types": [
-        "Ground",
-        "Steel"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "feraligatr-mega-feraligatr",
-      "name": "Feraligatr (Mega Feraligatr)",
-      "baseName": "Feraligatr",
-      "speciesId": "feraligatr-mega-feraligatr",
-      "baseSpeciesId": "feraligatr-mega-feraligatr",
-      "lookupName": "feraligatr-mega-feraligatr",
-      "nationalDex": null,
-      "types": [
-        "Water",
-        "Dragon"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
       "formId": "floette-eternal-flower-transfer-only",
       "name": "Floette (Eternal Flower Transfer only)",
       "baseName": "Floette",
@@ -15568,274 +15152,6 @@
       "nationalDex": null,
       "types": [
         "Fairy"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "floette-mega-floette",
-      "name": "Floette (Mega Floette)",
-      "baseName": "Floette",
-      "speciesId": "floette-mega-floette",
-      "baseSpeciesId": "floette-mega-floette",
-      "lookupName": "floette-mega-floette",
-      "nationalDex": null,
-      "types": [
-        "Fairy"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "froslass-mega-froslass",
-      "name": "Froslass (Mega Froslass)",
-      "baseName": "Froslass",
-      "speciesId": "froslass-mega-froslass",
-      "baseSpeciesId": "froslass-mega-froslass",
-      "lookupName": "froslass-mega-froslass",
-      "nationalDex": null,
-      "types": [
-        "Ice",
-        "Ghost"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "gallade-mega-gallade",
-      "name": "Gallade (Mega Gallade)",
-      "baseName": "Gallade",
-      "speciesId": "gallade-mega-gallade",
-      "baseSpeciesId": "gallade-mega-gallade",
-      "lookupName": "gallade-mega-gallade",
-      "nationalDex": null,
-      "types": [
-        "Psychic",
-        "Fighting"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "garchomp-mega-garchomp",
-      "name": "Garchomp (Mega Garchomp)",
-      "baseName": "Garchomp",
-      "speciesId": "garchomp-mega-garchomp",
-      "baseSpeciesId": "garchomp-mega-garchomp",
-      "lookupName": "garchomp-mega-garchomp",
-      "nationalDex": null,
-      "types": [
-        "Dragon",
-        "Ground"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "gardevoir-mega-gardevoir",
-      "name": "Gardevoir (Mega Gardevoir)",
-      "baseName": "Gardevoir",
-      "speciesId": "gardevoir-mega-gardevoir",
-      "baseSpeciesId": "gardevoir-mega-gardevoir",
-      "lookupName": "gardevoir-mega-gardevoir",
-      "nationalDex": null,
-      "types": [
-        "Psychic",
-        "Fairy"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "gengar-mega-gengar",
-      "name": "Gengar (Mega Gengar)",
-      "baseName": "Gengar",
-      "speciesId": "gengar-mega-gengar",
-      "baseSpeciesId": "gengar-mega-gengar",
-      "lookupName": "gengar-mega-gengar",
-      "nationalDex": null,
-      "types": [
-        "Ghost",
-        "Poison"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "glalie-mega-glalie",
-      "name": "Glalie (Mega Glalie)",
-      "baseName": "Glalie",
-      "speciesId": "glalie-mega-glalie",
-      "baseSpeciesId": "glalie-mega-glalie",
-      "lookupName": "glalie-mega-glalie",
-      "nationalDex": null,
-      "types": [
-        "Ice"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "glimmora-mega-glimmora",
-      "name": "Glimmora (Mega Glimmora)",
-      "baseName": "Glimmora",
-      "speciesId": "glimmora-mega-glimmora",
-      "baseSpeciesId": "glimmora-mega-glimmora",
-      "lookupName": "glimmora-mega-glimmora",
-      "nationalDex": null,
-      "types": [
-        "Rock",
-        "Poison"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "golurk-mega-golurk",
-      "name": "Golurk (Mega Golurk)",
-      "baseName": "Golurk",
-      "speciesId": "golurk-mega-golurk",
-      "baseSpeciesId": "golurk-mega-golurk",
-      "lookupName": "golurk-mega-golurk",
-      "nationalDex": null,
-      "types": [
-        "Ground",
-        "Ghost"
       ],
       "baseStats": {},
       "statRanges": {},
@@ -15976,245 +15292,6 @@
       }
     },
     {
-      "formId": "greninja-mega-greninja",
-      "name": "Greninja (Mega Greninja)",
-      "baseName": "Greninja",
-      "speciesId": "greninja-mega-greninja",
-      "baseSpeciesId": "greninja-mega-greninja",
-      "lookupName": "greninja-mega-greninja",
-      "nationalDex": null,
-      "types": [
-        "Water",
-        "Dark"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "gyarados-mega-gyarados",
-      "name": "Gyarados (Mega Gyarados)",
-      "baseName": "Gyarados",
-      "speciesId": "gyarados-mega-gyarados",
-      "baseSpeciesId": "gyarados-mega-gyarados",
-      "lookupName": "gyarados-mega-gyarados",
-      "nationalDex": null,
-      "types": [
-        "Water",
-        "Dark"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "hawlucha-mega-hawlucha",
-      "name": "Hawlucha (Mega Hawlucha)",
-      "baseName": "Hawlucha",
-      "speciesId": "hawlucha-mega-hawlucha",
-      "baseSpeciesId": "hawlucha-mega-hawlucha",
-      "lookupName": "hawlucha-mega-hawlucha",
-      "nationalDex": null,
-      "types": [
-        "Fighting",
-        "Flying"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "heracross-mega-heracross",
-      "name": "Heracross (Mega Heracross)",
-      "baseName": "Heracross",
-      "speciesId": "heracross-mega-heracross",
-      "baseSpeciesId": "heracross-mega-heracross",
-      "lookupName": "heracross-mega-heracross",
-      "nationalDex": null,
-      "types": [
-        "Bug",
-        "Fighting"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "houndoom-mega-houndoom",
-      "name": "Houndoom (Mega Houndoom)",
-      "baseName": "Houndoom",
-      "speciesId": "houndoom-mega-houndoom",
-      "baseSpeciesId": "houndoom-mega-houndoom",
-      "lookupName": "houndoom-mega-houndoom",
-      "nationalDex": null,
-      "types": [
-        "Dark",
-        "Fire"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "kangaskhan-mega-kangaskhan",
-      "name": "Kangaskhan (Mega Kangaskhan)",
-      "baseName": "Kangaskhan",
-      "speciesId": "kangaskhan-mega-kangaskhan",
-      "baseSpeciesId": "kangaskhan-mega-kangaskhan",
-      "lookupName": "kangaskhan-mega-kangaskhan",
-      "nationalDex": null,
-      "types": [
-        "Normal"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "lopunny-mega-lopunny",
-      "name": "Lopunny (Mega Lopunny)",
-      "baseName": "Lopunny",
-      "speciesId": "lopunny-mega-lopunny",
-      "baseSpeciesId": "lopunny-mega-lopunny",
-      "lookupName": "lopunny-mega-lopunny",
-      "nationalDex": null,
-      "types": [
-        "Normal",
-        "Fighting"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "lucario-mega-lucario",
-      "name": "Lucario (Mega Lucario)",
-      "baseName": "Lucario",
-      "speciesId": "lucario-mega-lucario",
-      "baseSpeciesId": "lucario-mega-lucario",
-      "lookupName": "lucario-mega-lucario",
-      "nationalDex": null,
-      "types": [
-        "Fighting",
-        "Steel"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
       "formId": "lycanroc-dusk-form",
       "name": "Lycanroc (Dusk Form)",
       "baseName": "Lycanroc",
@@ -16302,35 +15379,6 @@
       }
     },
     {
-      "formId": "manectric-mega-manectric",
-      "name": "Manectric (Mega Manectric)",
-      "baseName": "Manectric",
-      "speciesId": "manectric-mega-manectric",
-      "baseSpeciesId": "manectric-mega-manectric",
-      "lookupName": "manectric-mega-manectric",
-      "nationalDex": null,
-      "types": [
-        "Electric"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
       "formId": "maushold",
       "name": "Maushold",
       "baseName": "Maushold",
@@ -16340,95 +15388,6 @@
       "nationalDex": null,
       "types": [
         "Normal"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "medicham-mega-medicham",
-      "name": "Medicham (Mega Medicham)",
-      "baseName": "Medicham",
-      "speciesId": "medicham-mega-medicham",
-      "baseSpeciesId": "medicham-mega-medicham",
-      "lookupName": "medicham-mega-medicham",
-      "nationalDex": null,
-      "types": [
-        "Fighting",
-        "Psychic"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "meganium-mega-meganium",
-      "name": "Meganium (Mega Meganium)",
-      "baseName": "Meganium",
-      "speciesId": "meganium-mega-meganium",
-      "baseSpeciesId": "meganium-mega-meganium",
-      "lookupName": "meganium-mega-meganium",
-      "nationalDex": null,
-      "types": [
-        "Grass",
-        "Fairy"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "meowstic-mega-meowstic",
-      "name": "Meowstic (Mega Meowstic)",
-      "baseName": "Meowstic",
-      "speciesId": "meowstic-mega-meowstic",
-      "baseSpeciesId": "meowstic-mega-meowstic",
-      "lookupName": "meowstic-mega-meowstic",
-      "nationalDex": null,
-      "types": [
-        "Psychic"
       ],
       "baseStats": {},
       "statRanges": {},
@@ -16518,66 +15477,6 @@
       "nationalDex": null,
       "types": [
         "Water"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "pidgeot-mega-pidgeot",
-      "name": "Pidgeot (Mega Pidgeot)",
-      "baseName": "Pidgeot",
-      "speciesId": "pidgeot-mega-pidgeot",
-      "baseSpeciesId": "pidgeot-mega-pidgeot",
-      "lookupName": "pidgeot-mega-pidgeot",
-      "nationalDex": null,
-      "types": [
-        "Normal",
-        "Flying"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "pinsir-mega-pinsir",
-      "name": "Pinsir (Mega Pinsir)",
-      "baseName": "Pinsir",
-      "speciesId": "pinsir-mega-pinsir",
-      "baseSpeciesId": "pinsir-mega-pinsir",
-      "lookupName": "pinsir-mega-pinsir",
-      "nationalDex": null,
-      "types": [
-        "Bug",
-        "Flying"
       ],
       "baseStats": {},
       "statRanges": {},
@@ -16778,336 +15677,6 @@
       }
     },
     {
-      "formId": "sableye-mega-sableye",
-      "name": "Sableye (Mega Sableye)",
-      "baseName": "Sableye",
-      "speciesId": "sableye-mega-sableye",
-      "baseSpeciesId": "sableye-mega-sableye",
-      "lookupName": "sableye-mega-sableye",
-      "nationalDex": null,
-      "types": [
-        "Dark",
-        "Ghost"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "scizor-mega-scizor",
-      "name": "Scizor (Mega Scizor)",
-      "baseName": "Scizor",
-      "speciesId": "scizor-mega-scizor",
-      "baseSpeciesId": "scizor-mega-scizor",
-      "lookupName": "scizor-mega-scizor",
-      "nationalDex": null,
-      "types": [
-        "Bug",
-        "Steel"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "scovillain-mega-scovillain",
-      "name": "Scovillain (Mega Scovillain)",
-      "baseName": "Scovillain",
-      "speciesId": "scovillain-mega-scovillain",
-      "baseSpeciesId": "scovillain-mega-scovillain",
-      "lookupName": "scovillain-mega-scovillain",
-      "nationalDex": null,
-      "types": [
-        "Grass",
-        "Fire"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "sharpedo-mega-sharpedo",
-      "name": "Sharpedo (Mega Sharpedo)",
-      "baseName": "Sharpedo",
-      "speciesId": "sharpedo-mega-sharpedo",
-      "baseSpeciesId": "sharpedo-mega-sharpedo",
-      "lookupName": "sharpedo-mega-sharpedo",
-      "nationalDex": null,
-      "types": [
-        "Water",
-        "Dark"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "skarmory-mega-skarmory",
-      "name": "Skarmory (Mega Skarmory)",
-      "baseName": "Skarmory",
-      "speciesId": "skarmory-mega-skarmory",
-      "baseSpeciesId": "skarmory-mega-skarmory",
-      "lookupName": "skarmory-mega-skarmory",
-      "nationalDex": null,
-      "types": [
-        "Steel",
-        "Flying"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "slowbro-mega-slowbro",
-      "name": "Slowbro (Mega Slowbro)",
-      "baseName": "Slowbro",
-      "speciesId": "slowbro-mega-slowbro",
-      "baseSpeciesId": "slowbro-mega-slowbro",
-      "lookupName": "slowbro-mega-slowbro",
-      "nationalDex": null,
-      "types": [
-        "Water",
-        "Psychic"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "starmie-mega-starmie",
-      "name": "Starmie (Mega Starmie)",
-      "baseName": "Starmie",
-      "speciesId": "starmie-mega-starmie",
-      "baseSpeciesId": "starmie-mega-starmie",
-      "lookupName": "starmie-mega-starmie",
-      "nationalDex": null,
-      "types": [
-        "Water",
-        "Psychic"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "steelix-mega-steelix",
-      "name": "Steelix (Mega Steelix)",
-      "baseName": "Steelix",
-      "speciesId": "steelix-mega-steelix",
-      "baseSpeciesId": "steelix-mega-steelix",
-      "lookupName": "steelix-mega-steelix",
-      "nationalDex": null,
-      "types": [
-        "Steel",
-        "Ground"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "tyranitar-mega-tyranitar",
-      "name": "Tyranitar (Mega Tyranitar)",
-      "baseName": "Tyranitar",
-      "speciesId": "tyranitar-mega-tyranitar",
-      "baseSpeciesId": "tyranitar-mega-tyranitar",
-      "lookupName": "tyranitar-mega-tyranitar",
-      "nationalDex": null,
-      "types": [
-        "Rock",
-        "Dark"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "venusaur-mega-venusaur",
-      "name": "Venusaur (Mega Venusaur)",
-      "baseName": "Venusaur",
-      "speciesId": "venusaur-mega-venusaur",
-      "baseSpeciesId": "venusaur-mega-venusaur",
-      "lookupName": "venusaur-mega-venusaur",
-      "nationalDex": null,
-      "types": [
-        "Grass",
-        "Poison"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
-      "formId": "victreebel-mega-victreebel",
-      "name": "Victreebel (Mega Victreebel)",
-      "baseName": "Victreebel",
-      "speciesId": "victreebel-mega-victreebel",
-      "baseSpeciesId": "victreebel-mega-victreebel",
-      "lookupName": "victreebel-mega-victreebel",
-      "nationalDex": null,
-      "types": [
-        "Grass",
-        "Poison"
-      ],
-      "baseStats": {},
-      "statRanges": {},
-      "abilities": [],
-      "abilityDetails": [],
-      "hiddenAbility": null,
-      "genus": null,
-      "availableInChampions": true,
-      "isMegaForm": false,
-      "hasMegaEvolution": false,
-      "megaEvolutions": [],
-      "enriched": false,
-      "lookupFailed": true,
-      "source": {
-        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
-        "pokemonApi": null,
-        "speciesApi": null
-      }
-    },
-    {
       "formId": "meowstic-female",
       "name": "Meowstic (Female)",
       "baseName": "Meowstic",
@@ -17192,6 +15761,2446 @@
         "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
         "pokemonApi": "https://pokeapi.co/api/v2/pokemon/meowstic-female",
         "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/meowstic"
+      }
+    },
+    {
+      "formId": "venusaur-mega",
+      "name": "Mega Venusaur",
+      "baseName": "Mega Venusaur",
+      "speciesId": "venusaur-mega",
+      "baseSpeciesId": "venusaur",
+      "lookupName": "venusaur-mega",
+      "nationalDex": 10033,
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "atk": 100,
+        "def": 123,
+        "spa": 122,
+        "spd": 120,
+        "spe": 80
+      },
+      "statRanges": {
+        "hp": {
+          "min": 155,
+          "max": 187
+        },
+        "atk": {
+          "min": 108,
+          "max": 167
+        },
+        "def": {
+          "min": 128,
+          "max": 192
+        },
+        "spa": {
+          "min": 127,
+          "max": 191
+        },
+        "spd": {
+          "min": 126,
+          "max": 189
+        },
+        "spe": {
+          "min": 90,
+          "max": 145
+        }
+      },
+      "abilities": [
+        "Thick Fat"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Thick Fat",
+          "apiName": "thick-fat",
+          "effect": "This Pokémon takes half as much damage from fire- and ice-type moves.",
+          "shortEffect": "Halves damage from fire and ice moves.",
+          "source": "https://pokeapi.co/api/v2/ability/thick-fat"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Seed Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/venusaur-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/venusaur"
+      }
+    },
+    {
+      "formId": "blastoise-mega",
+      "name": "Mega Blastoise",
+      "baseName": "Mega Blastoise",
+      "speciesId": "blastoise-mega",
+      "baseSpeciesId": "blastoise",
+      "lookupName": "blastoise-mega",
+      "nationalDex": 10036,
+      "types": [
+        "Water"
+      ],
+      "baseStats": {
+        "hp": 79,
+        "atk": 103,
+        "def": 120,
+        "spa": 135,
+        "spd": 115,
+        "spe": 78
+      },
+      "statRanges": {
+        "hp": {
+          "min": 154,
+          "max": 186
+        },
+        "atk": {
+          "min": 110,
+          "max": 170
+        },
+        "def": {
+          "min": 126,
+          "max": 189
+        },
+        "spa": {
+          "min": 139,
+          "max": 205
+        },
+        "spd": {
+          "min": 121,
+          "max": 183
+        },
+        "spe": {
+          "min": 88,
+          "max": 143
+        }
+      },
+      "abilities": [
+        "Mega Launcher"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Mega Launcher",
+          "apiName": "mega-launcher",
+          "effect": "Strengthens aura and pulse moves to 1.5× their power.",
+          "shortEffect": "Strengthens aura and pulse moves to 1.5× their power.",
+          "source": "https://pokeapi.co/api/v2/ability/mega-launcher"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Shellfish Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/blastoise-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/blastoise"
+      }
+    },
+    {
+      "formId": "alakazam-mega",
+      "name": "Mega Alakazam",
+      "baseName": "Mega Alakazam",
+      "speciesId": "alakazam-mega",
+      "baseSpeciesId": "alakazam",
+      "lookupName": "alakazam-mega",
+      "nationalDex": 10037,
+      "types": [
+        "Psychic"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "atk": 50,
+        "def": 65,
+        "spa": 175,
+        "spd": 105,
+        "spe": 150
+      },
+      "statRanges": {
+        "hp": {
+          "min": 130,
+          "max": 162
+        },
+        "atk": {
+          "min": 63,
+          "max": 112
+        },
+        "def": {
+          "min": 76,
+          "max": 128
+        },
+        "spa": {
+          "min": 175,
+          "max": 249
+        },
+        "spd": {
+          "min": 112,
+          "max": 172
+        },
+        "spe": {
+          "min": 153,
+          "max": 222
+        }
+      },
+      "abilities": [
+        "Trace"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Trace",
+          "apiName": "trace",
+          "effect": "When this Pokémon enters battle, it copies a random opponent's ability.  This ability cannot copy flower gift, forecast, illusion, imposter, multitype, trace, wonder guard, or zen mode.",
+          "shortEffect": "Copies an opponent's ability upon entering battle.",
+          "source": "https://pokeapi.co/api/v2/ability/trace"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Psi Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/alakazam-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/alakazam"
+      }
+    },
+    {
+      "formId": "gengar-mega",
+      "name": "Mega Gengar",
+      "baseName": "Mega Gengar",
+      "speciesId": "gengar-mega",
+      "baseSpeciesId": "gengar",
+      "lookupName": "gengar-mega",
+      "nationalDex": 10038,
+      "types": [
+        "Ghost",
+        "Poison"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "atk": 65,
+        "def": 80,
+        "spa": 170,
+        "spd": 95,
+        "spe": 130
+      },
+      "statRanges": {
+        "hp": {
+          "min": 135,
+          "max": 167
+        },
+        "atk": {
+          "min": 76,
+          "max": 128
+        },
+        "def": {
+          "min": 90,
+          "max": 145
+        },
+        "spa": {
+          "min": 171,
+          "max": 244
+        },
+        "spd": {
+          "min": 103,
+          "max": 161
+        },
+        "spe": {
+          "min": 135,
+          "max": 200
+        }
+      },
+      "abilities": [
+        "Shadow Tag"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Shadow Tag",
+          "apiName": "shadow-tag",
+          "effect": "While this Pokémon is in battle, opposing Pokémon cannot flee or switch out.  Other Pokémon with this ability are unaffected.  Pokémon with run away can still flee.  Pokémon can still switch out with the use of a move or item.",
+          "shortEffect": "Prevents opponents from fleeing or switching out.",
+          "source": "https://pokeapi.co/api/v2/ability/shadow-tag"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Shadow Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/gengar-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/gengar"
+      }
+    },
+    {
+      "formId": "kangaskhan-mega",
+      "name": "Mega Kangaskhan",
+      "baseName": "Mega Kangaskhan",
+      "speciesId": "kangaskhan-mega",
+      "baseSpeciesId": "kangaskhan",
+      "lookupName": "kangaskhan-mega",
+      "nationalDex": 10039,
+      "types": [
+        "Normal"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "atk": 125,
+        "def": 100,
+        "spa": 60,
+        "spd": 100,
+        "spe": 100
+      },
+      "statRanges": {
+        "hp": {
+          "min": 180,
+          "max": 212
+        },
+        "atk": {
+          "min": 130,
+          "max": 194
+        },
+        "def": {
+          "min": 108,
+          "max": 167
+        },
+        "spa": {
+          "min": 72,
+          "max": 123
+        },
+        "spd": {
+          "min": 108,
+          "max": 167
+        },
+        "spe": {
+          "min": 108,
+          "max": 167
+        }
+      },
+      "abilities": [
+        "Parental Bond"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Parental Bond",
+          "apiName": "parental-bond",
+          "effect": "Lets the bearer hit twice with damaging moves.  The second hit has half power.",
+          "shortEffect": "Lets the bearer hit twice with damaging moves.  The second hit has half power.",
+          "source": "https://pokeapi.co/api/v2/ability/parental-bond"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Parent Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/kangaskhan-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/kangaskhan"
+      }
+    },
+    {
+      "formId": "pinsir-mega",
+      "name": "Mega Pinsir",
+      "baseName": "Mega Pinsir",
+      "speciesId": "pinsir-mega",
+      "baseSpeciesId": "pinsir",
+      "lookupName": "pinsir-mega",
+      "nationalDex": 10040,
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "atk": 155,
+        "def": 120,
+        "spa": 65,
+        "spd": 90,
+        "spe": 105
+      },
+      "statRanges": {
+        "hp": {
+          "min": 140,
+          "max": 172
+        },
+        "atk": {
+          "min": 157,
+          "max": 227
+        },
+        "def": {
+          "min": 126,
+          "max": 189
+        },
+        "spa": {
+          "min": 76,
+          "max": 128
+        },
+        "spd": {
+          "min": 99,
+          "max": 156
+        },
+        "spe": {
+          "min": 112,
+          "max": 172
+        }
+      },
+      "abilities": [
+        "Aerilate"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Aerilate",
+          "apiName": "aerilate",
+          "effect": "Turns the bearer's normal-type moves into flying-type moves.  Moves changed by this ability have 1.3× their power.",
+          "shortEffect": "Turns the bearer's normal moves into flying moves and strengthens them to 1.3× their power.",
+          "source": "https://pokeapi.co/api/v2/ability/aerilate"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Stag Beetle Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/pinsir-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/pinsir"
+      }
+    },
+    {
+      "formId": "gyarados-mega",
+      "name": "Mega Gyarados",
+      "baseName": "Mega Gyarados",
+      "speciesId": "gyarados-mega",
+      "baseSpeciesId": "gyarados",
+      "lookupName": "gyarados-mega",
+      "nationalDex": 10041,
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "atk": 155,
+        "def": 109,
+        "spa": 70,
+        "spd": 130,
+        "spe": 81
+      },
+      "statRanges": {
+        "hp": {
+          "min": 170,
+          "max": 202
+        },
+        "atk": {
+          "min": 157,
+          "max": 227
+        },
+        "def": {
+          "min": 116,
+          "max": 177
+        },
+        "spa": {
+          "min": 81,
+          "max": 134
+        },
+        "spd": {
+          "min": 135,
+          "max": 200
+        },
+        "spe": {
+          "min": 90,
+          "max": 146
+        }
+      },
+      "abilities": [
+        "Mold Breaker"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Mold Breaker",
+          "apiName": "mold-breaker",
+          "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.  For example, this Pokémon's moves ignore abilities that would fully negate them, such as water absorb; abilities that would prevent any of their effects, such as clear body, shell armor, or sticky hold; and abilities that grant any general protective benefit, such as simple, snow cloak, or thick fat.  If an ability could either hinder or help this Pokémon's moves, e.g. dry skin or unaware, the ability is ignored either way.  Abilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, cursed body only affects potential future uses of the move, while liquid ooze and shadow tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example color change or forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from drizzle.  This ability cannot ignore multitype at all.  An ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's spikes are not affected by this ability after they have been placed.  When this Pokémon enters battle, all participating trainers are notified that it has this ability.  This ability functions identically to teravolt and turboblaze.",
+          "shortEffect": "Bypasses targets' abilities if they could hinder or prevent a move.",
+          "source": "https://pokeapi.co/api/v2/ability/mold-breaker"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Atrocious Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/gyarados-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/gyarados"
+      }
+    },
+    {
+      "formId": "aerodactyl-mega",
+      "name": "Mega Aerodactyl",
+      "baseName": "Mega Aerodactyl",
+      "speciesId": "aerodactyl-mega",
+      "baseSpeciesId": "aerodactyl",
+      "lookupName": "aerodactyl-mega",
+      "nationalDex": 10042,
+      "types": [
+        "Rock",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "atk": 135,
+        "def": 85,
+        "spa": 70,
+        "spd": 95,
+        "spe": 150
+      },
+      "statRanges": {
+        "hp": {
+          "min": 155,
+          "max": 187
+        },
+        "atk": {
+          "min": 139,
+          "max": 205
+        },
+        "def": {
+          "min": 94,
+          "max": 150
+        },
+        "spa": {
+          "min": 81,
+          "max": 134
+        },
+        "spd": {
+          "min": 103,
+          "max": 161
+        },
+        "spe": {
+          "min": 153,
+          "max": 222
+        }
+      },
+      "abilities": [
+        "Tough Claws"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Tough Claws",
+          "apiName": "tough-claws",
+          "effect": "Increases the power of moves that make direct contact.",
+          "shortEffect": "Boosts contact moves.",
+          "source": "https://pokeapi.co/api/v2/ability/tough-claws"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Fossil Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/aerodactyl-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/aerodactyl"
+      }
+    },
+    {
+      "formId": "ampharos-mega",
+      "name": "Mega Ampharos",
+      "baseName": "Mega Ampharos",
+      "speciesId": "ampharos-mega",
+      "baseSpeciesId": "ampharos",
+      "lookupName": "ampharos-mega",
+      "nationalDex": 10045,
+      "types": [
+        "Electric",
+        "Dragon"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "atk": 95,
+        "def": 105,
+        "spa": 165,
+        "spd": 110,
+        "spe": 45
+      },
+      "statRanges": {
+        "hp": {
+          "min": 165,
+          "max": 197
+        },
+        "atk": {
+          "min": 103,
+          "max": 161
+        },
+        "def": {
+          "min": 112,
+          "max": 172
+        },
+        "spa": {
+          "min": 166,
+          "max": 238
+        },
+        "spd": {
+          "min": 117,
+          "max": 178
+        },
+        "spe": {
+          "min": 58,
+          "max": 106
+        }
+      },
+      "abilities": [
+        "Mold Breaker"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Mold Breaker",
+          "apiName": "mold-breaker",
+          "effect": "This Pokémon's moves completely ignore abilities that could hinder or prevent their effect on the target.  For example, this Pokémon's moves ignore abilities that would fully negate them, such as water absorb; abilities that would prevent any of their effects, such as clear body, shell armor, or sticky hold; and abilities that grant any general protective benefit, such as simple, snow cloak, or thick fat.  If an ability could either hinder or help this Pokémon's moves, e.g. dry skin or unaware, the ability is ignored either way.  Abilities that do not fit this description, even if they could hinder moves in some other way, are not affected.  For example, cursed body only affects potential future uses of the move, while liquid ooze and shadow tag can only hinder a move's effect on the user.  This ablity cannot ignore type or form changes granted by abilities, for example color change or forecast; nor effects that were caused by abilities but are no longer tied to an ability, such as the rain from drizzle.  This ability cannot ignore multitype at all.  An ability ignored by this ability is only nullified while the move is being used.  For example, this Pokémon's moves can paralyze a Pokémon with limber, but Limber will activate and heal the paralysis immediately thereafter, and this Pokémon's spikes are not affected by this ability after they have been placed.  When this Pokémon enters battle, all participating trainers are notified that it has this ability.  This ability functions identically to teravolt and turboblaze.",
+          "shortEffect": "Bypasses targets' abilities if they could hinder or prevent a move.",
+          "source": "https://pokeapi.co/api/v2/ability/mold-breaker"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Light Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/ampharos-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/ampharos"
+      }
+    },
+    {
+      "formId": "scizor-mega",
+      "name": "Mega Scizor",
+      "baseName": "Mega Scizor",
+      "speciesId": "scizor-mega",
+      "baseSpeciesId": "scizor",
+      "lookupName": "scizor-mega",
+      "nationalDex": 10046,
+      "types": [
+        "Bug",
+        "Steel"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "atk": 150,
+        "def": 140,
+        "spa": 65,
+        "spd": 100,
+        "spe": 75
+      },
+      "statRanges": {
+        "hp": {
+          "min": 145,
+          "max": 177
+        },
+        "atk": {
+          "min": 153,
+          "max": 222
+        },
+        "def": {
+          "min": 144,
+          "max": 211
+        },
+        "spa": {
+          "min": 76,
+          "max": 128
+        },
+        "spd": {
+          "min": 108,
+          "max": 167
+        },
+        "spe": {
+          "min": 85,
+          "max": 139
+        }
+      },
+      "abilities": [
+        "Technician"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Technician",
+          "apiName": "technician",
+          "effect": "This Pokémon's moves have 1.5× their power if their base power is 60 or less.  This includes moves of variable power, such as hidden power and magnitude, when their power is 60 or less.  helping hand's power boost is taken into account for any move, as is defense curl's power boost for rollout.",
+          "shortEffect": "Strengthens moves of 60 base power or less to 1.5× their power.",
+          "source": "https://pokeapi.co/api/v2/ability/technician"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Pincer Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/scizor-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/scizor"
+      }
+    },
+    {
+      "formId": "heracross-mega",
+      "name": "Mega Heracross",
+      "baseName": "Mega Heracross",
+      "speciesId": "heracross-mega",
+      "baseSpeciesId": "heracross",
+      "lookupName": "heracross-mega",
+      "nationalDex": 10047,
+      "types": [
+        "Bug",
+        "Fighting"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "atk": 185,
+        "def": 115,
+        "spa": 40,
+        "spd": 105,
+        "spe": 75
+      },
+      "statRanges": {
+        "hp": {
+          "min": 155,
+          "max": 187
+        },
+        "atk": {
+          "min": 184,
+          "max": 260
+        },
+        "def": {
+          "min": 121,
+          "max": 183
+        },
+        "spa": {
+          "min": 54,
+          "max": 101
+        },
+        "spd": {
+          "min": 112,
+          "max": 172
+        },
+        "spe": {
+          "min": 85,
+          "max": 139
+        }
+      },
+      "abilities": [
+        "Skill Link"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Skill Link",
+          "apiName": "skill-link",
+          "effect": "This Pokémon always hits five times with two-to-five-hit moves, such as icicle spear.  It also bypasses the accuracy checks on triple kick's second and third hits.",
+          "shortEffect": "Extends two-to-five-hit moves and triple kick to their full length every time.",
+          "source": "https://pokeapi.co/api/v2/ability/skill-link"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Single Horn Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/heracross-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/heracross"
+      }
+    },
+    {
+      "formId": "houndoom-mega",
+      "name": "Mega Houndoom",
+      "baseName": "Mega Houndoom",
+      "speciesId": "houndoom-mega",
+      "baseSpeciesId": "houndoom",
+      "lookupName": "houndoom-mega",
+      "nationalDex": 10048,
+      "types": [
+        "Dark",
+        "Fire"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "atk": 90,
+        "def": 90,
+        "spa": 140,
+        "spd": 90,
+        "spe": 115
+      },
+      "statRanges": {
+        "hp": {
+          "min": 150,
+          "max": 182
+        },
+        "atk": {
+          "min": 99,
+          "max": 156
+        },
+        "def": {
+          "min": 99,
+          "max": 156
+        },
+        "spa": {
+          "min": 144,
+          "max": 211
+        },
+        "spd": {
+          "min": 99,
+          "max": 156
+        },
+        "spe": {
+          "min": 121,
+          "max": 183
+        }
+      },
+      "abilities": [
+        "Solar Power"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Solar Power",
+          "apiName": "solar-power",
+          "effect": "During strong sunlight, this Pokémon has 1.5× its Special Attack but takes 1/8 of its maximum HP in damage after each turn.",
+          "shortEffect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight.",
+          "source": "https://pokeapi.co/api/v2/ability/solar-power"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Dark Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/houndoom-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/houndoom"
+      }
+    },
+    {
+      "formId": "tyranitar-mega",
+      "name": "Mega Tyranitar",
+      "baseName": "Mega Tyranitar",
+      "speciesId": "tyranitar-mega",
+      "baseSpeciesId": "tyranitar",
+      "lookupName": "tyranitar-mega",
+      "nationalDex": 10049,
+      "types": [
+        "Rock",
+        "Dark"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "atk": 164,
+        "def": 150,
+        "spa": 95,
+        "spd": 120,
+        "spe": 71
+      },
+      "statRanges": {
+        "hp": {
+          "min": 175,
+          "max": 207
+        },
+        "atk": {
+          "min": 165,
+          "max": 237
+        },
+        "def": {
+          "min": 153,
+          "max": 222
+        },
+        "spa": {
+          "min": 103,
+          "max": 161
+        },
+        "spd": {
+          "min": 126,
+          "max": 189
+        },
+        "spe": {
+          "min": 81,
+          "max": 135
+        }
+      },
+      "abilities": [
+        "Sand Stream"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Sand Stream",
+          "apiName": "sand-stream",
+          "effect": "The weather changes to a sandstorm when this Pokémon enters battle and does not end unless cancelled by another weather condition.  If multiple Pokémon with this ability, drizzle, drought, or snow warning are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is halved in a sandstorm.",
+          "shortEffect": "Summons a sandstorm that lasts indefinitely upon entering battle.",
+          "source": "https://pokeapi.co/api/v2/ability/sand-stream"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Armor Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/tyranitar-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/tyranitar"
+      }
+    },
+    {
+      "formId": "gardevoir-mega",
+      "name": "Mega Gardevoir",
+      "baseName": "Mega Gardevoir",
+      "speciesId": "gardevoir-mega",
+      "baseSpeciesId": "gardevoir",
+      "lookupName": "gardevoir-mega",
+      "nationalDex": 10051,
+      "types": [
+        "Psychic",
+        "Fairy"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "atk": 85,
+        "def": 65,
+        "spa": 165,
+        "spd": 135,
+        "spe": 100
+      },
+      "statRanges": {
+        "hp": {
+          "min": 143,
+          "max": 175
+        },
+        "atk": {
+          "min": 94,
+          "max": 150
+        },
+        "def": {
+          "min": 76,
+          "max": 128
+        },
+        "spa": {
+          "min": 166,
+          "max": 238
+        },
+        "spd": {
+          "min": 139,
+          "max": 205
+        },
+        "spe": {
+          "min": 108,
+          "max": 167
+        }
+      },
+      "abilities": [
+        "Pixilate"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Pixilate",
+          "apiName": "pixilate",
+          "effect": "Turns the bearer's normal-type moves into fairy moves.  Moves changed by this ability have 1.3× their power.",
+          "shortEffect": "Turns the bearer's normal moves into fairy moves and strengthens them to 1.3× their power.",
+          "source": "https://pokeapi.co/api/v2/ability/pixilate"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Embrace Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/gardevoir-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/gardevoir"
+      }
+    },
+    {
+      "formId": "aggron-mega",
+      "name": "Mega Aggron",
+      "baseName": "Mega Aggron",
+      "speciesId": "aggron-mega",
+      "baseSpeciesId": "aggron",
+      "lookupName": "aggron-mega",
+      "nationalDex": 10053,
+      "types": [
+        "Steel"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "atk": 140,
+        "def": 230,
+        "spa": 60,
+        "spd": 80,
+        "spe": 50
+      },
+      "statRanges": {
+        "hp": {
+          "min": 145,
+          "max": 177
+        },
+        "atk": {
+          "min": 144,
+          "max": 211
+        },
+        "def": {
+          "min": 225,
+          "max": 310
+        },
+        "spa": {
+          "min": 72,
+          "max": 123
+        },
+        "spd": {
+          "min": 90,
+          "max": 145
+        },
+        "spe": {
+          "min": 63,
+          "max": 112
+        }
+      },
+      "abilities": [
+        "Filter"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Filter",
+          "apiName": "filter",
+          "effect": "This Pokémon takes 0.75× as much damage from moves that are super effective against it.  This ability functions identically to solid rock.",
+          "shortEffect": "Decreases damage taken from super-effective moves by 1/4.",
+          "source": "https://pokeapi.co/api/v2/ability/filter"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Iron Armor Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/aggron-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/aggron"
+      }
+    },
+    {
+      "formId": "medicham-mega",
+      "name": "Mega Medicham",
+      "baseName": "Mega Medicham",
+      "speciesId": "medicham-mega",
+      "baseSpeciesId": "medicham",
+      "lookupName": "medicham-mega",
+      "nationalDex": 10054,
+      "types": [
+        "Fighting",
+        "Psychic"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "atk": 100,
+        "def": 85,
+        "spa": 80,
+        "spd": 85,
+        "spe": 100
+      },
+      "statRanges": {
+        "hp": {
+          "min": 135,
+          "max": 167
+        },
+        "atk": {
+          "min": 108,
+          "max": 167
+        },
+        "def": {
+          "min": 94,
+          "max": 150
+        },
+        "spa": {
+          "min": 90,
+          "max": 145
+        },
+        "spd": {
+          "min": 94,
+          "max": 150
+        },
+        "spe": {
+          "min": 108,
+          "max": 167
+        }
+      },
+      "abilities": [
+        "Pure Power"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Pure Power",
+          "apiName": "pure-power",
+          "effect": "This Pokémon's Attack is doubled in battle.  This bonus does not count as a stat modifier.  This ability functions identically to huge power.",
+          "shortEffect": "Doubles Attack in battle.",
+          "source": "https://pokeapi.co/api/v2/ability/pure-power"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Meditate Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/medicham-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/medicham"
+      }
+    },
+    {
+      "formId": "manectric-mega",
+      "name": "Mega Manectric",
+      "baseName": "Mega Manectric",
+      "speciesId": "manectric-mega",
+      "baseSpeciesId": "manectric",
+      "lookupName": "manectric-mega",
+      "nationalDex": 10055,
+      "types": [
+        "Electric"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "atk": 75,
+        "def": 80,
+        "spa": 135,
+        "spd": 80,
+        "spe": 135
+      },
+      "statRanges": {
+        "hp": {
+          "min": 145,
+          "max": 177
+        },
+        "atk": {
+          "min": 85,
+          "max": 139
+        },
+        "def": {
+          "min": 90,
+          "max": 145
+        },
+        "spa": {
+          "min": 139,
+          "max": 205
+        },
+        "spd": {
+          "min": 90,
+          "max": 145
+        },
+        "spe": {
+          "min": 139,
+          "max": 205
+        }
+      },
+      "abilities": [
+        "Intimidate"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Intimidate",
+          "apiName": "intimidate",
+          "effect": "When this Pokémon enters battle, the opponent's Attack is lowered by one stage.  In a double battle, both opponents are affected.  This ability also takes effect when acquired during a battle, but will not take effect again if lost and reobtained without leaving battle.  This ability has no effect on an opponent that has a substitute.  Overworld: If the first Pokémon in the party has this ability, any random encounter with a Pokémon five or more levels lower than it has a 50% chance of being skipped.",
+          "shortEffect": "Lowers opponents' Attack one stage upon entering battle.",
+          "source": "https://pokeapi.co/api/v2/ability/intimidate"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Discharge Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/manectric-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/manectric"
+      }
+    },
+    {
+      "formId": "banette-mega",
+      "name": "Mega Banette",
+      "baseName": "Mega Banette",
+      "speciesId": "banette-mega",
+      "baseSpeciesId": "banette",
+      "lookupName": "banette-mega",
+      "nationalDex": 10056,
+      "types": [
+        "Ghost"
+      ],
+      "baseStats": {
+        "hp": 64,
+        "atk": 165,
+        "def": 75,
+        "spa": 93,
+        "spd": 83,
+        "spe": 75
+      },
+      "statRanges": {
+        "hp": {
+          "min": 139,
+          "max": 171
+        },
+        "atk": {
+          "min": 166,
+          "max": 238
+        },
+        "def": {
+          "min": 85,
+          "max": 139
+        },
+        "spa": {
+          "min": 101,
+          "max": 159
+        },
+        "spd": {
+          "min": 92,
+          "max": 148
+        },
+        "spe": {
+          "min": 85,
+          "max": 139
+        }
+      },
+      "abilities": [
+        "Prankster"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Prankster",
+          "apiName": "prankster",
+          "effect": "This Pokémon's non-damaging moves have their priority increased by one stage.",
+          "shortEffect": "Raises non-damaging moves' priority by one stage.",
+          "source": "https://pokeapi.co/api/v2/ability/prankster"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Marionette Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/banette-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/banette"
+      }
+    },
+    {
+      "formId": "absol-mega",
+      "name": "Mega Absol",
+      "baseName": "Mega Absol",
+      "speciesId": "absol-mega",
+      "baseSpeciesId": "absol",
+      "lookupName": "absol-mega",
+      "nationalDex": 10057,
+      "types": [
+        "Dark"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "atk": 150,
+        "def": 60,
+        "spa": 115,
+        "spd": 60,
+        "spe": 115
+      },
+      "statRanges": {
+        "hp": {
+          "min": 140,
+          "max": 172
+        },
+        "atk": {
+          "min": 153,
+          "max": 222
+        },
+        "def": {
+          "min": 72,
+          "max": 123
+        },
+        "spa": {
+          "min": 121,
+          "max": 183
+        },
+        "spd": {
+          "min": 72,
+          "max": 123
+        },
+        "spe": {
+          "min": 121,
+          "max": 183
+        }
+      },
+      "abilities": [
+        "Magic Bounce"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Magic Bounce",
+          "apiName": "magic-bounce",
+          "effect": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user.  All reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable.  A move reflected by this ability or magic coat cannot be reflected back.",
+          "shortEffect": "Reflects most non-damaging moves back at their user.",
+          "source": "https://pokeapi.co/api/v2/ability/magic-bounce"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Disaster Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/absol-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/absol"
+      }
+    },
+    {
+      "formId": "garchomp-mega",
+      "name": "Mega Garchomp",
+      "baseName": "Mega Garchomp",
+      "speciesId": "garchomp-mega",
+      "baseSpeciesId": "garchomp",
+      "lookupName": "garchomp-mega",
+      "nationalDex": 10058,
+      "types": [
+        "Dragon",
+        "Ground"
+      ],
+      "baseStats": {
+        "hp": 108,
+        "atk": 170,
+        "def": 115,
+        "spa": 120,
+        "spd": 95,
+        "spe": 92
+      },
+      "statRanges": {
+        "hp": {
+          "min": 183,
+          "max": 215
+        },
+        "atk": {
+          "min": 171,
+          "max": 244
+        },
+        "def": {
+          "min": 121,
+          "max": 183
+        },
+        "spa": {
+          "min": 126,
+          "max": 189
+        },
+        "spd": {
+          "min": 103,
+          "max": 161
+        },
+        "spe": {
+          "min": 100,
+          "max": 158
+        }
+      },
+      "abilities": [
+        "Sand Force"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Sand Force",
+          "apiName": "sand-force",
+          "effect": "During a sandstorm, this Pokémon's rock-, ground-, and steel-type moves have 1.3× their base power.  This Pokémon does not take sandstorm damage, regardless of type.",
+          "shortEffect": "Strengthens rock, ground, and steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage.",
+          "source": "https://pokeapi.co/api/v2/ability/sand-force"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Mach Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/garchomp-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/garchomp"
+      }
+    },
+    {
+      "formId": "lucario-mega",
+      "name": "Mega Lucario",
+      "baseName": "Mega Lucario",
+      "speciesId": "lucario-mega",
+      "baseSpeciesId": "lucario",
+      "lookupName": "lucario-mega",
+      "nationalDex": 10059,
+      "types": [
+        "Fighting",
+        "Steel"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "atk": 145,
+        "def": 88,
+        "spa": 140,
+        "spd": 70,
+        "spe": 112
+      },
+      "statRanges": {
+        "hp": {
+          "min": 145,
+          "max": 177
+        },
+        "atk": {
+          "min": 148,
+          "max": 216
+        },
+        "def": {
+          "min": 97,
+          "max": 154
+        },
+        "spa": {
+          "min": 144,
+          "max": 211
+        },
+        "spd": {
+          "min": 81,
+          "max": 134
+        },
+        "spe": {
+          "min": 118,
+          "max": 180
+        }
+      },
+      "abilities": [
+        "Adaptability"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Adaptability",
+          "apiName": "adaptability",
+          "effect": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
+          "shortEffect": "Increases the same-type attack bonus from 1.5× to 2×.",
+          "source": "https://pokeapi.co/api/v2/ability/adaptability"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Aura Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/lucario-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/lucario"
+      }
+    },
+    {
+      "formId": "abomasnow-mega",
+      "name": "Mega Abomasnow",
+      "baseName": "Mega Abomasnow",
+      "speciesId": "abomasnow-mega",
+      "baseSpeciesId": "abomasnow",
+      "lookupName": "abomasnow-mega",
+      "nationalDex": 10060,
+      "types": [
+        "Grass",
+        "Ice"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "atk": 132,
+        "def": 105,
+        "spa": 132,
+        "spd": 105,
+        "spe": 30
+      },
+      "statRanges": {
+        "hp": {
+          "min": 165,
+          "max": 197
+        },
+        "atk": {
+          "min": 136,
+          "max": 202
+        },
+        "def": {
+          "min": 112,
+          "max": 172
+        },
+        "spa": {
+          "min": 136,
+          "max": 202
+        },
+        "spd": {
+          "min": 112,
+          "max": 172
+        },
+        "spe": {
+          "min": 45,
+          "max": 90
+        }
+      },
+      "abilities": [
+        "Snow Warning"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Snow Warning",
+          "apiName": "snow-warning",
+          "effect": "The weather changes to hail when this Pokémon enters battle and does not end unless cancelled by another weather condition.  If multiple Pokémon with this ability, drizzle, drought, or sand stream are sent out at the same time, the abilities will activate in order of Speed, respecting trick room.  Each ability's weather will cancel the previous weather, and only the weather summoned by the slowest of the Pokémon will stay.",
+          "shortEffect": "Summons hail that lasts indefinitely upon entering battle.",
+          "source": "https://pokeapi.co/api/v2/ability/snow-warning"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Frost Tree Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/abomasnow-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/abomasnow"
+      }
+    },
+    {
+      "formId": "sableye-mega",
+      "name": "Mega Sableye",
+      "baseName": "Mega Sableye",
+      "speciesId": "sableye-mega",
+      "baseSpeciesId": "sableye",
+      "lookupName": "sableye-mega",
+      "nationalDex": 10066,
+      "types": [
+        "Dark",
+        "Ghost"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "atk": 85,
+        "def": 125,
+        "spa": 85,
+        "spd": 115,
+        "spe": 20
+      },
+      "statRanges": {
+        "hp": {
+          "min": 125,
+          "max": 157
+        },
+        "atk": {
+          "min": 94,
+          "max": 150
+        },
+        "def": {
+          "min": 130,
+          "max": 194
+        },
+        "spa": {
+          "min": 94,
+          "max": 150
+        },
+        "spd": {
+          "min": 121,
+          "max": 183
+        },
+        "spe": {
+          "min": 36,
+          "max": 79
+        }
+      },
+      "abilities": [
+        "Magic Bounce"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Magic Bounce",
+          "apiName": "magic-bounce",
+          "effect": "When this Pokémon is targeted by a move flagged as being reflectable, the move is redirected to its user.  All reflectable moves are non-damaging, and most non-damaging moves that target other Pokémon are reflectable.  A move reflected by this ability or magic coat cannot be reflected back.",
+          "shortEffect": "Reflects most non-damaging moves back at their user.",
+          "source": "https://pokeapi.co/api/v2/ability/magic-bounce"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Darkness Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/sableye-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/sableye"
+      }
+    },
+    {
+      "formId": "altaria-mega",
+      "name": "Mega Altaria",
+      "baseName": "Mega Altaria",
+      "speciesId": "altaria-mega",
+      "baseSpeciesId": "altaria",
+      "lookupName": "altaria-mega",
+      "nationalDex": 10067,
+      "types": [
+        "Dragon",
+        "Fairy"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "atk": 110,
+        "def": 110,
+        "spa": 110,
+        "spd": 105,
+        "spe": 80
+      },
+      "statRanges": {
+        "hp": {
+          "min": 150,
+          "max": 182
+        },
+        "atk": {
+          "min": 117,
+          "max": 178
+        },
+        "def": {
+          "min": 117,
+          "max": 178
+        },
+        "spa": {
+          "min": 117,
+          "max": 178
+        },
+        "spd": {
+          "min": 112,
+          "max": 172
+        },
+        "spe": {
+          "min": 90,
+          "max": 145
+        }
+      },
+      "abilities": [
+        "Pixilate"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Pixilate",
+          "apiName": "pixilate",
+          "effect": "Turns the bearer's normal-type moves into fairy moves.  Moves changed by this ability have 1.3× their power.",
+          "shortEffect": "Turns the bearer's normal moves into fairy moves and strengthens them to 1.3× their power.",
+          "source": "https://pokeapi.co/api/v2/ability/pixilate"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Humming Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/altaria-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/altaria"
+      }
+    },
+    {
+      "formId": "gallade-mega",
+      "name": "Mega Gallade",
+      "baseName": "Mega Gallade",
+      "speciesId": "gallade-mega",
+      "baseSpeciesId": "gallade",
+      "lookupName": "gallade-mega",
+      "nationalDex": 10068,
+      "types": [
+        "Psychic",
+        "Fighting"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "atk": 165,
+        "def": 95,
+        "spa": 65,
+        "spd": 115,
+        "spe": 110
+      },
+      "statRanges": {
+        "hp": {
+          "min": 143,
+          "max": 175
+        },
+        "atk": {
+          "min": 166,
+          "max": 238
+        },
+        "def": {
+          "min": 103,
+          "max": 161
+        },
+        "spa": {
+          "min": 76,
+          "max": 128
+        },
+        "spd": {
+          "min": 121,
+          "max": 183
+        },
+        "spe": {
+          "min": 117,
+          "max": 178
+        }
+      },
+      "abilities": [
+        "Inner Focus"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Inner Focus",
+          "apiName": "inner-focus",
+          "effect": "This Pokémon cannot flinch.",
+          "shortEffect": "Prevents flinching.",
+          "source": "https://pokeapi.co/api/v2/ability/inner-focus"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Blade Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/gallade-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/gallade"
+      }
+    },
+    {
+      "formId": "audino-mega",
+      "name": "Mega Audino",
+      "baseName": "Mega Audino",
+      "speciesId": "audino-mega",
+      "baseSpeciesId": "audino",
+      "lookupName": "audino-mega",
+      "nationalDex": 10069,
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "baseStats": {
+        "hp": 103,
+        "atk": 60,
+        "def": 126,
+        "spa": 80,
+        "spd": 126,
+        "spe": 50
+      },
+      "statRanges": {
+        "hp": {
+          "min": 178,
+          "max": 210
+        },
+        "atk": {
+          "min": 72,
+          "max": 123
+        },
+        "def": {
+          "min": 131,
+          "max": 195
+        },
+        "spa": {
+          "min": 90,
+          "max": 145
+        },
+        "spd": {
+          "min": 131,
+          "max": 195
+        },
+        "spe": {
+          "min": 63,
+          "max": 112
+        }
+      },
+      "abilities": [
+        "Healer"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Healer",
+          "apiName": "healer",
+          "effect": "Friendly Pokémon next to this Pokémon in double and triple battles each have a 30% chance of being cured of any major status ailment after each turn.",
+          "shortEffect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+          "source": "https://pokeapi.co/api/v2/ability/healer"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Hearing Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/audino-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/audino"
+      }
+    },
+    {
+      "formId": "sharpedo-mega",
+      "name": "Mega Sharpedo",
+      "baseName": "Mega Sharpedo",
+      "speciesId": "sharpedo-mega",
+      "baseSpeciesId": "sharpedo",
+      "lookupName": "sharpedo-mega",
+      "nationalDex": 10070,
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "atk": 140,
+        "def": 70,
+        "spa": 110,
+        "spd": 65,
+        "spe": 105
+      },
+      "statRanges": {
+        "hp": {
+          "min": 145,
+          "max": 177
+        },
+        "atk": {
+          "min": 144,
+          "max": 211
+        },
+        "def": {
+          "min": 81,
+          "max": 134
+        },
+        "spa": {
+          "min": 117,
+          "max": 178
+        },
+        "spd": {
+          "min": 76,
+          "max": 128
+        },
+        "spe": {
+          "min": 112,
+          "max": 172
+        }
+      },
+      "abilities": [
+        "Strong Jaw"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Strong Jaw",
+          "apiName": "strong-jaw",
+          "effect": "Strengthens biting moves to 1.5× their power.",
+          "shortEffect": "Strengthens biting moves to 1.5× their power.",
+          "source": "https://pokeapi.co/api/v2/ability/strong-jaw"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Brutal Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/sharpedo-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/sharpedo"
+      }
+    },
+    {
+      "formId": "slowbro-mega",
+      "name": "Mega Slowbro",
+      "baseName": "Mega Slowbro",
+      "speciesId": "slowbro-mega",
+      "baseSpeciesId": "slowbro",
+      "lookupName": "slowbro-mega",
+      "nationalDex": 10071,
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "atk": 75,
+        "def": 180,
+        "spa": 130,
+        "spd": 80,
+        "spe": 30
+      },
+      "statRanges": {
+        "hp": {
+          "min": 170,
+          "max": 202
+        },
+        "atk": {
+          "min": 85,
+          "max": 139
+        },
+        "def": {
+          "min": 180,
+          "max": 255
+        },
+        "spa": {
+          "min": 135,
+          "max": 200
+        },
+        "spd": {
+          "min": 90,
+          "max": 145
+        },
+        "spe": {
+          "min": 45,
+          "max": 90
+        }
+      },
+      "abilities": [
+        "Shell Armor"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Shell Armor",
+          "apiName": "shell-armor",
+          "effect": "Moves cannot score critical hits against this Pokémon.  This ability functions identically to battle armor.",
+          "shortEffect": "Protects against critical hits.",
+          "source": "https://pokeapi.co/api/v2/ability/shell-armor"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Hermit Crab Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/slowbro-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/slowbro"
+      }
+    },
+    {
+      "formId": "steelix-mega",
+      "name": "Mega Steelix",
+      "baseName": "Mega Steelix",
+      "speciesId": "steelix-mega",
+      "baseSpeciesId": "steelix",
+      "lookupName": "steelix-mega",
+      "nationalDex": 10072,
+      "types": [
+        "Steel",
+        "Ground"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "atk": 125,
+        "def": 230,
+        "spa": 55,
+        "spd": 95,
+        "spe": 30
+      },
+      "statRanges": {
+        "hp": {
+          "min": 150,
+          "max": 182
+        },
+        "atk": {
+          "min": 130,
+          "max": 194
+        },
+        "def": {
+          "min": 225,
+          "max": 310
+        },
+        "spa": {
+          "min": 67,
+          "max": 117
+        },
+        "spd": {
+          "min": 103,
+          "max": 161
+        },
+        "spe": {
+          "min": 45,
+          "max": 90
+        }
+      },
+      "abilities": [
+        "Sand Force"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Sand Force",
+          "apiName": "sand-force",
+          "effect": "During a sandstorm, this Pokémon's rock-, ground-, and steel-type moves have 1.3× their base power.  This Pokémon does not take sandstorm damage, regardless of type.",
+          "shortEffect": "Strengthens rock, ground, and steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage.",
+          "source": "https://pokeapi.co/api/v2/ability/sand-force"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Iron Snake Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/steelix-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/steelix"
+      }
+    },
+    {
+      "formId": "pidgeot-mega",
+      "name": "Mega Pidgeot",
+      "baseName": "Mega Pidgeot",
+      "speciesId": "pidgeot-mega",
+      "baseSpeciesId": "pidgeot",
+      "lookupName": "pidgeot-mega",
+      "nationalDex": 10073,
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 83,
+        "atk": 80,
+        "def": 80,
+        "spa": 135,
+        "spd": 80,
+        "spe": 121
+      },
+      "statRanges": {
+        "hp": {
+          "min": 158,
+          "max": 190
+        },
+        "atk": {
+          "min": 90,
+          "max": 145
+        },
+        "def": {
+          "min": 90,
+          "max": 145
+        },
+        "spa": {
+          "min": 139,
+          "max": 205
+        },
+        "spd": {
+          "min": 90,
+          "max": 145
+        },
+        "spe": {
+          "min": 126,
+          "max": 190
+        }
+      },
+      "abilities": [
+        "No Guard"
+      ],
+      "abilityDetails": [
+        {
+          "name": "No Guard",
+          "apiName": "no-guard",
+          "effect": "Moves used by or against this Pokémon never miss.  One-hit KO moves are unaffected.  Moves affected by this ability can hit Pokémon during the preparation turn of moves like dig or fly.  Overworld: If the lead Pokémon has this ability, the wild encounter rate is doubled.",
+          "shortEffect": "Ensures all moves used by and against the Pokémon hit.",
+          "source": "https://pokeapi.co/api/v2/ability/no-guard"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Bird Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/pidgeot-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/pidgeot"
+      }
+    },
+    {
+      "formId": "glalie-mega",
+      "name": "Mega Glalie",
+      "baseName": "Mega Glalie",
+      "speciesId": "glalie-mega",
+      "baseSpeciesId": "glalie",
+      "lookupName": "glalie-mega",
+      "nationalDex": 10074,
+      "types": [
+        "Ice"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "atk": 120,
+        "def": 80,
+        "spa": 120,
+        "spd": 80,
+        "spe": 100
+      },
+      "statRanges": {
+        "hp": {
+          "min": 155,
+          "max": 187
+        },
+        "atk": {
+          "min": 126,
+          "max": 189
+        },
+        "def": {
+          "min": 90,
+          "max": 145
+        },
+        "spa": {
+          "min": 126,
+          "max": 189
+        },
+        "spd": {
+          "min": 90,
+          "max": 145
+        },
+        "spe": {
+          "min": 108,
+          "max": 167
+        }
+      },
+      "abilities": [
+        "Refrigerate"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Refrigerate",
+          "apiName": "refrigerate",
+          "effect": "Turns the bearer's normal-type moves into ice-type moves.  Moves changed by this ability have 1.3× their power.",
+          "shortEffect": "Turns the bearer's normal moves into ice moves and strengthens them to 1.3× their power.",
+          "source": "https://pokeapi.co/api/v2/ability/refrigerate"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Face Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/glalie-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/glalie"
+      }
+    },
+    {
+      "formId": "camerupt-mega",
+      "name": "Mega Camerupt",
+      "baseName": "Mega Camerupt",
+      "speciesId": "camerupt-mega",
+      "baseSpeciesId": "camerupt",
+      "lookupName": "camerupt-mega",
+      "nationalDex": 10087,
+      "types": [
+        "Fire",
+        "Ground"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "atk": 120,
+        "def": 100,
+        "spa": 145,
+        "spd": 105,
+        "spe": 20
+      },
+      "statRanges": {
+        "hp": {
+          "min": 145,
+          "max": 177
+        },
+        "atk": {
+          "min": 126,
+          "max": 189
+        },
+        "def": {
+          "min": 108,
+          "max": 167
+        },
+        "spa": {
+          "min": 148,
+          "max": 216
+        },
+        "spd": {
+          "min": 112,
+          "max": 172
+        },
+        "spe": {
+          "min": 36,
+          "max": 79
+        }
+      },
+      "abilities": [
+        "Sheer Force"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Sheer Force",
+          "apiName": "sheer-force",
+          "effect": "This Pokémon's moves with extra effects have 1.3× their power, but lose their extra effects.  An effect chance is a move's chance to inflict a status ailment, cause a stat change, or make the target flinch in addition to the move's main effect. For example, thunder shock's paralysis is an extra effect, but thunder wave's is not, nor are knock off's item removal and air cutter's increased critical hit rate.  Moves that lower the user's stats are unaffected.",
+          "shortEffect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+          "source": "https://pokeapi.co/api/v2/ability/sheer-force"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Eruption Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/camerupt-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/camerupt"
+      }
+    },
+    {
+      "formId": "lopunny-mega",
+      "name": "Mega Lopunny",
+      "baseName": "Mega Lopunny",
+      "speciesId": "lopunny-mega",
+      "baseSpeciesId": "lopunny",
+      "lookupName": "lopunny-mega",
+      "nationalDex": 10088,
+      "types": [
+        "Normal",
+        "Fighting"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "atk": 136,
+        "def": 94,
+        "spa": 54,
+        "spd": 96,
+        "spe": 135
+      },
+      "statRanges": {
+        "hp": {
+          "min": 140,
+          "max": 172
+        },
+        "atk": {
+          "min": 140,
+          "max": 206
+        },
+        "def": {
+          "min": 102,
+          "max": 160
+        },
+        "spa": {
+          "min": 66,
+          "max": 116
+        },
+        "spd": {
+          "min": 104,
+          "max": 162
+        },
+        "spe": {
+          "min": 139,
+          "max": 205
+        }
+      },
+      "abilities": [
+        "Scrappy"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Scrappy",
+          "apiName": "scrappy",
+          "effect": "This Pokémon ignores ghost-type Pokémon's immunity to normal- and fighting-type moves.  Ghost Pokémon's other types affect damage as usual.",
+          "shortEffect": "Lets the Pokémon's normal and fighting moves hit ghost Pokémon.",
+          "source": "https://pokeapi.co/api/v2/ability/scrappy"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Rabbit Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/lopunny-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/lopunny"
+      }
+    },
+    {
+      "formId": "beedrill-mega",
+      "name": "Mega Beedrill",
+      "baseName": "Mega Beedrill",
+      "speciesId": "beedrill-mega",
+      "baseSpeciesId": "beedrill",
+      "lookupName": "beedrill-mega",
+      "nationalDex": 10090,
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "atk": 150,
+        "def": 40,
+        "spa": 15,
+        "spd": 80,
+        "spe": 145
+      },
+      "statRanges": {
+        "hp": {
+          "min": 140,
+          "max": 172
+        },
+        "atk": {
+          "min": 153,
+          "max": 222
+        },
+        "def": {
+          "min": 54,
+          "max": 101
+        },
+        "spa": {
+          "min": 31,
+          "max": 73
+        },
+        "spd": {
+          "min": 90,
+          "max": 145
+        },
+        "spe": {
+          "min": 148,
+          "max": 216
+        }
+      },
+      "abilities": [
+        "Adaptability"
+      ],
+      "abilityDetails": [
+        {
+          "name": "Adaptability",
+          "apiName": "adaptability",
+          "effect": "This Pokémon inflicts twice as much damage with moves whose types match its own, rather than the usual same-type attack bonus of 1.5×.",
+          "shortEffect": "Increases the same-type attack bonus from 1.5× to 2×.",
+          "source": "https://pokeapi.co/api/v2/ability/adaptability"
+        }
+      ],
+      "hiddenAbility": null,
+      "genus": "Poison Bee Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/beedrill-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/beedrill"
       }
     },
     {
@@ -18519,6 +19528,1368 @@
         "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
         "pokemonApi": "https://pokeapi.co/api/v2/pokemon/tauros-paldea-aqua-breed",
         "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/tauros"
+      }
+    },
+    {
+      "formId": "clefable-mega",
+      "name": "Mega Clefable",
+      "baseName": "Mega Clefable",
+      "speciesId": "clefable-mega",
+      "baseSpeciesId": "clefable",
+      "lookupName": "clefable-mega",
+      "nationalDex": 10278,
+      "types": [
+        "Fairy",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "atk": 80,
+        "def": 93,
+        "spa": 135,
+        "spd": 110,
+        "spe": 70
+      },
+      "statRanges": {
+        "hp": {
+          "min": 170,
+          "max": 202
+        },
+        "atk": {
+          "min": 90,
+          "max": 145
+        },
+        "def": {
+          "min": 101,
+          "max": 159
+        },
+        "spa": {
+          "min": 139,
+          "max": 205
+        },
+        "spd": {
+          "min": 117,
+          "max": 178
+        },
+        "spe": {
+          "min": 81,
+          "max": 134
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Fairy Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/clefable-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/clefable"
+      }
+    },
+    {
+      "formId": "victreebel-mega",
+      "name": "Mega Victreebel",
+      "baseName": "Mega Victreebel",
+      "speciesId": "victreebel-mega",
+      "baseSpeciesId": "victreebel",
+      "lookupName": "victreebel-mega",
+      "nationalDex": 10279,
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "atk": 125,
+        "def": 85,
+        "spa": 135,
+        "spd": 95,
+        "spe": 70
+      },
+      "statRanges": {
+        "hp": {
+          "min": 155,
+          "max": 187
+        },
+        "atk": {
+          "min": 130,
+          "max": 194
+        },
+        "def": {
+          "min": 94,
+          "max": 150
+        },
+        "spa": {
+          "min": 139,
+          "max": 205
+        },
+        "spd": {
+          "min": 103,
+          "max": 161
+        },
+        "spe": {
+          "min": 81,
+          "max": 134
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Flycatcher Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/victreebel-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/victreebel"
+      }
+    },
+    {
+      "formId": "starmie-mega",
+      "name": "Mega Starmie",
+      "baseName": "Mega Starmie",
+      "speciesId": "starmie-mega",
+      "baseSpeciesId": "starmie",
+      "lookupName": "starmie-mega",
+      "nationalDex": 10280,
+      "types": [
+        "Water",
+        "Psychic"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "atk": 100,
+        "def": 105,
+        "spa": 130,
+        "spd": 105,
+        "spe": 120
+      },
+      "statRanges": {
+        "hp": {
+          "min": 135,
+          "max": 167
+        },
+        "atk": {
+          "min": 108,
+          "max": 167
+        },
+        "def": {
+          "min": 112,
+          "max": 172
+        },
+        "spa": {
+          "min": 135,
+          "max": 200
+        },
+        "spd": {
+          "min": 112,
+          "max": 172
+        },
+        "spe": {
+          "min": 126,
+          "max": 189
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Mysterious Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/starmie-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/starmie"
+      }
+    },
+    {
+      "formId": "dragonite-mega",
+      "name": "Mega Dragonite",
+      "baseName": "Mega Dragonite",
+      "speciesId": "dragonite-mega",
+      "baseSpeciesId": "dragonite",
+      "lookupName": "dragonite-mega",
+      "nationalDex": 10281,
+      "types": [
+        "Dragon",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 91,
+        "atk": 124,
+        "def": 115,
+        "spa": 145,
+        "spd": 125,
+        "spe": 100
+      },
+      "statRanges": {
+        "hp": {
+          "min": 166,
+          "max": 198
+        },
+        "atk": {
+          "min": 129,
+          "max": 193
+        },
+        "def": {
+          "min": 121,
+          "max": 183
+        },
+        "spa": {
+          "min": 148,
+          "max": 216
+        },
+        "spd": {
+          "min": 130,
+          "max": 194
+        },
+        "spe": {
+          "min": 108,
+          "max": 167
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Dragon Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/dragonite-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/dragonite"
+      }
+    },
+    {
+      "formId": "meganium-mega",
+      "name": "Mega Meganium",
+      "baseName": "Mega Meganium",
+      "speciesId": "meganium-mega",
+      "baseSpeciesId": "meganium",
+      "lookupName": "meganium-mega",
+      "nationalDex": 10282,
+      "types": [
+        "Grass",
+        "Fairy"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "atk": 92,
+        "def": 115,
+        "spa": 143,
+        "spd": 115,
+        "spe": 80
+      },
+      "statRanges": {
+        "hp": {
+          "min": 155,
+          "max": 187
+        },
+        "atk": {
+          "min": 100,
+          "max": 158
+        },
+        "def": {
+          "min": 121,
+          "max": 183
+        },
+        "spa": {
+          "min": 146,
+          "max": 214
+        },
+        "spd": {
+          "min": 121,
+          "max": 183
+        },
+        "spe": {
+          "min": 90,
+          "max": 145
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Herb Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/meganium-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/meganium"
+      }
+    },
+    {
+      "formId": "feraligatr-mega",
+      "name": "Mega Feraligatr",
+      "baseName": "Mega Feraligatr",
+      "speciesId": "feraligatr-mega",
+      "baseSpeciesId": "feraligatr",
+      "lookupName": "feraligatr-mega",
+      "nationalDex": 10283,
+      "types": [
+        "Water",
+        "Dragon"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "atk": 160,
+        "def": 125,
+        "spa": 89,
+        "spd": 93,
+        "spe": 78
+      },
+      "statRanges": {
+        "hp": {
+          "min": 160,
+          "max": 192
+        },
+        "atk": {
+          "min": 162,
+          "max": 233
+        },
+        "def": {
+          "min": 130,
+          "max": 194
+        },
+        "spa": {
+          "min": 98,
+          "max": 155
+        },
+        "spd": {
+          "min": 101,
+          "max": 159
+        },
+        "spe": {
+          "min": 88,
+          "max": 143
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Big Jaw Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/feraligatr-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/feraligatr"
+      }
+    },
+    {
+      "formId": "skarmory-mega",
+      "name": "Mega Skarmory",
+      "baseName": "Mega Skarmory",
+      "speciesId": "skarmory-mega",
+      "baseSpeciesId": "skarmory",
+      "lookupName": "skarmory-mega",
+      "nationalDex": 10284,
+      "types": [
+        "Steel",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "atk": 140,
+        "def": 110,
+        "spa": 40,
+        "spd": 100,
+        "spe": 110
+      },
+      "statRanges": {
+        "hp": {
+          "min": 140,
+          "max": 172
+        },
+        "atk": {
+          "min": 144,
+          "max": 211
+        },
+        "def": {
+          "min": 117,
+          "max": 178
+        },
+        "spa": {
+          "min": 54,
+          "max": 101
+        },
+        "spd": {
+          "min": 108,
+          "max": 167
+        },
+        "spe": {
+          "min": 117,
+          "max": 178
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Armor Bird Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/skarmory-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/skarmory"
+      }
+    },
+    {
+      "formId": "froslass-mega",
+      "name": "Mega Froslass",
+      "baseName": "Mega Froslass",
+      "speciesId": "froslass-mega",
+      "baseSpeciesId": "froslass",
+      "lookupName": "froslass-mega",
+      "nationalDex": 10285,
+      "types": [
+        "Ice",
+        "Ghost"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "atk": 80,
+        "def": 70,
+        "spa": 140,
+        "spd": 100,
+        "spe": 120
+      },
+      "statRanges": {
+        "hp": {
+          "min": 145,
+          "max": 177
+        },
+        "atk": {
+          "min": 90,
+          "max": 145
+        },
+        "def": {
+          "min": 81,
+          "max": 134
+        },
+        "spa": {
+          "min": 144,
+          "max": 211
+        },
+        "spd": {
+          "min": 108,
+          "max": 167
+        },
+        "spe": {
+          "min": 126,
+          "max": 189
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Snow Land Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/froslass-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/froslass"
+      }
+    },
+    {
+      "formId": "emboar-mega",
+      "name": "Mega Emboar",
+      "baseName": "Mega Emboar",
+      "speciesId": "emboar-mega",
+      "baseSpeciesId": "emboar",
+      "lookupName": "emboar-mega",
+      "nationalDex": 10286,
+      "types": [
+        "Fire",
+        "Fighting"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "atk": 148,
+        "def": 75,
+        "spa": 110,
+        "spd": 110,
+        "spe": 75
+      },
+      "statRanges": {
+        "hp": {
+          "min": 185,
+          "max": 217
+        },
+        "atk": {
+          "min": 151,
+          "max": 220
+        },
+        "def": {
+          "min": 85,
+          "max": 139
+        },
+        "spa": {
+          "min": 117,
+          "max": 178
+        },
+        "spd": {
+          "min": 117,
+          "max": 178
+        },
+        "spe": {
+          "min": 85,
+          "max": 139
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Mega Fire Pig Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/emboar-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/emboar"
+      }
+    },
+    {
+      "formId": "excadrill-mega",
+      "name": "Mega Excadrill",
+      "baseName": "Mega Excadrill",
+      "speciesId": "excadrill-mega",
+      "baseSpeciesId": "excadrill",
+      "lookupName": "excadrill-mega",
+      "nationalDex": 10287,
+      "types": [
+        "Ground",
+        "Steel"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "atk": 165,
+        "def": 100,
+        "spa": 65,
+        "spd": 65,
+        "spe": 103
+      },
+      "statRanges": {
+        "hp": {
+          "min": 185,
+          "max": 217
+        },
+        "atk": {
+          "min": 166,
+          "max": 238
+        },
+        "def": {
+          "min": 108,
+          "max": 167
+        },
+        "spa": {
+          "min": 76,
+          "max": 128
+        },
+        "spd": {
+          "min": 76,
+          "max": 128
+        },
+        "spe": {
+          "min": 110,
+          "max": 170
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Subterrene Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/excadrill-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/excadrill"
+      }
+    },
+    {
+      "formId": "chesnaught-mega",
+      "name": "Mega Chesnaught",
+      "baseName": "Mega Chesnaught",
+      "speciesId": "chesnaught-mega",
+      "baseSpeciesId": "chesnaught",
+      "lookupName": "chesnaught-mega",
+      "nationalDex": 10292,
+      "types": [
+        "Grass",
+        "Fighting"
+      ],
+      "baseStats": {
+        "hp": 88,
+        "atk": 137,
+        "def": 172,
+        "spa": 74,
+        "spd": 115,
+        "spe": 44
+      },
+      "statRanges": {
+        "hp": {
+          "min": 163,
+          "max": 195
+        },
+        "atk": {
+          "min": 141,
+          "max": 207
+        },
+        "def": {
+          "min": 172,
+          "max": 246
+        },
+        "spa": {
+          "min": 84,
+          "max": 138
+        },
+        "spd": {
+          "min": 121,
+          "max": 183
+        },
+        "spe": {
+          "min": 57,
+          "max": 105
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Spiny Armor Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/chesnaught-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/chesnaught"
+      }
+    },
+    {
+      "formId": "delphox-mega",
+      "name": "Mega Delphox",
+      "baseName": "Mega Delphox",
+      "speciesId": "delphox-mega",
+      "baseSpeciesId": "delphox",
+      "lookupName": "delphox-mega",
+      "nationalDex": 10293,
+      "types": [
+        "Fire",
+        "Psychic"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "atk": 69,
+        "def": 72,
+        "spa": 159,
+        "spd": 125,
+        "spe": 134
+      },
+      "statRanges": {
+        "hp": {
+          "min": 150,
+          "max": 182
+        },
+        "atk": {
+          "min": 80,
+          "max": 133
+        },
+        "def": {
+          "min": 82,
+          "max": 136
+        },
+        "spa": {
+          "min": 161,
+          "max": 232
+        },
+        "spd": {
+          "min": 130,
+          "max": 194
+        },
+        "spe": {
+          "min": 138,
+          "max": 204
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Fox Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/delphox-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/delphox"
+      }
+    },
+    {
+      "formId": "greninja-mega",
+      "name": "Mega Greninja",
+      "baseName": "Mega Greninja",
+      "speciesId": "greninja-mega",
+      "baseSpeciesId": "greninja",
+      "lookupName": "greninja-mega",
+      "nationalDex": 10294,
+      "types": [
+        "Water",
+        "Dark"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "atk": 125,
+        "def": 77,
+        "spa": 133,
+        "spd": 81,
+        "spe": 142
+      },
+      "statRanges": {
+        "hp": {
+          "min": 147,
+          "max": 179
+        },
+        "atk": {
+          "min": 130,
+          "max": 194
+        },
+        "def": {
+          "min": 87,
+          "max": 141
+        },
+        "spa": {
+          "min": 137,
+          "max": 203
+        },
+        "spd": {
+          "min": 90,
+          "max": 146
+        },
+        "spe": {
+          "min": 145,
+          "max": 213
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Ninja Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/greninja-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/greninja"
+      }
+    },
+    {
+      "formId": "floette-mega",
+      "name": "Mega Floette",
+      "baseName": "Mega Floette",
+      "speciesId": "floette-mega",
+      "baseSpeciesId": "floette",
+      "lookupName": "floette-mega",
+      "nationalDex": 10296,
+      "types": [
+        "Fairy"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "atk": 85,
+        "def": 87,
+        "spa": 155,
+        "spd": 148,
+        "spe": 102
+      },
+      "statRanges": {
+        "hp": {
+          "min": 149,
+          "max": 181
+        },
+        "atk": {
+          "min": 94,
+          "max": 150
+        },
+        "def": {
+          "min": 96,
+          "max": 152
+        },
+        "spa": {
+          "min": 157,
+          "max": 227
+        },
+        "spd": {
+          "min": 151,
+          "max": 220
+        },
+        "spe": {
+          "min": 109,
+          "max": 169
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Single Bloom Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/floette-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/floette"
+      }
+    },
+    {
+      "formId": "hawlucha-mega",
+      "name": "Mega Hawlucha",
+      "baseName": "Mega Hawlucha",
+      "speciesId": "hawlucha-mega",
+      "baseSpeciesId": "hawlucha",
+      "lookupName": "hawlucha-mega",
+      "nationalDex": 10300,
+      "types": [
+        "Fighting",
+        "Flying"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "atk": 137,
+        "def": 100,
+        "spa": 74,
+        "spd": 93,
+        "spe": 118
+      },
+      "statRanges": {
+        "hp": {
+          "min": 153,
+          "max": 185
+        },
+        "atk": {
+          "min": 141,
+          "max": 207
+        },
+        "def": {
+          "min": 108,
+          "max": 167
+        },
+        "spa": {
+          "min": 84,
+          "max": 138
+        },
+        "spd": {
+          "min": 101,
+          "max": 159
+        },
+        "spe": {
+          "min": 124,
+          "max": 187
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Wrestling Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/hawlucha-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/hawlucha"
+      }
+    },
+    {
+      "formId": "drampa-mega",
+      "name": "Mega Drampa",
+      "baseName": "Mega Drampa",
+      "speciesId": "drampa-mega",
+      "baseSpeciesId": "drampa",
+      "lookupName": "drampa-mega",
+      "nationalDex": 10302,
+      "types": [
+        "Normal",
+        "Dragon"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "atk": 85,
+        "def": 110,
+        "spa": 160,
+        "spd": 116,
+        "spe": 36
+      },
+      "statRanges": {
+        "hp": {
+          "min": 153,
+          "max": 185
+        },
+        "atk": {
+          "min": 94,
+          "max": 150
+        },
+        "def": {
+          "min": 117,
+          "max": 178
+        },
+        "spa": {
+          "min": 162,
+          "max": 233
+        },
+        "spd": {
+          "min": 122,
+          "max": 184
+        },
+        "spe": {
+          "min": 50,
+          "max": 96
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Placid Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/drampa-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/drampa"
+      }
+    },
+    {
+      "formId": "chimecho-mega",
+      "name": "Mega Chimecho",
+      "baseName": "Mega Chimecho",
+      "speciesId": "chimecho-mega",
+      "baseSpeciesId": "chimecho",
+      "lookupName": "chimecho-mega",
+      "nationalDex": 10306,
+      "types": [
+        "Psychic",
+        "Steel"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "atk": 50,
+        "def": 110,
+        "spa": 135,
+        "spd": 120,
+        "spe": 65
+      },
+      "statRanges": {
+        "hp": {
+          "min": 150,
+          "max": 182
+        },
+        "atk": {
+          "min": 63,
+          "max": 112
+        },
+        "def": {
+          "min": 117,
+          "max": 178
+        },
+        "spa": {
+          "min": 139,
+          "max": 205
+        },
+        "spd": {
+          "min": 126,
+          "max": 189
+        },
+        "spe": {
+          "min": 76,
+          "max": 128
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Wind Chime Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/chimecho-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/chimecho"
+      }
+    },
+    {
+      "formId": "golurk-mega",
+      "name": "Mega Golurk",
+      "baseName": "Mega Golurk",
+      "speciesId": "golurk-mega",
+      "baseSpeciesId": "golurk",
+      "lookupName": "golurk-mega",
+      "nationalDex": 10313,
+      "types": [
+        "Ground",
+        "Ghost"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "atk": 159,
+        "def": 105,
+        "spa": 70,
+        "spd": 105,
+        "spe": 55
+      },
+      "statRanges": {
+        "hp": {
+          "min": 164,
+          "max": 196
+        },
+        "atk": {
+          "min": 161,
+          "max": 232
+        },
+        "def": {
+          "min": 112,
+          "max": 172
+        },
+        "spa": {
+          "min": 81,
+          "max": 134
+        },
+        "spd": {
+          "min": 112,
+          "max": 172
+        },
+        "spe": {
+          "min": 67,
+          "max": 117
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Automaton Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/golurk-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/golurk"
+      }
+    },
+    {
+      "formId": "meowstic-mega",
+      "name": "Mega Meowstic",
+      "baseName": "Mega Meowstic",
+      "speciesId": "meowstic-mega",
+      "baseSpeciesId": "meowstic",
+      "lookupName": "meowstic-mega",
+      "nationalDex": 10314,
+      "types": [
+        "Psychic"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "atk": 48,
+        "def": 76,
+        "spa": 143,
+        "spd": 101,
+        "spe": 124
+      },
+      "statRanges": {
+        "hp": {
+          "min": 149,
+          "max": 181
+        },
+        "atk": {
+          "min": 61,
+          "max": 110
+        },
+        "def": {
+          "min": 86,
+          "max": 140
+        },
+        "spa": {
+          "min": 146,
+          "max": 214
+        },
+        "spd": {
+          "min": 108,
+          "max": 168
+        },
+        "spe": {
+          "min": 129,
+          "max": 193
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Constraint Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/meowstic-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/meowstic"
+      }
+    },
+    {
+      "formId": "crabominable-mega",
+      "name": "Mega Crabominable",
+      "baseName": "Mega Crabominable",
+      "speciesId": "crabominable-mega",
+      "baseSpeciesId": "crabominable",
+      "lookupName": "crabominable-mega",
+      "nationalDex": 10315,
+      "types": [
+        "Fighting",
+        "Ice"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "atk": 157,
+        "def": 122,
+        "spa": 62,
+        "spd": 107,
+        "spe": 33
+      },
+      "statRanges": {
+        "hp": {
+          "min": 172,
+          "max": 204
+        },
+        "atk": {
+          "min": 159,
+          "max": 229
+        },
+        "def": {
+          "min": 127,
+          "max": 191
+        },
+        "spa": {
+          "min": 73,
+          "max": 125
+        },
+        "spd": {
+          "min": 114,
+          "max": 174
+        },
+        "spe": {
+          "min": 47,
+          "max": 93
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Woolly Crab Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/crabominable-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/crabominable"
+      }
+    },
+    {
+      "formId": "scovillain-mega",
+      "name": "Mega Scovillain",
+      "baseName": "Mega Scovillain",
+      "speciesId": "scovillain-mega",
+      "baseSpeciesId": "scovillain",
+      "lookupName": "scovillain-mega",
+      "nationalDex": 10320,
+      "types": [
+        "Grass",
+        "Fire"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "atk": 138,
+        "def": 85,
+        "spa": 138,
+        "spd": 85,
+        "spe": 75
+      },
+      "statRanges": {
+        "hp": {
+          "min": 140,
+          "max": 172
+        },
+        "atk": {
+          "min": 142,
+          "max": 209
+        },
+        "def": {
+          "min": 94,
+          "max": 150
+        },
+        "spa": {
+          "min": 142,
+          "max": 209
+        },
+        "spd": {
+          "min": 94,
+          "max": 150
+        },
+        "spe": {
+          "min": 85,
+          "max": 139
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Spicy Pepper Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/scovillain-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/scovillain"
+      }
+    },
+    {
+      "formId": "glimmora-mega",
+      "name": "Mega Glimmora",
+      "baseName": "Mega Glimmora",
+      "speciesId": "glimmora-mega",
+      "baseSpeciesId": "glimmora",
+      "lookupName": "glimmora-mega",
+      "nationalDex": 10321,
+      "types": [
+        "Rock",
+        "Poison"
+      ],
+      "baseStats": {
+        "hp": 83,
+        "atk": 90,
+        "def": 105,
+        "spa": 150,
+        "spd": 96,
+        "spe": 101
+      },
+      "statRanges": {
+        "hp": {
+          "min": 158,
+          "max": 190
+        },
+        "atk": {
+          "min": 99,
+          "max": 156
+        },
+        "def": {
+          "min": 112,
+          "max": 172
+        },
+        "spa": {
+          "min": 153,
+          "max": 222
+        },
+        "spd": {
+          "min": 104,
+          "max": 162
+        },
+        "spe": {
+          "min": 108,
+          "max": 168
+        }
+      },
+      "abilities": [],
+      "abilityDetails": [],
+      "hiddenAbility": null,
+      "genus": "Ore Pokémon",
+      "availableInChampions": true,
+      "isMegaForm": true,
+      "hasMegaEvolution": false,
+      "megaEvolutions": [],
+      "enriched": true,
+      "lookupFailed": false,
+      "source": {
+        "roster": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_in_Pok%C3%A9mon_Champions",
+        "pokemonApi": "https://pokeapi.co/api/v2/pokemon/glimmora-mega",
+        "speciesApi": "https://pokeapi.co/api/v2/pokemon-species/glimmora"
       }
     }
   ]

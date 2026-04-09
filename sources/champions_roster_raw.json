@@ -2903,10 +2903,10 @@
   },
   {
     "ndex": "0003",
-    "name": "Venusaur",
-    "displayName": "Venusaur (Mega Venusaur)",
-    "formText": "Mega Venusaur",
-    "formId": "venusaur-mega-venusaur",
+    "name": "Mega Venusaur",
+    "displayName": "Mega Venusaur",
+    "formText": null,
+    "formId": "venusaur-mega",
     "types": [
       "Grass",
       "Poison"
@@ -2917,10 +2917,10 @@
   },
   {
     "ndex": "0006",
-    "name": "Charizard",
-    "displayName": "Charizard (Mega Charizard X)",
-    "formText": "Mega Charizard X",
-    "formId": "charizard-mega-charizard-x",
+    "name": "Mega Charizard X",
+    "displayName": "Mega Charizard X",
+    "formText": null,
+    "formId": "charizard-mega-x",
     "types": [
       "Fire",
       "Dragon"
@@ -2931,10 +2931,10 @@
   },
   {
     "ndex": "0006",
-    "name": "Charizard",
-    "displayName": "Charizard (Mega Charizard Y)",
-    "formText": "Mega Charizard Y",
-    "formId": "charizard-mega-charizard-y",
+    "name": "Mega Charizard Y",
+    "displayName": "Mega Charizard Y",
+    "formText": null,
+    "formId": "charizard-mega-y",
     "types": [
       "Fire",
       "Flying"
@@ -2945,10 +2945,10 @@
   },
   {
     "ndex": "0009",
-    "name": "Blastoise",
-    "displayName": "Blastoise (Mega Blastoise)",
-    "formText": "Mega Blastoise",
-    "formId": "blastoise-mega-blastoise",
+    "name": "Mega Blastoise",
+    "displayName": "Mega Blastoise",
+    "formText": null,
+    "formId": "blastoise-mega",
     "types": [
       "Water"
     ],
@@ -2958,10 +2958,10 @@
   },
   {
     "ndex": "0015",
-    "name": "Beedrill",
-    "displayName": "Beedrill (Mega Beedrill)",
-    "formText": "Mega Beedrill",
-    "formId": "beedrill-mega-beedrill",
+    "name": "Mega Beedrill",
+    "displayName": "Mega Beedrill",
+    "formText": null,
+    "formId": "beedrill-mega",
     "types": [
       "Bug",
       "Poison"
@@ -2972,10 +2972,10 @@
   },
   {
     "ndex": "0018",
-    "name": "Pidgeot",
-    "displayName": "Pidgeot (Mega Pidgeot)",
-    "formText": "Mega Pidgeot",
-    "formId": "pidgeot-mega-pidgeot",
+    "name": "Mega Pidgeot",
+    "displayName": "Mega Pidgeot",
+    "formText": null,
+    "formId": "pidgeot-mega",
     "types": [
       "Normal",
       "Flying"
@@ -2986,10 +2986,10 @@
   },
   {
     "ndex": "0036",
-    "name": "Clefable",
-    "displayName": "Clefable (Mega Clefable)",
-    "formText": "Mega Clefable",
-    "formId": "clefable-mega-clefable",
+    "name": "Mega Clefable",
+    "displayName": "Mega Clefable",
+    "formText": null,
+    "formId": "clefable-mega",
     "types": [
       "Fairy",
       "Flying"
@@ -3000,10 +3000,10 @@
   },
   {
     "ndex": "0065",
-    "name": "Alakazam",
-    "displayName": "Alakazam (Mega Alakazam)",
-    "formText": "Mega Alakazam",
-    "formId": "alakazam-mega-alakazam",
+    "name": "Mega Alakazam",
+    "displayName": "Mega Alakazam",
+    "formText": null,
+    "formId": "alakazam-mega",
     "types": [
       "Psychic"
     ],
@@ -3013,10 +3013,10 @@
   },
   {
     "ndex": "0071",
-    "name": "Victreebel",
-    "displayName": "Victreebel (Mega Victreebel)",
-    "formText": "Mega Victreebel",
-    "formId": "victreebel-mega-victreebel",
+    "name": "Mega Victreebel",
+    "displayName": "Mega Victreebel",
+    "formText": null,
+    "formId": "victreebel-mega",
     "types": [
       "Grass",
       "Poison"
@@ -3027,10 +3027,10 @@
   },
   {
     "ndex": "0080",
-    "name": "Slowbro",
-    "displayName": "Slowbro (Mega Slowbro)",
-    "formText": "Mega Slowbro",
-    "formId": "slowbro-mega-slowbro",
+    "name": "Mega Slowbro",
+    "displayName": "Mega Slowbro",
+    "formText": null,
+    "formId": "slowbro-mega",
     "types": [
       "Water",
       "Psychic"
@@ -3041,10 +3041,10 @@
   },
   {
     "ndex": "0094",
-    "name": "Gengar",
-    "displayName": "Gengar (Mega Gengar)",
-    "formText": "Mega Gengar",
-    "formId": "gengar-mega-gengar",
+    "name": "Mega Gengar",
+    "displayName": "Mega Gengar",
+    "formText": null,
+    "formId": "gengar-mega",
     "types": [
       "Ghost",
       "Poison"
@@ -3055,10 +3055,10 @@
   },
   {
     "ndex": "0115",
-    "name": "Kangaskhan",
-    "displayName": "Kangaskhan (Mega Kangaskhan)",
-    "formText": "Mega Kangaskhan",
-    "formId": "kangaskhan-mega-kangaskhan",
+    "name": "Mega Kangaskhan",
+    "displayName": "Mega Kangaskhan",
+    "formText": null,
+    "formId": "kangaskhan-mega",
     "types": [
       "Normal"
     ],
@@ -3068,10 +3068,10 @@
   },
   {
     "ndex": "0121",
-    "name": "Starmie",
-    "displayName": "Starmie (Mega Starmie)",
-    "formText": "Mega Starmie",
-    "formId": "starmie-mega-starmie",
+    "name": "Mega Starmie",
+    "displayName": "Mega Starmie",
+    "formText": null,
+    "formId": "starmie-mega",
     "types": [
       "Water",
       "Psychic"
@@ -3082,10 +3082,10 @@
   },
   {
     "ndex": "0127",
-    "name": "Pinsir",
-    "displayName": "Pinsir (Mega Pinsir)",
-    "formText": "Mega Pinsir",
-    "formId": "pinsir-mega-pinsir",
+    "name": "Mega Pinsir",
+    "displayName": "Mega Pinsir",
+    "formText": null,
+    "formId": "pinsir-mega",
     "types": [
       "Bug",
       "Flying"
@@ -3096,10 +3096,10 @@
   },
   {
     "ndex": "0130",
-    "name": "Gyarados",
-    "displayName": "Gyarados (Mega Gyarados)",
-    "formText": "Mega Gyarados",
-    "formId": "gyarados-mega-gyarados",
+    "name": "Mega Gyarados",
+    "displayName": "Mega Gyarados",
+    "formText": null,
+    "formId": "gyarados-mega",
     "types": [
       "Water",
       "Dark"
@@ -3110,10 +3110,10 @@
   },
   {
     "ndex": "0142",
-    "name": "Aerodactyl",
-    "displayName": "Aerodactyl (Mega Aerodactyl)",
-    "formText": "Mega Aerodactyl",
-    "formId": "aerodactyl-mega-aerodactyl",
+    "name": "Mega Aerodactyl",
+    "displayName": "Mega Aerodactyl",
+    "formText": null,
+    "formId": "aerodactyl-mega",
     "types": [
       "Rock",
       "Flying"
@@ -3124,10 +3124,10 @@
   },
   {
     "ndex": "0149",
-    "name": "Dragonite",
-    "displayName": "Dragonite (Mega Dragonite)",
-    "formText": "Mega Dragonite",
-    "formId": "dragonite-mega-dragonite",
+    "name": "Mega Dragonite",
+    "displayName": "Mega Dragonite",
+    "formText": null,
+    "formId": "dragonite-mega",
     "types": [
       "Dragon",
       "Flying"
@@ -3138,10 +3138,10 @@
   },
   {
     "ndex": "0154",
-    "name": "Meganium",
-    "displayName": "Meganium (Mega Meganium)",
-    "formText": "Mega Meganium",
-    "formId": "meganium-mega-meganium",
+    "name": "Mega Meganium",
+    "displayName": "Mega Meganium",
+    "formText": null,
+    "formId": "meganium-mega",
     "types": [
       "Grass",
       "Fairy"
@@ -3152,10 +3152,10 @@
   },
   {
     "ndex": "0160",
-    "name": "Feraligatr",
-    "displayName": "Feraligatr (Mega Feraligatr)",
-    "formText": "Mega Feraligatr",
-    "formId": "feraligatr-mega-feraligatr",
+    "name": "Mega Feraligatr",
+    "displayName": "Mega Feraligatr",
+    "formText": null,
+    "formId": "feraligatr-mega",
     "types": [
       "Water",
       "Dragon"
@@ -3166,10 +3166,10 @@
   },
   {
     "ndex": "0181",
-    "name": "Ampharos",
-    "displayName": "Ampharos (Mega Ampharos)",
-    "formText": "Mega Ampharos",
-    "formId": "ampharos-mega-ampharos",
+    "name": "Mega Ampharos",
+    "displayName": "Mega Ampharos",
+    "formText": null,
+    "formId": "ampharos-mega",
     "types": [
       "Electric",
       "Dragon"
@@ -3180,10 +3180,10 @@
   },
   {
     "ndex": "0208",
-    "name": "Steelix",
-    "displayName": "Steelix (Mega Steelix)",
-    "formText": "Mega Steelix",
-    "formId": "steelix-mega-steelix",
+    "name": "Mega Steelix",
+    "displayName": "Mega Steelix",
+    "formText": null,
+    "formId": "steelix-mega",
     "types": [
       "Steel",
       "Ground"
@@ -3194,10 +3194,10 @@
   },
   {
     "ndex": "0212",
-    "name": "Scizor",
-    "displayName": "Scizor (Mega Scizor)",
-    "formText": "Mega Scizor",
-    "formId": "scizor-mega-scizor",
+    "name": "Mega Scizor",
+    "displayName": "Mega Scizor",
+    "formText": null,
+    "formId": "scizor-mega",
     "types": [
       "Bug",
       "Steel"
@@ -3208,10 +3208,10 @@
   },
   {
     "ndex": "0214",
-    "name": "Heracross",
-    "displayName": "Heracross (Mega Heracross)",
-    "formText": "Mega Heracross",
-    "formId": "heracross-mega-heracross",
+    "name": "Mega Heracross",
+    "displayName": "Mega Heracross",
+    "formText": null,
+    "formId": "heracross-mega",
     "types": [
       "Bug",
       "Fighting"
@@ -3222,10 +3222,10 @@
   },
   {
     "ndex": "0227",
-    "name": "Skarmory",
-    "displayName": "Skarmory (Mega Skarmory)",
-    "formText": "Mega Skarmory",
-    "formId": "skarmory-mega-skarmory",
+    "name": "Mega Skarmory",
+    "displayName": "Mega Skarmory",
+    "formText": null,
+    "formId": "skarmory-mega",
     "types": [
       "Steel",
       "Flying"
@@ -3236,10 +3236,10 @@
   },
   {
     "ndex": "0229",
-    "name": "Houndoom",
-    "displayName": "Houndoom (Mega Houndoom)",
-    "formText": "Mega Houndoom",
-    "formId": "houndoom-mega-houndoom",
+    "name": "Mega Houndoom",
+    "displayName": "Mega Houndoom",
+    "formText": null,
+    "formId": "houndoom-mega",
     "types": [
       "Dark",
       "Fire"
@@ -3250,10 +3250,10 @@
   },
   {
     "ndex": "0248",
-    "name": "Tyranitar",
-    "displayName": "Tyranitar (Mega Tyranitar)",
-    "formText": "Mega Tyranitar",
-    "formId": "tyranitar-mega-tyranitar",
+    "name": "Mega Tyranitar",
+    "displayName": "Mega Tyranitar",
+    "formText": null,
+    "formId": "tyranitar-mega",
     "types": [
       "Rock",
       "Dark"
@@ -3264,10 +3264,10 @@
   },
   {
     "ndex": "0282",
-    "name": "Gardevoir",
-    "displayName": "Gardevoir (Mega Gardevoir)",
-    "formText": "Mega Gardevoir",
-    "formId": "gardevoir-mega-gardevoir",
+    "name": "Mega Gardevoir",
+    "displayName": "Mega Gardevoir",
+    "formText": null,
+    "formId": "gardevoir-mega",
     "types": [
       "Psychic",
       "Fairy"
@@ -3278,10 +3278,10 @@
   },
   {
     "ndex": "0302",
-    "name": "Sableye",
-    "displayName": "Sableye (Mega Sableye)",
-    "formText": "Mega Sableye",
-    "formId": "sableye-mega-sableye",
+    "name": "Mega Sableye",
+    "displayName": "Mega Sableye",
+    "formText": null,
+    "formId": "sableye-mega",
     "types": [
       "Dark",
       "Ghost"
@@ -3292,10 +3292,10 @@
   },
   {
     "ndex": "0306",
-    "name": "Aggron",
-    "displayName": "Aggron (Mega Aggron)",
-    "formText": "Mega Aggron",
-    "formId": "aggron-mega-aggron",
+    "name": "Mega Aggron",
+    "displayName": "Mega Aggron",
+    "formText": null,
+    "formId": "aggron-mega",
     "types": [
       "Steel"
     ],
@@ -3305,10 +3305,10 @@
   },
   {
     "ndex": "0308",
-    "name": "Medicham",
-    "displayName": "Medicham (Mega Medicham)",
-    "formText": "Mega Medicham",
-    "formId": "medicham-mega-medicham",
+    "name": "Mega Medicham",
+    "displayName": "Mega Medicham",
+    "formText": null,
+    "formId": "medicham-mega",
     "types": [
       "Fighting",
       "Psychic"
@@ -3319,10 +3319,10 @@
   },
   {
     "ndex": "0310",
-    "name": "Manectric",
-    "displayName": "Manectric (Mega Manectric)",
-    "formText": "Mega Manectric",
-    "formId": "manectric-mega-manectric",
+    "name": "Mega Manectric",
+    "displayName": "Mega Manectric",
+    "formText": null,
+    "formId": "manectric-mega",
     "types": [
       "Electric"
     ],
@@ -3332,10 +3332,10 @@
   },
   {
     "ndex": "0319",
-    "name": "Sharpedo",
-    "displayName": "Sharpedo (Mega Sharpedo)",
-    "formText": "Mega Sharpedo",
-    "formId": "sharpedo-mega-sharpedo",
+    "name": "Mega Sharpedo",
+    "displayName": "Mega Sharpedo",
+    "formText": null,
+    "formId": "sharpedo-mega",
     "types": [
       "Water",
       "Dark"
@@ -3346,10 +3346,10 @@
   },
   {
     "ndex": "0323",
-    "name": "Camerupt",
-    "displayName": "Camerupt (Mega Camerupt)",
-    "formText": "Mega Camerupt",
-    "formId": "camerupt-mega-camerupt",
+    "name": "Mega Camerupt",
+    "displayName": "Mega Camerupt",
+    "formText": null,
+    "formId": "camerupt-mega",
     "types": [
       "Fire",
       "Ground"
@@ -3360,10 +3360,10 @@
   },
   {
     "ndex": "0334",
-    "name": "Altaria",
-    "displayName": "Altaria (Mega Altaria)",
-    "formText": "Mega Altaria",
-    "formId": "altaria-mega-altaria",
+    "name": "Mega Altaria",
+    "displayName": "Mega Altaria",
+    "formText": null,
+    "formId": "altaria-mega",
     "types": [
       "Dragon",
       "Fairy"
@@ -3374,10 +3374,10 @@
   },
   {
     "ndex": "0354",
-    "name": "Banette",
-    "displayName": "Banette (Mega Banette)",
-    "formText": "Mega Banette",
-    "formId": "banette-mega-banette",
+    "name": "Mega Banette",
+    "displayName": "Mega Banette",
+    "formText": null,
+    "formId": "banette-mega",
     "types": [
       "Ghost"
     ],
@@ -3387,10 +3387,10 @@
   },
   {
     "ndex": "0358",
-    "name": "Chimecho",
-    "displayName": "Chimecho (Mega Chimecho)",
-    "formText": "Mega Chimecho",
-    "formId": "chimecho-mega-chimecho",
+    "name": "Mega Chimecho",
+    "displayName": "Mega Chimecho",
+    "formText": null,
+    "formId": "chimecho-mega",
     "types": [
       "Psychic",
       "Steel"
@@ -3401,10 +3401,10 @@
   },
   {
     "ndex": "0359",
-    "name": "Absol",
-    "displayName": "Absol (Mega Absol)",
-    "formText": "Mega Absol",
-    "formId": "absol-mega-absol",
+    "name": "Mega Absol",
+    "displayName": "Mega Absol",
+    "formText": null,
+    "formId": "absol-mega",
     "types": [
       "Dark"
     ],
@@ -3414,10 +3414,10 @@
   },
   {
     "ndex": "0362",
-    "name": "Glalie",
-    "displayName": "Glalie (Mega Glalie)",
-    "formText": "Mega Glalie",
-    "formId": "glalie-mega-glalie",
+    "name": "Mega Glalie",
+    "displayName": "Mega Glalie",
+    "formText": null,
+    "formId": "glalie-mega",
     "types": [
       "Ice"
     ],
@@ -3427,10 +3427,10 @@
   },
   {
     "ndex": "0428",
-    "name": "Lopunny",
-    "displayName": "Lopunny (Mega Lopunny)",
-    "formText": "Mega Lopunny",
-    "formId": "lopunny-mega-lopunny",
+    "name": "Mega Lopunny",
+    "displayName": "Mega Lopunny",
+    "formText": null,
+    "formId": "lopunny-mega",
     "types": [
       "Normal",
       "Fighting"
@@ -3441,10 +3441,10 @@
   },
   {
     "ndex": "0445",
-    "name": "Garchomp",
-    "displayName": "Garchomp (Mega Garchomp)",
-    "formText": "Mega Garchomp",
-    "formId": "garchomp-mega-garchomp",
+    "name": "Mega Garchomp",
+    "displayName": "Mega Garchomp",
+    "formText": null,
+    "formId": "garchomp-mega",
     "types": [
       "Dragon",
       "Ground"
@@ -3455,10 +3455,10 @@
   },
   {
     "ndex": "0448",
-    "name": "Lucario",
-    "displayName": "Lucario (Mega Lucario)",
-    "formText": "Mega Lucario",
-    "formId": "lucario-mega-lucario",
+    "name": "Mega Lucario",
+    "displayName": "Mega Lucario",
+    "formText": null,
+    "formId": "lucario-mega",
     "types": [
       "Fighting",
       "Steel"
@@ -3469,10 +3469,10 @@
   },
   {
     "ndex": "0460",
-    "name": "Abomasnow",
-    "displayName": "Abomasnow (Mega Abomasnow)",
-    "formText": "Mega Abomasnow",
-    "formId": "abomasnow-mega-abomasnow",
+    "name": "Mega Abomasnow",
+    "displayName": "Mega Abomasnow",
+    "formText": null,
+    "formId": "abomasnow-mega",
     "types": [
       "Grass",
       "Ice"
@@ -3483,10 +3483,10 @@
   },
   {
     "ndex": "0475",
-    "name": "Gallade",
-    "displayName": "Gallade (Mega Gallade)",
-    "formText": "Mega Gallade",
-    "formId": "gallade-mega-gallade",
+    "name": "Mega Gallade",
+    "displayName": "Mega Gallade",
+    "formText": null,
+    "formId": "gallade-mega",
     "types": [
       "Psychic",
       "Fighting"
@@ -3497,10 +3497,10 @@
   },
   {
     "ndex": "0478",
-    "name": "Froslass",
-    "displayName": "Froslass (Mega Froslass)",
-    "formText": "Mega Froslass",
-    "formId": "froslass-mega-froslass",
+    "name": "Mega Froslass",
+    "displayName": "Mega Froslass",
+    "formText": null,
+    "formId": "froslass-mega",
     "types": [
       "Ice",
       "Ghost"
@@ -3511,10 +3511,10 @@
   },
   {
     "ndex": "0500",
-    "name": "Emboar",
-    "displayName": "Emboar (Mega Emboar)",
-    "formText": "Mega Emboar",
-    "formId": "emboar-mega-emboar",
+    "name": "Mega Emboar",
+    "displayName": "Mega Emboar",
+    "formText": null,
+    "formId": "emboar-mega",
     "types": [
       "Fire",
       "Fighting"
@@ -3525,10 +3525,10 @@
   },
   {
     "ndex": "0530",
-    "name": "Excadrill",
-    "displayName": "Excadrill (Mega Excadrill)",
-    "formText": "Mega Excadrill",
-    "formId": "excadrill-mega-excadrill",
+    "name": "Mega Excadrill",
+    "displayName": "Mega Excadrill",
+    "formText": null,
+    "formId": "excadrill-mega",
     "types": [
       "Ground",
       "Steel"
@@ -3539,10 +3539,10 @@
   },
   {
     "ndex": "0531",
-    "name": "Audino",
-    "displayName": "Audino (Mega Audino)",
-    "formText": "Mega Audino",
-    "formId": "audino-mega-audino",
+    "name": "Mega Audino",
+    "displayName": "Mega Audino",
+    "formText": null,
+    "formId": "audino-mega",
     "types": [
       "Normal",
       "Fairy"
@@ -3553,10 +3553,10 @@
   },
   {
     "ndex": "0609",
-    "name": "Chandelure",
-    "displayName": "Chandelure (Mega Chandelure)",
-    "formText": "Mega Chandelure",
-    "formId": "chandelure-mega-chandelure",
+    "name": "Mega Chandelure",
+    "displayName": "Mega Chandelure",
+    "formText": null,
+    "formId": "chandelure-mega",
     "types": [
       "Ghost",
       "Fire"
@@ -3567,10 +3567,10 @@
   },
   {
     "ndex": "0623",
-    "name": "Golurk",
-    "displayName": "Golurk (Mega Golurk)",
-    "formText": "Mega Golurk",
-    "formId": "golurk-mega-golurk",
+    "name": "Mega Golurk",
+    "displayName": "Mega Golurk",
+    "formText": null,
+    "formId": "golurk-mega",
     "types": [
       "Ground",
       "Ghost"
@@ -3581,10 +3581,10 @@
   },
   {
     "ndex": "0652",
-    "name": "Chesnaught",
-    "displayName": "Chesnaught (Mega Chesnaught)",
-    "formText": "Mega Chesnaught",
-    "formId": "chesnaught-mega-chesnaught",
+    "name": "Mega Chesnaught",
+    "displayName": "Mega Chesnaught",
+    "formText": null,
+    "formId": "chesnaught-mega",
     "types": [
       "Grass",
       "Fighting"
@@ -3595,10 +3595,10 @@
   },
   {
     "ndex": "0655",
-    "name": "Delphox",
-    "displayName": "Delphox (Mega Delphox)",
-    "formText": "Mega Delphox",
-    "formId": "delphox-mega-delphox",
+    "name": "Mega Delphox",
+    "displayName": "Mega Delphox",
+    "formText": null,
+    "formId": "delphox-mega",
     "types": [
       "Fire",
       "Psychic"
@@ -3609,10 +3609,10 @@
   },
   {
     "ndex": "0658",
-    "name": "Greninja",
-    "displayName": "Greninja (Mega Greninja)",
-    "formText": "Mega Greninja",
-    "formId": "greninja-mega-greninja",
+    "name": "Mega Greninja",
+    "displayName": "Mega Greninja",
+    "formText": null,
+    "formId": "greninja-mega",
     "types": [
       "Water",
       "Dark"
@@ -3623,10 +3623,10 @@
   },
   {
     "ndex": "0670",
-    "name": "Floette",
-    "displayName": "Floette (Mega Floette)",
-    "formText": "Mega Floette",
-    "formId": "floette-mega-floette",
+    "name": "Mega Floette",
+    "displayName": "Mega Floette",
+    "formText": null,
+    "formId": "floette-mega",
     "types": [
       "Fairy"
     ],
@@ -3636,10 +3636,10 @@
   },
   {
     "ndex": "0678",
-    "name": "Meowstic",
-    "displayName": "Meowstic (Mega Meowstic)",
-    "formText": "Mega Meowstic",
-    "formId": "meowstic-mega-meowstic",
+    "name": "Mega Meowstic",
+    "displayName": "Mega Meowstic",
+    "formText": null,
+    "formId": "meowstic-mega",
     "types": [
       "Psychic"
     ],
@@ -3649,10 +3649,10 @@
   },
   {
     "ndex": "0701",
-    "name": "Hawlucha",
-    "displayName": "Hawlucha (Mega Hawlucha)",
-    "formText": "Mega Hawlucha",
-    "formId": "hawlucha-mega-hawlucha",
+    "name": "Mega Hawlucha",
+    "displayName": "Mega Hawlucha",
+    "formText": null,
+    "formId": "hawlucha-mega",
     "types": [
       "Fighting",
       "Flying"
@@ -3663,10 +3663,10 @@
   },
   {
     "ndex": "0740",
-    "name": "Crabominable",
-    "displayName": "Crabominable (Mega Crabominable)",
-    "formText": "Mega Crabominable",
-    "formId": "crabominable-mega-crabominable",
+    "name": "Mega Crabominable",
+    "displayName": "Mega Crabominable",
+    "formText": null,
+    "formId": "crabominable-mega",
     "types": [
       "Fighting",
       "Ice"
@@ -3677,10 +3677,10 @@
   },
   {
     "ndex": "0780",
-    "name": "Drampa",
-    "displayName": "Drampa (Mega Drampa)",
-    "formText": "Mega Drampa",
-    "formId": "drampa-mega-drampa",
+    "name": "Mega Drampa",
+    "displayName": "Mega Drampa",
+    "formText": null,
+    "formId": "drampa-mega",
     "types": [
       "Normal",
       "Dragon"
@@ -3691,10 +3691,10 @@
   },
   {
     "ndex": "0952",
-    "name": "Scovillain",
-    "displayName": "Scovillain (Mega Scovillain)",
-    "formText": "Mega Scovillain",
-    "formId": "scovillain-mega-scovillain",
+    "name": "Mega Scovillain",
+    "displayName": "Mega Scovillain",
+    "formText": null,
+    "formId": "scovillain-mega",
     "types": [
       "Grass",
       "Fire"
@@ -3705,10 +3705,10 @@
   },
   {
     "ndex": "0970",
-    "name": "Glimmora",
-    "displayName": "Glimmora (Mega Glimmora)",
-    "formText": "Mega Glimmora",
-    "formId": "glimmora-mega-glimmora",
+    "name": "Mega Glimmora",
+    "displayName": "Mega Glimmora",
+    "formText": null,
+    "formId": "glimmora-mega",
     "types": [
       "Rock",
       "Poison"
